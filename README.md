@@ -1,5 +1,7 @@
 # VMR build-time dashboard
 
+[VMR build-time dashboard](https://viktorhofer.github.io/vmr-telemetry/)
+
 Static telemetry visualization for scheduled `dotnet/dotnet` VMR builds. The dashboard reads the accumulated dataset from `data.js` and shows job and Build-task duration trends, variance signals, retained investigations, URL-selectable views, and per-point hover details.
 
 The data comes from the public Azure DevOps [`dotnet-unified-build` pipeline (definition 278)](https://dev.azure.com/dnceng-public/public/_build?definitionId=278&_a=summary) for `refs/heads/main`.
