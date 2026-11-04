@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VMR build-time dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">dotnet-unified-build / main / scheduled</p>
+        <h1>VMR build-time dashboard</h1>
+        <p id="generated" class="muted"></p>
+      </div>
+      <a class="pipeline-link" href="https://dev.azure.com/dnceng-public/public/_build?definitionId=278&_a=summary">
+        Open Azure DevOps
+      </a>
+    </header>
+
+    <section id="summary" class="summary-grid" aria-label="Dataset summary"></section>
+
+    <section class="panel chart-panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Trend explorer</p>
+          <h2 id="chart-title">Job duration</h2>
+        </div>
+        <div class="controls">
+          <label>
+            Job
+            <select id="job-select"></select>
+          </label>
+          <label>
+            Metric
+            <select id="metric-select">
+              <option value="durationMinutes">Whole job</option>
+              <option value="buildMinutes" selected>Build task</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div id="job-stats" class="job-stats"></div>
+      <div class="chart-wrap">
+        <svg id="trend-chart" viewBox="0 0 1100 430" role="img" aria-labelledby="chart-title"></svg>
+        <div id="chart-tooltip" class="chart-tooltip" role="tooltip" hidden></div>
+      </div>
+      <div class="legend">
+        <span><i class="dot normal"></i> Passing run</span>
+        <span><i class="dot signal"></i> Variance signal</span>
+        <span><i class="line median"></i> 28-run median</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Variance-aware findings</p>
+          <h2>Investigated regressions</h2>
+        </div>
+        <span id="investigation-count" class="pill"></span>
+      </div>
+      <div id="investigations" class="investigation-list"></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>
