@@ -1,5 +1,5 @@
 globalThis.vmrBuildTimeData = {
-  "generatedAt": "2026-11-07T11:30:24.6784889+00:00",
+  "generatedAt": "2026-11-09T07:54:26.9043495+00:00",
   "pipeline": {
     "organization": "dnceng-public",
     "project": "public",
@@ -470162,6 +470162,11775 @@ globalThis.vmrBuildTimeData = {
           ]
         }
       ]
+    },
+    {
+      "buildId": 1669823,
+      "buildNumber": "20261107.3",
+      "result": "failed",
+      "sourceVersion": "160eb59d489ec873145d7799f5f55e4596ab894f",
+      "queueTime": "2026-11-08T05:00:30.5475197+00:00",
+      "startTime": "2026-11-08T05:01:00.1740897+00:00",
+      "finishTime": "2026-11-08T08:29:15.4412424+00:00",
+      "passedJobs": 65,
+      "totalJobs": 66,
+      "jobPassRate": 0.9848,
+      "jobs": [
+        {
+          "jobName": "Android_Shortstack_arm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:56.9800000+00:00",
+          "finishTime": "2026-11-08T05:37:53.5733333+00:00",
+          "durationMinutes": 33.943,
+          "buildMinutes": 27.979,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:57.9733333+00:00",
+              "finishTime": "2026-11-08T05:04:06.2800000+00:00",
+              "durationMinutes": 0.138
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:06.2866667+00:00",
+              "finishTime": "2026-11-08T05:07:18.3500000+00:00",
+              "durationMinutes": 3.201
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:18.3500000+00:00",
+              "finishTime": "2026-11-08T05:07:54.5500000+00:00",
+              "durationMinutes": 0.603
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:54.5533333+00:00",
+              "finishTime": "2026-11-08T05:08:41.5400000+00:00",
+              "durationMinutes": 0.783
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:41.5400000+00:00",
+              "finishTime": "2026-11-08T05:08:44.1100000+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:44.1100000+00:00",
+              "finishTime": "2026-11-08T05:36:42.8433333+00:00",
+              "durationMinutes": 27.979
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:36:42.8433333+00:00",
+              "finishTime": "2026-11-08T05:36:50.1666667+00:00",
+              "durationMinutes": 0.122
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:36:50.1666667+00:00",
+              "finishTime": "2026-11-08T05:36:53.2300000+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:36:53.2300000+00:00",
+              "finishTime": "2026-11-08T05:36:55.5366667+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:36:55.5366667+00:00",
+              "finishTime": "2026-11-08T05:36:55.5433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:36:55.5433333+00:00",
+              "finishTime": "2026-11-08T05:37:04.8966667+00:00",
+              "durationMinutes": 0.156
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:04.9000000+00:00",
+              "finishTime": "2026-11-08T05:37:15.2766667+00:00",
+              "durationMinutes": 0.173
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:37:15.2766667+00:00",
+              "finishTime": "2026-11-08T05:37:15.2833333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:15.2833333+00:00",
+              "finishTime": "2026-11-08T05:37:27.7000000+00:00",
+              "durationMinutes": 0.207
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:37:27.7000000+00:00",
+              "finishTime": "2026-11-08T05:37:27.7066667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:27.7066667+00:00",
+              "finishTime": "2026-11-08T05:37:31.9100000+00:00",
+              "durationMinutes": 0.07
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:31.9100000+00:00",
+              "finishTime": "2026-11-08T05:37:34.4466667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:34.4466667+00:00",
+              "finishTime": "2026-11-08T05:37:51.2500000+00:00",
+              "durationMinutes": 0.28
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:51.2500000+00:00",
+              "finishTime": "2026-11-08T05:37:51.5233333+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:51.5233333+00:00",
+              "finishTime": "2026-11-08T05:37:52.6300000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:37:52.6333333+00:00",
+              "finishTime": "2026-11-08T05:37:52.6666667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Android_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:53.7533333+00:00",
+          "finishTime": "2026-11-08T05:40:37.3600000+00:00",
+          "durationMinutes": 36.727,
+          "buildMinutes": 30.798,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:54.5933333+00:00",
+              "finishTime": "2026-11-08T05:04:02.5466667+00:00",
+              "durationMinutes": 0.133
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:02.5533333+00:00",
+              "finishTime": "2026-11-08T05:07:12.8566667+00:00",
+              "durationMinutes": 3.172
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:12.8566667+00:00",
+              "finishTime": "2026-11-08T05:07:51.2266667+00:00",
+              "durationMinutes": 0.64
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:51.2266667+00:00",
+              "finishTime": "2026-11-08T05:08:38.2433333+00:00",
+              "durationMinutes": 0.784
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:38.2433333+00:00",
+              "finishTime": "2026-11-08T05:08:40.8600000+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:40.8600000+00:00",
+              "finishTime": "2026-11-08T05:39:28.7333333+00:00",
+              "durationMinutes": 30.798
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:28.7333333+00:00",
+              "finishTime": "2026-11-08T05:39:35.8766667+00:00",
+              "durationMinutes": 0.119
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:35.8766667+00:00",
+              "finishTime": "2026-11-08T05:39:39.2566667+00:00",
+              "durationMinutes": 0.056
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:39.2566667+00:00",
+              "finishTime": "2026-11-08T05:39:42.2433333+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:42.2433333+00:00",
+              "finishTime": "2026-11-08T05:39:42.2500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:42.2500000+00:00",
+              "finishTime": "2026-11-08T05:39:50.9533333+00:00",
+              "durationMinutes": 0.145
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:50.9533333+00:00",
+              "finishTime": "2026-11-08T05:39:59.9933333+00:00",
+              "durationMinutes": 0.151
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:59.9933333+00:00",
+              "finishTime": "2026-11-08T05:40:00.0000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:00.0000000+00:00",
+              "finishTime": "2026-11-08T05:40:11.4800000+00:00",
+              "durationMinutes": 0.191
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:40:11.4800000+00:00",
+              "finishTime": "2026-11-08T05:40:11.4866667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:11.4866667+00:00",
+              "finishTime": "2026-11-08T05:40:16.5500000+00:00",
+              "durationMinutes": 0.084
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:16.5500000+00:00",
+              "finishTime": "2026-11-08T05:40:18.7000000+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:18.7000000+00:00",
+              "finishTime": "2026-11-08T05:40:35.3366667+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:35.3366667+00:00",
+              "finishTime": "2026-11-08T05:40:35.5733333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:35.5766667+00:00",
+              "finishTime": "2026-11-08T05:40:36.6666667+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:40:36.6666667+00:00",
+              "finishTime": "2026-11-08T05:40:36.7000000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Android_Shortstack_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:03.7000000+00:00",
+          "finishTime": "2026-11-08T05:39:56.1900000+00:00",
+          "durationMinutes": 35.875,
+          "buildMinutes": 30.176,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:04.7766667+00:00",
+              "finishTime": "2026-11-08T05:04:10.8666667+00:00",
+              "durationMinutes": 0.102
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:10.8733333+00:00",
+              "finishTime": "2026-11-08T05:07:14.0900000+00:00",
+              "durationMinutes": 3.054
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:14.0900000+00:00",
+              "finishTime": "2026-11-08T05:07:49.3366667+00:00",
+              "durationMinutes": 0.587
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:49.3366667+00:00",
+              "finishTime": "2026-11-08T05:08:36.4633333+00:00",
+              "durationMinutes": 0.785
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:36.4633333+00:00",
+              "finishTime": "2026-11-08T05:08:39.1500000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:39.1533333+00:00",
+              "finishTime": "2026-11-08T05:38:49.7000000+00:00",
+              "durationMinutes": 30.176
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:49.7000000+00:00",
+              "finishTime": "2026-11-08T05:38:57.7066667+00:00",
+              "durationMinutes": 0.133
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:57.7066667+00:00",
+              "finishTime": "2026-11-08T05:39:00.1966667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:00.1966667+00:00",
+              "finishTime": "2026-11-08T05:39:02.9366667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:02.9366667+00:00",
+              "finishTime": "2026-11-08T05:39:02.9400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:02.9400000+00:00",
+              "finishTime": "2026-11-08T05:39:10.8900000+00:00",
+              "durationMinutes": 0.132
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:10.8900000+00:00",
+              "finishTime": "2026-11-08T05:39:19.2766667+00:00",
+              "durationMinutes": 0.14
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:19.2766667+00:00",
+              "finishTime": "2026-11-08T05:39:19.2833333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:19.2833333+00:00",
+              "finishTime": "2026-11-08T05:39:30.5300000+00:00",
+              "durationMinutes": 0.187
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:30.5300000+00:00",
+              "finishTime": "2026-11-08T05:39:30.5366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:30.5366667+00:00",
+              "finishTime": "2026-11-08T05:39:35.0600000+00:00",
+              "durationMinutes": 0.075
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:35.0600000+00:00",
+              "finishTime": "2026-11-08T05:39:37.1500000+00:00",
+              "durationMinutes": 0.035
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:37.1500000+00:00",
+              "finishTime": "2026-11-08T05:39:54.1566667+00:00",
+              "durationMinutes": 0.283
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:54.1566667+00:00",
+              "finishTime": "2026-11-08T05:39:54.3900000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:54.3900000+00:00",
+              "finishTime": "2026-11-08T05:39:55.3133333+00:00",
+              "durationMinutes": 0.015
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:55.3166667+00:00",
+              "finishTime": "2026-11-08T05:39:55.3466667+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Android_Shortstack_x86",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:05.6866667+00:00",
+          "finishTime": "2026-11-08T05:29:01.5733333+00:00",
+          "durationMinutes": 24.931,
+          "buildMinutes": 19.096,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:06.6033333+00:00",
+              "finishTime": "2026-11-08T05:04:13.3866667+00:00",
+              "durationMinutes": 0.113
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:13.3966667+00:00",
+              "finishTime": "2026-11-08T05:07:25.0166667+00:00",
+              "durationMinutes": 3.194
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:25.0200000+00:00",
+              "finishTime": "2026-11-08T05:08:00.9533333+00:00",
+              "durationMinutes": 0.599
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:00.9533333+00:00",
+              "finishTime": "2026-11-08T05:08:48.4033333+00:00",
+              "durationMinutes": 0.791
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:48.4033333+00:00",
+              "finishTime": "2026-11-08T05:08:51.4166667+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:51.4166667+00:00",
+              "finishTime": "2026-11-08T05:27:57.1733333+00:00",
+              "durationMinutes": 19.096
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:57.1766667+00:00",
+              "finishTime": "2026-11-08T05:28:04.5400000+00:00",
+              "durationMinutes": 0.123
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:04.5433333+00:00",
+              "finishTime": "2026-11-08T05:28:07.9466667+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:07.9466667+00:00",
+              "finishTime": "2026-11-08T05:28:10.4533333+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:28:10.4533333+00:00",
+              "finishTime": "2026-11-08T05:28:10.4566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:10.4600000+00:00",
+              "finishTime": "2026-11-08T05:28:18.8200000+00:00",
+              "durationMinutes": 0.139
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:18.8200000+00:00",
+              "finishTime": "2026-11-08T05:28:27.6266667+00:00",
+              "durationMinutes": 0.147
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:28:27.6266667+00:00",
+              "finishTime": "2026-11-08T05:28:27.6333333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:27.6333333+00:00",
+              "finishTime": "2026-11-08T05:28:35.2000000+00:00",
+              "durationMinutes": 0.126
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:28:35.2000000+00:00",
+              "finishTime": "2026-11-08T05:28:35.2033333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:35.2033333+00:00",
+              "finishTime": "2026-11-08T05:28:40.0600000+00:00",
+              "durationMinutes": 0.081
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:40.0600000+00:00",
+              "finishTime": "2026-11-08T05:28:42.2366667+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:42.2366667+00:00",
+              "finishTime": "2026-11-08T05:28:59.1600000+00:00",
+              "durationMinutes": 0.282
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:59.1600000+00:00",
+              "finishTime": "2026-11-08T05:28:59.4200000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:59.4200000+00:00",
+              "finishTime": "2026-11-08T05:29:00.6666667+00:00",
+              "durationMinutes": 0.021
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:00.6700000+00:00",
+              "finishTime": "2026-11-08T05:29:00.7066667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Browser_CoreCLR_Shortstack_wasm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:00.4300000+00:00",
+          "finishTime": "2026-11-08T05:48:22.9633333+00:00",
+          "durationMinutes": 44.376,
+          "buildMinutes": 38.907,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:01.6166667+00:00",
+              "finishTime": "2026-11-08T05:04:10.0133333+00:00",
+              "durationMinutes": 0.14
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:10.0200000+00:00",
+              "finishTime": "2026-11-08T05:06:51.8033333+00:00",
+              "durationMinutes": 2.696
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:51.8033333+00:00",
+              "finishTime": "2026-11-08T05:07:29.6033333+00:00",
+              "durationMinutes": 0.63
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:29.6033333+00:00",
+              "finishTime": "2026-11-08T05:08:16.2566667+00:00",
+              "durationMinutes": 0.778
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:16.2566667+00:00",
+              "finishTime": "2026-11-08T05:08:18.9933333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:18.9933333+00:00",
+              "finishTime": "2026-11-08T05:47:13.4266667+00:00",
+              "durationMinutes": 38.907
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:13.4266667+00:00",
+              "finishTime": "2026-11-08T05:47:21.1566667+00:00",
+              "durationMinutes": 0.129
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:21.1600000+00:00",
+              "finishTime": "2026-11-08T05:47:24.6233333+00:00",
+              "durationMinutes": 0.058
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:24.6233333+00:00",
+              "finishTime": "2026-11-08T05:47:26.9500000+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:47:26.9533333+00:00",
+              "finishTime": "2026-11-08T05:47:26.9600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:26.9600000+00:00",
+              "finishTime": "2026-11-08T05:47:36.3933333+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:36.3933333+00:00",
+              "finishTime": "2026-11-08T05:47:46.3533333+00:00",
+              "durationMinutes": 0.166
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:47:46.3533333+00:00",
+              "finishTime": "2026-11-08T05:47:46.3600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:46.3600000+00:00",
+              "finishTime": "2026-11-08T05:47:56.1866667+00:00",
+              "durationMinutes": 0.164
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:47:56.1866667+00:00",
+              "finishTime": "2026-11-08T05:47:56.1933333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:56.1933333+00:00",
+              "finishTime": "2026-11-08T05:48:01.5000000+00:00",
+              "durationMinutes": 0.088
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:01.5000000+00:00",
+              "finishTime": "2026-11-08T05:48:03.3900000+00:00",
+              "durationMinutes": 0.032
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:03.3900000+00:00",
+              "finishTime": "2026-11-08T05:48:20.2833333+00:00",
+              "durationMinutes": 0.282
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:20.2833333+00:00",
+              "finishTime": "2026-11-08T05:48:20.5400000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:20.5400000+00:00",
+              "finishTime": "2026-11-08T05:48:21.8500000+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:21.8500000+00:00",
+              "finishTime": "2026-11-08T05:48:21.8900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Browser_Multithreaded_Shortstack_wasm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:02.7500000+00:00",
+          "finishTime": "2026-11-08T05:45:08.1766667+00:00",
+          "durationMinutes": 41.09,
+          "buildMinutes": 35.602,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:03.5733333+00:00",
+              "finishTime": "2026-11-08T05:04:17.2233333+00:00",
+              "durationMinutes": 0.228
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:17.2300000+00:00",
+              "finishTime": "2026-11-08T05:06:59.6166667+00:00",
+              "durationMinutes": 2.706
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:59.6200000+00:00",
+              "finishTime": "2026-11-08T05:07:35.9866667+00:00",
+              "durationMinutes": 0.606
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:35.9866667+00:00",
+              "finishTime": "2026-11-08T05:08:22.7266667+00:00",
+              "durationMinutes": 0.779
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:22.7300000+00:00",
+              "finishTime": "2026-11-08T05:08:25.5000000+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:25.5000000+00:00",
+              "finishTime": "2026-11-08T05:44:01.6400000+00:00",
+              "durationMinutes": 35.602
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:01.6400000+00:00",
+              "finishTime": "2026-11-08T05:44:09.2133333+00:00",
+              "durationMinutes": 0.126
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:09.2133333+00:00",
+              "finishTime": "2026-11-08T05:44:12.4200000+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:12.4200000+00:00",
+              "finishTime": "2026-11-08T05:44:15.7433333+00:00",
+              "durationMinutes": 0.055
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:44:15.7433333+00:00",
+              "finishTime": "2026-11-08T05:44:15.7500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:15.7500000+00:00",
+              "finishTime": "2026-11-08T05:44:25.1100000+00:00",
+              "durationMinutes": 0.156
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:25.1100000+00:00",
+              "finishTime": "2026-11-08T05:44:33.5600000+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:44:33.5600000+00:00",
+              "finishTime": "2026-11-08T05:44:33.5666667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:33.5666667+00:00",
+              "finishTime": "2026-11-08T05:44:41.5433333+00:00",
+              "durationMinutes": 0.133
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:44:41.5433333+00:00",
+              "finishTime": "2026-11-08T05:44:41.5500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:41.5500000+00:00",
+              "finishTime": "2026-11-08T05:44:46.8966667+00:00",
+              "durationMinutes": 0.089
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:46.8966667+00:00",
+              "finishTime": "2026-11-08T05:44:49.0266667+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:49.0266667+00:00",
+              "finishTime": "2026-11-08T05:45:05.8566667+00:00",
+              "durationMinutes": 0.28
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:45:05.8566667+00:00",
+              "finishTime": "2026-11-08T05:45:06.0933333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:45:06.0933333+00:00",
+              "finishTime": "2026-11-08T05:45:07.2700000+00:00",
+              "durationMinutes": 0.02
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:45:07.2733333+00:00",
+              "finishTime": "2026-11-08T05:45:07.3033333+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Browser_Shortstack_wasm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:59.1200000+00:00",
+          "finishTime": "2026-11-08T05:44:33.8666667+00:00",
+          "durationMinutes": 40.579,
+          "buildMinutes": 34.839,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:59.9966667+00:00",
+              "finishTime": "2026-11-08T05:04:12.3500000+00:00",
+              "durationMinutes": 0.206
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:12.3566667+00:00",
+              "finishTime": "2026-11-08T05:07:13.3833333+00:00",
+              "durationMinutes": 3.017
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:13.3833333+00:00",
+              "finishTime": "2026-11-08T05:07:48.4166667+00:00",
+              "durationMinutes": 0.584
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:48.4166667+00:00",
+              "finishTime": "2026-11-08T05:08:34.8666667+00:00",
+              "durationMinutes": 0.774
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:34.8666667+00:00",
+              "finishTime": "2026-11-08T05:08:37.6233333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:37.6233333+00:00",
+              "finishTime": "2026-11-08T05:43:27.9766667+00:00",
+              "durationMinutes": 34.839
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:27.9766667+00:00",
+              "finishTime": "2026-11-08T05:43:35.2933333+00:00",
+              "durationMinutes": 0.122
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:35.2933333+00:00",
+              "finishTime": "2026-11-08T05:43:38.8966667+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:38.8966667+00:00",
+              "finishTime": "2026-11-08T05:43:41.8400000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:43:41.8433333+00:00",
+              "finishTime": "2026-11-08T05:43:41.8466667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:41.8466667+00:00",
+              "finishTime": "2026-11-08T05:43:50.6033333+00:00",
+              "durationMinutes": 0.146
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:50.6033333+00:00",
+              "finishTime": "2026-11-08T05:44:00.0266667+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:44:00.0266667+00:00",
+              "finishTime": "2026-11-08T05:44:00.0366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:00.0366667+00:00",
+              "finishTime": "2026-11-08T05:44:08.4833333+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:44:08.4833333+00:00",
+              "finishTime": "2026-11-08T05:44:08.4900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:08.4900000+00:00",
+              "finishTime": "2026-11-08T05:44:12.3866667+00:00",
+              "durationMinutes": 0.065
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:12.3866667+00:00",
+              "finishTime": "2026-11-08T05:44:14.2900000+00:00",
+              "durationMinutes": 0.032
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:14.2933333+00:00",
+              "finishTime": "2026-11-08T05:44:31.4233333+00:00",
+              "durationMinutes": 0.286
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:31.4233333+00:00",
+              "finishTime": "2026-11-08T05:44:31.6566667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:31.6566667+00:00",
+              "finishTime": "2026-11-08T05:44:32.8966667+00:00",
+              "durationMinutes": 0.021
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:44:32.8966667+00:00",
+              "finishTime": "2026-11-08T05:44:32.9300000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "iOS_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:02.8600000+00:00",
+          "finishTime": "2026-11-08T06:28:29.0200000+00:00",
+          "durationMinutes": 87.436,
+          "buildMinutes": 81.764,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:03.0333333+00:00",
+              "finishTime": "2026-11-08T05:01:09.2066667+00:00",
+              "durationMinutes": 0.103
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:09.2266667+00:00",
+              "finishTime": "2026-11-08T05:03:55.8166667+00:00",
+              "durationMinutes": 2.776
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:55.8166667+00:00",
+              "finishTime": "2026-11-08T05:04:44.0866667+00:00",
+              "durationMinutes": 0.804
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:44.0900000+00:00",
+              "finishTime": "2026-11-08T05:04:55.7500000+00:00",
+              "durationMinutes": 0.194
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:55.7533333+00:00",
+              "finishTime": "2026-11-08T05:04:56.3866667+00:00",
+              "durationMinutes": 0.011
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:56.3900000+00:00",
+              "finishTime": "2026-11-08T05:05:13.6266667+00:00",
+              "durationMinutes": 0.287
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:13.6266667+00:00",
+              "finishTime": "2026-11-08T05:05:27.6333333+00:00",
+              "durationMinutes": 0.233
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:27.6333333+00:00",
+              "finishTime": "2026-11-08T06:27:13.5000000+00:00",
+              "durationMinutes": 81.764
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:13.5033333+00:00",
+              "finishTime": "2026-11-08T06:27:36.7800000+00:00",
+              "durationMinutes": 0.388
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:36.7800000+00:00",
+              "finishTime": "2026-11-08T06:27:38.4300000+00:00",
+              "durationMinutes": 0.028
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:38.4300000+00:00",
+              "finishTime": "2026-11-08T06:27:38.9433333+00:00",
+              "durationMinutes": 0.009
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:27:38.9466667+00:00",
+              "finishTime": "2026-11-08T06:27:38.9600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:38.9600000+00:00",
+              "finishTime": "2026-11-08T06:27:49.5266667+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:49.5266667+00:00",
+              "finishTime": "2026-11-08T06:27:54.1833333+00:00",
+              "durationMinutes": 0.078
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:27:54.1833333+00:00",
+              "finishTime": "2026-11-08T06:27:54.2000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:54.2000000+00:00",
+              "finishTime": "2026-11-08T06:28:08.4300000+00:00",
+              "durationMinutes": 0.237
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:28:08.4333333+00:00",
+              "finishTime": "2026-11-08T06:28:08.4466667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:08.4466667+00:00",
+              "finishTime": "2026-11-08T06:28:09.2466667+00:00",
+              "durationMinutes": 0.013
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:09.2466667+00:00",
+              "finishTime": "2026-11-08T06:28:10.9666667+00:00",
+              "durationMinutes": 0.029
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:10.9666667+00:00",
+              "finishTime": "2026-11-08T06:28:27.5066667+00:00",
+              "durationMinutes": 0.276
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:27.5100000+00:00",
+              "finishTime": "2026-11-08T06:28:27.9766667+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:27.9833333+00:00",
+              "finishTime": "2026-11-08T06:28:28.9966667+00:00",
+              "durationMinutes": 0.017
+            }
+          ]
+        },
+        {
+          "jobName": "iOSSimulator_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:04.9433333+00:00",
+          "finishTime": "2026-11-08T06:20:33.2000000+00:00",
+          "durationMinutes": 79.471,
+          "buildMinutes": 71.682,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:05.2266667+00:00",
+              "finishTime": "2026-11-08T05:01:15.7933333+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:15.8233333+00:00",
+              "finishTime": "2026-11-08T05:04:31.6600000+00:00",
+              "durationMinutes": 3.264
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:31.6666667+00:00",
+              "finishTime": "2026-11-08T05:05:20.8400000+00:00",
+              "durationMinutes": 0.82
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:20.8433333+00:00",
+              "finishTime": "2026-11-08T05:05:37.7766667+00:00",
+              "durationMinutes": 0.282
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:37.7800000+00:00",
+              "finishTime": "2026-11-08T05:05:38.5600000+00:00",
+              "durationMinutes": 0.013
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:38.5633333+00:00",
+              "finishTime": "2026-11-08T05:07:25.3733333+00:00",
+              "durationMinutes": 1.78
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:25.3766667+00:00",
+              "finishTime": "2026-11-08T05:07:43.4366667+00:00",
+              "durationMinutes": 0.301
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:43.4433333+00:00",
+              "finishTime": "2026-11-08T06:19:24.3633333+00:00",
+              "durationMinutes": 71.682
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:19:24.3666667+00:00",
+              "finishTime": "2026-11-08T06:19:46.1666667+00:00",
+              "durationMinutes": 0.363
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:19:46.1700000+00:00",
+              "finishTime": "2026-11-08T06:19:48.4933333+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:19:48.4933333+00:00",
+              "finishTime": "2026-11-08T06:19:48.8900000+00:00",
+              "durationMinutes": 0.007
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:19:48.8900000+00:00",
+              "finishTime": "2026-11-08T06:19:48.9066667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:19:48.9066667+00:00",
+              "finishTime": "2026-11-08T06:19:58.3266667+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:19:58.3266667+00:00",
+              "finishTime": "2026-11-08T06:20:02.0266667+00:00",
+              "durationMinutes": 0.062
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:20:02.0266667+00:00",
+              "finishTime": "2026-11-08T06:20:02.0400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:20:02.0433333+00:00",
+              "finishTime": "2026-11-08T06:20:12.3466667+00:00",
+              "durationMinutes": 0.172
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:20:12.3500000+00:00",
+              "finishTime": "2026-11-08T06:20:12.3700000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:20:12.3700000+00:00",
+              "finishTime": "2026-11-08T06:20:13.0966667+00:00",
+              "durationMinutes": 0.012
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:20:13.0966667+00:00",
+              "finishTime": "2026-11-08T06:20:15.0166667+00:00",
+              "durationMinutes": 0.032
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:20:15.0166667+00:00",
+              "finishTime": "2026-11-08T06:20:31.3966667+00:00",
+              "durationMinutes": 0.273
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:20:31.4000000+00:00",
+              "finishTime": "2026-11-08T06:20:31.8833333+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:20:31.9300000+00:00",
+              "finishTime": "2026-11-08T06:20:33.1766667+00:00",
+              "durationMinutes": 0.021
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Alpine_arm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:19.1833333+00:00",
+          "finishTime": "2026-11-08T06:10:58.9600000+00:00",
+          "durationMinutes": 66.663,
+          "buildMinutes": 61.604,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:20.0533333+00:00",
+              "finishTime": "2026-11-08T05:04:27.4800000+00:00",
+              "durationMinutes": 0.124
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:27.4866667+00:00",
+              "finishTime": "2026-11-08T05:06:37.5066667+00:00",
+              "durationMinutes": 2.167
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:37.5066667+00:00",
+              "finishTime": "2026-11-08T05:07:11.7666667+00:00",
+              "durationMinutes": 0.571
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:11.7666667+00:00",
+              "finishTime": "2026-11-08T05:07:58.8000000+00:00",
+              "durationMinutes": 0.784
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:58.8000000+00:00",
+              "finishTime": "2026-11-08T05:08:02.0166667+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:02.0166667+00:00",
+              "finishTime": "2026-11-08T06:09:38.2733333+00:00",
+              "durationMinutes": 61.604
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:09:38.2733333+00:00",
+              "finishTime": "2026-11-08T06:09:46.3966667+00:00",
+              "durationMinutes": 0.135
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:09:46.4000000+00:00",
+              "finishTime": "2026-11-08T06:09:49.9666667+00:00",
+              "durationMinutes": 0.059
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:09:49.9666667+00:00",
+              "finishTime": "2026-11-08T06:09:53.0833333+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:09:53.0833333+00:00",
+              "finishTime": "2026-11-08T06:09:53.0900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:09:53.0900000+00:00",
+              "finishTime": "2026-11-08T06:10:04.3066667+00:00",
+              "durationMinutes": 0.187
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:04.3066667+00:00",
+              "finishTime": "2026-11-08T06:10:14.7733333+00:00",
+              "durationMinutes": 0.174
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:10:14.7733333+00:00",
+              "finishTime": "2026-11-08T06:10:14.7900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:14.7900000+00:00",
+              "finishTime": "2026-11-08T06:10:31.2966667+00:00",
+              "durationMinutes": 0.275
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:10:31.2966667+00:00",
+              "finishTime": "2026-11-08T06:10:31.3033333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:31.3033333+00:00",
+              "finishTime": "2026-11-08T06:10:35.7700000+00:00",
+              "durationMinutes": 0.074
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:35.7700000+00:00",
+              "finishTime": "2026-11-08T06:10:38.3033333+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:38.3033333+00:00",
+              "finishTime": "2026-11-08T06:10:55.0800000+00:00",
+              "durationMinutes": 0.28
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:55.0800000+00:00",
+              "finishTime": "2026-11-08T06:10:55.3233333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:55.3233333+00:00",
+              "finishTime": "2026-11-08T06:10:57.9466667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:10:57.9466667+00:00",
+              "finishTime": "2026-11-08T06:10:57.9933333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Alpine_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:34.9500000+00:00",
+          "finishTime": "2026-11-08T06:28:57.8166667+00:00",
+          "durationMinutes": 84.381,
+          "buildMinutes": 78.232,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:36.0566667+00:00",
+              "finishTime": "2026-11-08T05:04:41.8033333+00:00",
+              "durationMinutes": 0.096
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:41.8100000+00:00",
+              "finishTime": "2026-11-08T05:07:11.0866667+00:00",
+              "durationMinutes": 2.488
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:11.0900000+00:00",
+              "finishTime": "2026-11-08T05:08:38.2000000+00:00",
+              "durationMinutes": 1.452
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:38.2000000+00:00",
+              "finishTime": "2026-11-08T05:09:25.4500000+00:00",
+              "durationMinutes": 0.788
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:25.4500000+00:00",
+              "finishTime": "2026-11-08T05:09:28.0333333+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:28.0333333+00:00",
+              "finishTime": "2026-11-08T06:27:41.9400000+00:00",
+              "durationMinutes": 78.232
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:41.9400000+00:00",
+              "finishTime": "2026-11-08T06:27:48.2166667+00:00",
+              "durationMinutes": 0.105
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:48.2166667+00:00",
+              "finishTime": "2026-11-08T06:27:52.1266667+00:00",
+              "durationMinutes": 0.065
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:52.1266667+00:00",
+              "finishTime": "2026-11-08T06:27:54.8166667+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:27:54.8166667+00:00",
+              "finishTime": "2026-11-08T06:27:54.8266667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:27:54.8266667+00:00",
+              "finishTime": "2026-11-08T06:28:03.9833333+00:00",
+              "durationMinutes": 0.153
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:03.9833333+00:00",
+              "finishTime": "2026-11-08T06:28:11.7933333+00:00",
+              "durationMinutes": 0.13
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:28:11.7933333+00:00",
+              "finishTime": "2026-11-08T06:28:11.8000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:11.8000000+00:00",
+              "finishTime": "2026-11-08T06:28:29.7766667+00:00",
+              "durationMinutes": 0.3
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:28:29.7766667+00:00",
+              "finishTime": "2026-11-08T06:28:29.7833333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:29.7833333+00:00",
+              "finishTime": "2026-11-08T06:28:34.4433333+00:00",
+              "durationMinutes": 0.078
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:34.4433333+00:00",
+              "finishTime": "2026-11-08T06:28:36.7166667+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:36.7166667+00:00",
+              "finishTime": "2026-11-08T06:28:53.4733333+00:00",
+              "durationMinutes": 0.279
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:53.4766667+00:00",
+              "finishTime": "2026-11-08T06:28:53.7166667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:53.7166667+00:00",
+              "finishTime": "2026-11-08T06:28:56.8966667+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:56.8966667+00:00",
+              "finishTime": "2026-11-08T06:28:56.9400000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Alpine_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:15.1266667+00:00",
+          "finishTime": "2026-11-08T06:23:28.2100000+00:00",
+          "durationMinutes": 79.218,
+          "buildMinutes": 74.053,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:16.0600000+00:00",
+              "finishTime": "2026-11-08T05:04:27.3700000+00:00",
+              "durationMinutes": 0.188
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:27.3766667+00:00",
+              "finishTime": "2026-11-08T05:06:38.8300000+00:00",
+              "durationMinutes": 2.191
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:38.8333333+00:00",
+              "finishTime": "2026-11-08T05:07:15.2533333+00:00",
+              "durationMinutes": 0.607
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:15.2533333+00:00",
+              "finishTime": "2026-11-08T05:08:02.0633333+00:00",
+              "durationMinutes": 0.78
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:02.0633333+00:00",
+              "finishTime": "2026-11-08T05:08:04.6233333+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:04.6233333+00:00",
+              "finishTime": "2026-11-08T06:22:07.7933333+00:00",
+              "durationMinutes": 74.053
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:07.7933333+00:00",
+              "finishTime": "2026-11-08T06:22:14.5100000+00:00",
+              "durationMinutes": 0.112
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:14.5100000+00:00",
+              "finishTime": "2026-11-08T06:22:18.3300000+00:00",
+              "durationMinutes": 0.064
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:18.3300000+00:00",
+              "finishTime": "2026-11-08T06:22:21.1533333+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:22:21.1533333+00:00",
+              "finishTime": "2026-11-08T06:22:21.1600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:21.1600000+00:00",
+              "finishTime": "2026-11-08T06:22:31.7000000+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:31.7000000+00:00",
+              "finishTime": "2026-11-08T06:22:41.3233333+00:00",
+              "durationMinutes": 0.16
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:22:41.3233333+00:00",
+              "finishTime": "2026-11-08T06:22:41.3266667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:41.3266667+00:00",
+              "finishTime": "2026-11-08T06:23:01.2433333+00:00",
+              "durationMinutes": 0.332
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:23:01.2433333+00:00",
+              "finishTime": "2026-11-08T06:23:01.2500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:01.2500000+00:00",
+              "finishTime": "2026-11-08T06:23:05.9333333+00:00",
+              "durationMinutes": 0.078
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:05.9333333+00:00",
+              "finishTime": "2026-11-08T06:23:07.8133333+00:00",
+              "durationMinutes": 0.031
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:07.8133333+00:00",
+              "finishTime": "2026-11-08T06:23:24.4733333+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:24.4733333+00:00",
+              "finishTime": "2026-11-08T06:23:24.7100000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:24.7100000+00:00",
+              "finishTime": "2026-11-08T06:23:27.2266667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:27.2266667+00:00",
+              "finishTime": "2026-11-08T06:23:27.2700000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_arm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:13.3666667+00:00",
+          "finishTime": "2026-11-08T06:13:17.1733333+00:00",
+          "durationMinutes": 69.063,
+          "buildMinutes": 63.934,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:14.4866667+00:00",
+              "finishTime": "2026-11-08T05:04:22.6900000+00:00",
+              "durationMinutes": 0.137
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:22.6966667+00:00",
+              "finishTime": "2026-11-08T05:06:37.8500000+00:00",
+              "durationMinutes": 2.253
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:37.8533333+00:00",
+              "finishTime": "2026-11-08T05:07:11.8966667+00:00",
+              "durationMinutes": 0.567
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:11.8966667+00:00",
+              "finishTime": "2026-11-08T05:07:58.8000000+00:00",
+              "durationMinutes": 0.782
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:58.8033333+00:00",
+              "finishTime": "2026-11-08T05:08:02.0900000+00:00",
+              "durationMinutes": 0.055
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:02.0933333+00:00",
+              "finishTime": "2026-11-08T06:11:58.1133333+00:00",
+              "durationMinutes": 63.934
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:58.1133333+00:00",
+              "finishTime": "2026-11-08T06:12:05.4366667+00:00",
+              "durationMinutes": 0.122
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:05.4366667+00:00",
+              "finishTime": "2026-11-08T06:12:09.2966667+00:00",
+              "durationMinutes": 0.064
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:09.2966667+00:00",
+              "finishTime": "2026-11-08T06:12:12.3566667+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:12:12.3566667+00:00",
+              "finishTime": "2026-11-08T06:12:12.3600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:12.3633333+00:00",
+              "finishTime": "2026-11-08T06:12:24.1166667+00:00",
+              "durationMinutes": 0.196
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:24.1166667+00:00",
+              "finishTime": "2026-11-08T06:12:33.7433333+00:00",
+              "durationMinutes": 0.16
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:12:33.7433333+00:00",
+              "finishTime": "2026-11-08T06:12:33.7566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:33.7566667+00:00",
+              "finishTime": "2026-11-08T06:12:50.9000000+00:00",
+              "durationMinutes": 0.286
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:12:50.9000000+00:00",
+              "finishTime": "2026-11-08T06:12:50.9066667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:50.9066667+00:00",
+              "finishTime": "2026-11-08T06:12:55.0766667+00:00",
+              "durationMinutes": 0.07
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:55.0766667+00:00",
+              "finishTime": "2026-11-08T06:12:57.0666667+00:00",
+              "durationMinutes": 0.033
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:57.0666667+00:00",
+              "finishTime": "2026-11-08T06:13:13.7166667+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:13:13.7166667+00:00",
+              "finishTime": "2026-11-08T06:13:13.9566667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:13:13.9566667+00:00",
+              "finishTime": "2026-11-08T06:13:16.0733333+00:00",
+              "durationMinutes": 0.035
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:13:16.0733333+00:00",
+              "finishTime": "2026-11-08T06:13:16.1200000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:30.2733333+00:00",
+          "finishTime": "2026-11-08T06:31:17.6066667+00:00",
+          "durationMinutes": 86.789,
+          "buildMinutes": 80.43,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:31.2566667+00:00",
+              "finishTime": "2026-11-08T05:04:36.6833333+00:00",
+              "durationMinutes": 0.09
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:36.6900000+00:00",
+              "finishTime": "2026-11-08T05:07:11.3233333+00:00",
+              "durationMinutes": 2.577
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:11.3233333+00:00",
+              "finishTime": "2026-11-08T05:08:35.7466667+00:00",
+              "durationMinutes": 1.407
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:35.7466667+00:00",
+              "finishTime": "2026-11-08T05:09:22.7666667+00:00",
+              "durationMinutes": 0.784
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:22.7666667+00:00",
+              "finishTime": "2026-11-08T05:09:25.4566667+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:25.4566667+00:00",
+              "finishTime": "2026-11-08T06:29:51.2733333+00:00",
+              "durationMinutes": 80.43
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:51.2733333+00:00",
+              "finishTime": "2026-11-08T06:29:57.6466667+00:00",
+              "durationMinutes": 0.106
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:57.6500000+00:00",
+              "finishTime": "2026-11-08T06:30:01.5533333+00:00",
+              "durationMinutes": 0.065
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:01.5533333+00:00",
+              "finishTime": "2026-11-08T06:30:03.6066667+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:30:03.6066667+00:00",
+              "finishTime": "2026-11-08T06:30:03.6100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:03.6100000+00:00",
+              "finishTime": "2026-11-08T06:30:13.3866667+00:00",
+              "durationMinutes": 0.163
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:13.3900000+00:00",
+              "finishTime": "2026-11-08T06:30:21.4266667+00:00",
+              "durationMinutes": 0.134
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:30:21.4300000+00:00",
+              "finishTime": "2026-11-08T06:30:21.4366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:21.4366667+00:00",
+              "finishTime": "2026-11-08T06:30:49.5033333+00:00",
+              "durationMinutes": 0.468
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:30:49.5033333+00:00",
+              "finishTime": "2026-11-08T06:30:49.5100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:49.5100000+00:00",
+              "finishTime": "2026-11-08T06:30:54.3100000+00:00",
+              "durationMinutes": 0.08
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:54.3100000+00:00",
+              "finishTime": "2026-11-08T06:30:56.5500000+00:00",
+              "durationMinutes": 0.037
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:56.5500000+00:00",
+              "finishTime": "2026-11-08T06:31:13.5233333+00:00",
+              "durationMinutes": 0.283
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:31:13.5233333+00:00",
+              "finishTime": "2026-11-08T06:31:13.7733333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:31:13.7733333+00:00",
+              "finishTime": "2026-11-08T06:31:16.8366667+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:31:16.8400000+00:00",
+              "finishTime": "2026-11-08T06:31:16.8800000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Pgo_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:32.3733333+00:00",
+          "finishTime": "2026-11-08T06:39:18.3566667+00:00",
+          "durationMinutes": 94.766,
+          "buildMinutes": 89.424,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:33.2533333+00:00",
+              "finishTime": "2026-11-08T05:04:38.5600000+00:00",
+              "durationMinutes": 0.088
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:38.5666667+00:00",
+              "finishTime": "2026-11-08T05:07:15.3566667+00:00",
+              "durationMinutes": 2.613
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:15.3600000+00:00",
+              "finishTime": "2026-11-08T05:07:52.4300000+00:00",
+              "durationMinutes": 0.618
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:52.4300000+00:00",
+              "finishTime": "2026-11-08T05:08:39.6666667+00:00",
+              "durationMinutes": 0.787
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:39.6666667+00:00",
+              "finishTime": "2026-11-08T05:08:42.1466667+00:00",
+              "durationMinutes": 0.041
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:42.1466667+00:00",
+              "finishTime": "2026-11-08T06:38:07.5866667+00:00",
+              "durationMinutes": 89.424
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:07.5866667+00:00",
+              "finishTime": "2026-11-08T06:38:15.8666667+00:00",
+              "durationMinutes": 0.138
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:15.8666667+00:00",
+              "finishTime": "2026-11-08T06:38:19.5833333+00:00",
+              "durationMinutes": 0.062
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:19.5833333+00:00",
+              "finishTime": "2026-11-08T06:38:22.6733333+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:38:22.6733333+00:00",
+              "finishTime": "2026-11-08T06:38:22.6833333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:22.6833333+00:00",
+              "finishTime": "2026-11-08T06:38:33.0466667+00:00",
+              "durationMinutes": 0.173
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:33.0466667+00:00",
+              "finishTime": "2026-11-08T06:38:40.9033333+00:00",
+              "durationMinutes": 0.131
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:38:40.9033333+00:00",
+              "finishTime": "2026-11-08T06:38:40.9100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:40.9100000+00:00",
+              "finishTime": "2026-11-08T06:38:50.1533333+00:00",
+              "durationMinutes": 0.154
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:38:50.1566667+00:00",
+              "finishTime": "2026-11-08T06:38:50.1633333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:50.1633333+00:00",
+              "finishTime": "2026-11-08T06:38:54.9566667+00:00",
+              "durationMinutes": 0.08
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:54.9600000+00:00",
+              "finishTime": "2026-11-08T06:38:57.3533333+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:57.3533333+00:00",
+              "finishTime": "2026-11-08T06:39:14.3066667+00:00",
+              "durationMinutes": 0.283
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:14.3066667+00:00",
+              "finishTime": "2026-11-08T06:39:14.5966667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:14.5966667+00:00",
+              "finishTime": "2026-11-08T06:39:17.4333333+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:17.4366667+00:00",
+              "finishTime": "2026-11-08T06:39:17.4900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Pgo_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:11.5533333+00:00",
+          "finishTime": "2026-11-08T06:16:55.5400000+00:00",
+          "durationMinutes": 72.733,
+          "buildMinutes": 67.692,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:12.6033333+00:00",
+              "finishTime": "2026-11-08T05:04:20.4000000+00:00",
+              "durationMinutes": 0.13
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:20.4066667+00:00",
+              "finishTime": "2026-11-08T05:06:35.6366667+00:00",
+              "durationMinutes": 2.254
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:35.6366667+00:00",
+              "finishTime": "2026-11-08T05:07:11.3566667+00:00",
+              "durationMinutes": 0.595
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:11.3566667+00:00",
+              "finishTime": "2026-11-08T05:07:58.1533333+00:00",
+              "durationMinutes": 0.78
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:58.1533333+00:00",
+              "finishTime": "2026-11-08T05:08:00.8700000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:00.8700000+00:00",
+              "finishTime": "2026-11-08T06:15:42.4066667+00:00",
+              "durationMinutes": 67.692
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:42.4066667+00:00",
+              "finishTime": "2026-11-08T06:15:49.2833333+00:00",
+              "durationMinutes": 0.115
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:49.2833333+00:00",
+              "finishTime": "2026-11-08T06:15:53.5400000+00:00",
+              "durationMinutes": 0.071
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:53.5400000+00:00",
+              "finishTime": "2026-11-08T06:15:56.7800000+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:15:56.7800000+00:00",
+              "finishTime": "2026-11-08T06:15:56.7866667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:56.7866667+00:00",
+              "finishTime": "2026-11-08T06:16:07.9166667+00:00",
+              "durationMinutes": 0.186
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:07.9166667+00:00",
+              "finishTime": "2026-11-08T06:16:18.4500000+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:16:18.4500000+00:00",
+              "finishTime": "2026-11-08T06:16:18.4533333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:18.4533333+00:00",
+              "finishTime": "2026-11-08T06:16:28.8400000+00:00",
+              "durationMinutes": 0.173
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:16:28.8433333+00:00",
+              "finishTime": "2026-11-08T06:16:28.8466667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:28.8466667+00:00",
+              "finishTime": "2026-11-08T06:16:33.2000000+00:00",
+              "durationMinutes": 0.073
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:33.2000000+00:00",
+              "finishTime": "2026-11-08T06:16:35.2466667+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:35.2500000+00:00",
+              "finishTime": "2026-11-08T06:16:51.9100000+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:51.9100000+00:00",
+              "finishTime": "2026-11-08T06:16:52.1500000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:52.1500000+00:00",
+              "finishTime": "2026-11-08T06:16:54.4433333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:16:54.4433333+00:00",
+              "finishTime": "2026-11-08T06:16:54.4866667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Shortstack_Mono_LLVMAOT_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:09.2200000+00:00",
+          "finishTime": "2026-11-08T05:30:18.3800000+00:00",
+          "durationMinutes": 26.153,
+          "buildMinutes": 21.198,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:10.2933333+00:00",
+              "finishTime": "2026-11-08T05:04:18.7366667+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:18.7433333+00:00",
+              "finishTime": "2026-11-08T05:06:35.9266667+00:00",
+              "durationMinutes": 2.286
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:35.9266667+00:00",
+              "finishTime": "2026-11-08T05:07:11.3966667+00:00",
+              "durationMinutes": 0.591
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:11.4000000+00:00",
+              "finishTime": "2026-11-08T05:07:58.1666667+00:00",
+              "durationMinutes": 0.779
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:58.1666667+00:00",
+              "finishTime": "2026-11-08T05:08:00.8966667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:00.8966667+00:00",
+              "finishTime": "2026-11-08T05:29:12.7666667+00:00",
+              "durationMinutes": 21.198
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:12.7666667+00:00",
+              "finishTime": "2026-11-08T05:29:19.7533333+00:00",
+              "durationMinutes": 0.116
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:19.7533333+00:00",
+              "finishTime": "2026-11-08T05:29:22.5766667+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:22.5766667+00:00",
+              "finishTime": "2026-11-08T05:29:25.8100000+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:29:25.8100000+00:00",
+              "finishTime": "2026-11-08T05:29:25.8166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:25.8200000+00:00",
+              "finishTime": "2026-11-08T05:29:34.8766667+00:00",
+              "durationMinutes": 0.151
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:34.8800000+00:00",
+              "finishTime": "2026-11-08T05:29:43.8433333+00:00",
+              "durationMinutes": 0.149
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:29:43.8466667+00:00",
+              "finishTime": "2026-11-08T05:29:43.8500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:43.8500000+00:00",
+              "finishTime": "2026-11-08T05:29:52.4333333+00:00",
+              "durationMinutes": 0.143
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:29:52.4333333+00:00",
+              "finishTime": "2026-11-08T05:29:52.4400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:52.4400000+00:00",
+              "finishTime": "2026-11-08T05:29:57.5233333+00:00",
+              "durationMinutes": 0.085
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:57.5233333+00:00",
+              "finishTime": "2026-11-08T05:29:59.6700000+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:59.6700000+00:00",
+              "finishTime": "2026-11-08T05:30:16.3800000+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:30:16.3800000+00:00",
+              "finishTime": "2026-11-08T05:30:16.6200000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:30:16.6200000+00:00",
+              "finishTime": "2026-11-08T05:30:17.7933333+00:00",
+              "durationMinutes": 0.02
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:30:17.7966667+00:00",
+              "finishTime": "2026-11-08T05:30:17.8266667+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_Shortstack_Mono_LLVMAOT_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:03.5833333+00:00",
+          "finishTime": "2026-11-08T05:29:30.8466667+00:00",
+          "durationMinutes": 25.454,
+          "buildMinutes": 20.311,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:04.4800000+00:00",
+              "finishTime": "2026-11-08T05:04:11.8333333+00:00",
+              "durationMinutes": 0.123
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:11.8400000+00:00",
+              "finishTime": "2026-11-08T05:06:31.6933333+00:00",
+              "durationMinutes": 2.331
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:31.6933333+00:00",
+              "finishTime": "2026-11-08T05:07:15.3700000+00:00",
+              "durationMinutes": 0.728
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:15.3700000+00:00",
+              "finishTime": "2026-11-08T05:08:02.2200000+00:00",
+              "durationMinutes": 0.781
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:02.2200000+00:00",
+              "finishTime": "2026-11-08T05:08:05.1300000+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:05.1300000+00:00",
+              "finishTime": "2026-11-08T05:28:23.8133333+00:00",
+              "durationMinutes": 20.311
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:23.8133333+00:00",
+              "finishTime": "2026-11-08T05:28:30.6766667+00:00",
+              "durationMinutes": 0.114
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:30.6766667+00:00",
+              "finishTime": "2026-11-08T05:28:33.9933333+00:00",
+              "durationMinutes": 0.055
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:33.9966667+00:00",
+              "finishTime": "2026-11-08T05:28:36.4966667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:28:36.5000000+00:00",
+              "finishTime": "2026-11-08T05:28:36.5033333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:36.5033333+00:00",
+              "finishTime": "2026-11-08T05:28:45.1266667+00:00",
+              "durationMinutes": 0.144
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:45.1300000+00:00",
+              "finishTime": "2026-11-08T05:28:54.6533333+00:00",
+              "durationMinutes": 0.159
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:28:54.6533333+00:00",
+              "finishTime": "2026-11-08T05:28:54.6600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:28:54.6600000+00:00",
+              "finishTime": "2026-11-08T05:29:04.5933333+00:00",
+              "durationMinutes": 0.166
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:29:04.5966667+00:00",
+              "finishTime": "2026-11-08T05:29:04.6000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:04.6000000+00:00",
+              "finishTime": "2026-11-08T05:29:09.4533333+00:00",
+              "durationMinutes": 0.081
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:09.4566667+00:00",
+              "finishTime": "2026-11-08T05:29:11.8366667+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:11.8366667+00:00",
+              "finishTime": "2026-11-08T05:29:28.7166667+00:00",
+              "durationMinutes": 0.281
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:28.7166667+00:00",
+              "finishTime": "2026-11-08T05:29:28.9566667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:28.9566667+00:00",
+              "finishTime": "2026-11-08T05:29:29.9133333+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:29:29.9133333+00:00",
+              "finishTime": "2026-11-08T05:29:29.9466667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Linux_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:30.6500000+00:00",
+          "finishTime": "2026-11-08T06:30:01.8400000+00:00",
+          "durationMinutes": 85.52,
+          "buildMinutes": 73.949,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:31.4800000+00:00",
+              "finishTime": "2026-11-08T05:04:36.5800000+00:00",
+              "durationMinutes": 0.085
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:36.5866667+00:00",
+              "finishTime": "2026-11-08T05:06:57.6200000+00:00",
+              "durationMinutes": 2.351
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:57.6200000+00:00",
+              "finishTime": "2026-11-08T05:07:33.0666667+00:00",
+              "durationMinutes": 0.591
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:33.0666667+00:00",
+              "finishTime": "2026-11-08T05:08:20.1700000+00:00",
+              "durationMinutes": 0.785
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:20.1700000+00:00",
+              "finishTime": "2026-11-08T05:08:22.7200000+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:22.7200000+00:00",
+              "finishTime": "2026-11-08T06:22:19.6700000+00:00",
+              "durationMinutes": 73.949
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:19.6700000+00:00",
+              "finishTime": "2026-11-08T06:28:24.9566667+00:00",
+              "durationMinutes": 6.088
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:24.9566667+00:00",
+              "finishTime": "2026-11-08T06:28:29.4400000+00:00",
+              "durationMinutes": 0.075
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:29.4400000+00:00",
+              "finishTime": "2026-11-08T06:28:31.7366667+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:28:31.7366667+00:00",
+              "finishTime": "2026-11-08T06:28:31.7433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:31.7433333+00:00",
+              "finishTime": "2026-11-08T06:28:46.3433333+00:00",
+              "durationMinutes": 0.243
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:46.3433333+00:00",
+              "finishTime": "2026-11-08T06:28:54.5666667+00:00",
+              "durationMinutes": 0.137
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:28:54.5666667+00:00",
+              "finishTime": "2026-11-08T06:29:02.2333333+00:00",
+              "durationMinutes": 0.128
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:02.2333333+00:00",
+              "finishTime": "2026-11-08T06:29:33.4233333+00:00",
+              "durationMinutes": 0.52
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:29:33.4233333+00:00",
+              "finishTime": "2026-11-08T06:29:33.4300000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:33.4300000+00:00",
+              "finishTime": "2026-11-08T06:29:37.9533333+00:00",
+              "durationMinutes": 0.075
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:37.9566667+00:00",
+              "finishTime": "2026-11-08T06:29:40.3566667+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:40.3566667+00:00",
+              "finishTime": "2026-11-08T06:29:57.1966667+00:00",
+              "durationMinutes": 0.281
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:57.1966667+00:00",
+              "finishTime": "2026-11-08T06:29:57.4366667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:29:57.4366667+00:00",
+              "finishTime": "2026-11-08T06:30:01.0166667+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:30:01.0200000+00:00",
+              "finishTime": "2026-11-08T06:30:01.0666667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "LinuxBionic_Shortstack_arm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:02.4000000+00:00",
+          "finishTime": "2026-11-08T05:27:40.5100000+00:00",
+          "durationMinutes": 23.635,
+          "buildMinutes": 17.67,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:03.3966667+00:00",
+              "finishTime": "2026-11-08T05:04:11.4000000+00:00",
+              "durationMinutes": 0.133
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:11.4066667+00:00",
+              "finishTime": "2026-11-08T05:07:21.1500000+00:00",
+              "durationMinutes": 3.162
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:21.1533333+00:00",
+              "finishTime": "2026-11-08T05:08:05.3066667+00:00",
+              "durationMinutes": 0.736
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:05.3066667+00:00",
+              "finishTime": "2026-11-08T05:08:52.6533333+00:00",
+              "durationMinutes": 0.789
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:52.6533333+00:00",
+              "finishTime": "2026-11-08T05:08:55.4233333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:55.4233333+00:00",
+              "finishTime": "2026-11-08T05:26:35.6066667+00:00",
+              "durationMinutes": 17.67
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:35.6066667+00:00",
+              "finishTime": "2026-11-08T05:26:43.2300000+00:00",
+              "durationMinutes": 0.127
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:43.2300000+00:00",
+              "finishTime": "2026-11-08T05:26:45.9000000+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:45.9000000+00:00",
+              "finishTime": "2026-11-08T05:26:48.4800000+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:26:48.4833333+00:00",
+              "finishTime": "2026-11-08T05:26:48.4900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:48.4900000+00:00",
+              "finishTime": "2026-11-08T05:26:57.0333333+00:00",
+              "durationMinutes": 0.142
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:57.0333333+00:00",
+              "finishTime": "2026-11-08T05:27:06.7366667+00:00",
+              "durationMinutes": 0.162
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:27:06.7366667+00:00",
+              "finishTime": "2026-11-08T05:27:06.7500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:06.7500000+00:00",
+              "finishTime": "2026-11-08T05:27:14.2433333+00:00",
+              "durationMinutes": 0.125
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:27:14.2466667+00:00",
+              "finishTime": "2026-11-08T05:27:14.2500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:14.2500000+00:00",
+              "finishTime": "2026-11-08T05:27:19.2100000+00:00",
+              "durationMinutes": 0.083
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:19.2100000+00:00",
+              "finishTime": "2026-11-08T05:27:21.3033333+00:00",
+              "durationMinutes": 0.035
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:21.3033333+00:00",
+              "finishTime": "2026-11-08T05:27:38.3000000+00:00",
+              "durationMinutes": 0.283
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:38.3000000+00:00",
+              "finishTime": "2026-11-08T05:27:38.5633333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:38.5633333+00:00",
+              "finishTime": "2026-11-08T05:27:39.6333333+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:39.6366667+00:00",
+              "finishTime": "2026-11-08T05:27:39.6733333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "LinuxBionic_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:10.5533333+00:00",
+          "finishTime": "2026-11-08T05:39:51.7200000+00:00",
+          "durationMinutes": 35.686,
+          "buildMinutes": 29.817,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:11.3900000+00:00",
+              "finishTime": "2026-11-08T05:04:18.1300000+00:00",
+              "durationMinutes": 0.112
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:18.1366667+00:00",
+              "finishTime": "2026-11-08T05:07:30.5466667+00:00",
+              "durationMinutes": 3.207
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:30.5466667+00:00",
+              "finishTime": "2026-11-08T05:08:06.2900000+00:00",
+              "durationMinutes": 0.596
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:06.2900000+00:00",
+              "finishTime": "2026-11-08T05:08:53.3733333+00:00",
+              "durationMinutes": 0.785
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:53.3733333+00:00",
+              "finishTime": "2026-11-08T05:08:55.7333333+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:55.7333333+00:00",
+              "finishTime": "2026-11-08T05:38:44.7566667+00:00",
+              "durationMinutes": 29.817
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:44.7566667+00:00",
+              "finishTime": "2026-11-08T05:38:51.7200000+00:00",
+              "durationMinutes": 0.116
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:51.7200000+00:00",
+              "finishTime": "2026-11-08T05:38:55.5966667+00:00",
+              "durationMinutes": 0.065
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:55.5966667+00:00",
+              "finishTime": "2026-11-08T05:38:57.8800000+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:38:57.8800000+00:00",
+              "finishTime": "2026-11-08T05:38:57.8866667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:57.8866667+00:00",
+              "finishTime": "2026-11-08T05:39:06.1000000+00:00",
+              "durationMinutes": 0.137
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:06.1033333+00:00",
+              "finishTime": "2026-11-08T05:39:14.2266667+00:00",
+              "durationMinutes": 0.135
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:14.2300000+00:00",
+              "finishTime": "2026-11-08T05:39:14.2333333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:14.2333333+00:00",
+              "finishTime": "2026-11-08T05:39:26.9500000+00:00",
+              "durationMinutes": 0.212
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:26.9500000+00:00",
+              "finishTime": "2026-11-08T05:39:26.9566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:26.9566667+00:00",
+              "finishTime": "2026-11-08T05:39:30.9933333+00:00",
+              "durationMinutes": 0.067
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:30.9933333+00:00",
+              "finishTime": "2026-11-08T05:39:32.9733333+00:00",
+              "durationMinutes": 0.033
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:32.9733333+00:00",
+              "finishTime": "2026-11-08T05:39:49.7100000+00:00",
+              "durationMinutes": 0.279
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:49.7100000+00:00",
+              "finishTime": "2026-11-08T05:39:49.9566667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:49.9566667+00:00",
+              "finishTime": "2026-11-08T05:39:50.9533333+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:50.9533333+00:00",
+              "finishTime": "2026-11-08T05:39:50.9900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "LinuxBionic_Shortstack_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:03.6766667+00:00",
+          "finishTime": "2026-11-08T05:39:44.7633333+00:00",
+          "durationMinutes": 35.685,
+          "buildMinutes": 29.773,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:04.6366667+00:00",
+              "finishTime": "2026-11-08T05:04:12.0900000+00:00",
+              "durationMinutes": 0.124
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:12.0966667+00:00",
+              "finishTime": "2026-11-08T05:07:21.4066667+00:00",
+              "durationMinutes": 3.155
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:21.4066667+00:00",
+              "finishTime": "2026-11-08T05:07:57.3533333+00:00",
+              "durationMinutes": 0.599
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:57.3533333+00:00",
+              "finishTime": "2026-11-08T05:08:44.3333333+00:00",
+              "durationMinutes": 0.783
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:44.3333333+00:00",
+              "finishTime": "2026-11-08T05:08:46.6333333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:46.6333333+00:00",
+              "finishTime": "2026-11-08T05:38:33.0233333+00:00",
+              "durationMinutes": 29.773
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:33.0233333+00:00",
+              "finishTime": "2026-11-08T05:38:40.5133333+00:00",
+              "durationMinutes": 0.125
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:40.5133333+00:00",
+              "finishTime": "2026-11-08T05:38:43.3733333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:43.3733333+00:00",
+              "finishTime": "2026-11-08T05:38:46.3100000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:38:46.3133333+00:00",
+              "finishTime": "2026-11-08T05:38:46.3200000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:46.3200000+00:00",
+              "finishTime": "2026-11-08T05:38:54.9666667+00:00",
+              "durationMinutes": 0.144
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:38:54.9666667+00:00",
+              "finishTime": "2026-11-08T05:39:05.0266667+00:00",
+              "durationMinutes": 0.168
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:05.0266667+00:00",
+              "finishTime": "2026-11-08T05:39:05.0333333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:05.0333333+00:00",
+              "finishTime": "2026-11-08T05:39:18.8233333+00:00",
+              "durationMinutes": 0.23
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:39:18.8233333+00:00",
+              "finishTime": "2026-11-08T05:39:18.8300000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:18.8300000+00:00",
+              "finishTime": "2026-11-08T05:39:23.8333333+00:00",
+              "durationMinutes": 0.083
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:23.8333333+00:00",
+              "finishTime": "2026-11-08T05:39:25.6300000+00:00",
+              "durationMinutes": 0.03
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:25.6300000+00:00",
+              "finishTime": "2026-11-08T05:39:42.3333333+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:42.3366667+00:00",
+              "finishTime": "2026-11-08T05:39:42.5800000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:42.5800000+00:00",
+              "finishTime": "2026-11-08T05:39:43.6066667+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:39:43.6100000+00:00",
+              "finishTime": "2026-11-08T05:39:43.6433333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "MacCatalyst_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:12.3066667+00:00",
+          "finishTime": "2026-11-08T06:15:22.8966667+00:00",
+          "durationMinutes": 74.176,
+          "buildMinutes": 69.08,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:12.4800000+00:00",
+              "finishTime": "2026-11-08T05:01:18.8666667+00:00",
+              "durationMinutes": 0.106
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:18.8933333+00:00",
+              "finishTime": "2026-11-08T05:03:57.6066667+00:00",
+              "durationMinutes": 2.645
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:57.6100000+00:00",
+              "finishTime": "2026-11-08T05:04:44.5566667+00:00",
+              "durationMinutes": 0.782
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:44.5566667+00:00",
+              "finishTime": "2026-11-08T05:04:50.0500000+00:00",
+              "durationMinutes": 0.092
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:50.0533333+00:00",
+              "finishTime": "2026-11-08T05:04:50.3466667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:50.3466667+00:00",
+              "finishTime": "2026-11-08T05:05:00.3866667+00:00",
+              "durationMinutes": 0.167
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:00.3900000+00:00",
+              "finishTime": "2026-11-08T05:05:10.4833333+00:00",
+              "durationMinutes": 0.168
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:10.4833333+00:00",
+              "finishTime": "2026-11-08T06:14:15.2666667+00:00",
+              "durationMinutes": 69.08
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:15.2700000+00:00",
+              "finishTime": "2026-11-08T06:14:34.6266667+00:00",
+              "durationMinutes": 0.323
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:34.6266667+00:00",
+              "finishTime": "2026-11-08T06:14:35.6100000+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:35.6133333+00:00",
+              "finishTime": "2026-11-08T06:14:36.0133333+00:00",
+              "durationMinutes": 0.007
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:14:36.0133333+00:00",
+              "finishTime": "2026-11-08T06:14:36.0266667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:36.0266667+00:00",
+              "finishTime": "2026-11-08T06:14:46.6700000+00:00",
+              "durationMinutes": 0.177
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:46.6700000+00:00",
+              "finishTime": "2026-11-08T06:14:50.4200000+00:00",
+              "durationMinutes": 0.062
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:14:50.4200000+00:00",
+              "finishTime": "2026-11-08T06:14:50.4333333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:50.4333333+00:00",
+              "finishTime": "2026-11-08T06:15:02.4966667+00:00",
+              "durationMinutes": 0.201
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:15:02.5000000+00:00",
+              "finishTime": "2026-11-08T06:15:02.5300000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:02.5333333+00:00",
+              "finishTime": "2026-11-08T06:15:03.2266667+00:00",
+              "durationMinutes": 0.012
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:03.2266667+00:00",
+              "finishTime": "2026-11-08T06:15:05.0233333+00:00",
+              "durationMinutes": 0.03
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:05.0233333+00:00",
+              "finishTime": "2026-11-08T06:15:21.2866667+00:00",
+              "durationMinutes": 0.271
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:21.2866667+00:00",
+              "finishTime": "2026-11-08T06:15:21.7800000+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:15:21.7866667+00:00",
+              "finishTime": "2026-11-08T06:15:22.8700000+00:00",
+              "durationMinutes": 0.018
+            }
+          ]
+        },
+        {
+          "jobName": "MacCatalyst_Shortstack_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:08.4500000+00:00",
+          "finishTime": "2026-11-08T06:25:13.5066667+00:00",
+          "durationMinutes": 84.084,
+          "buildMinutes": 74.651,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:08.6966667+00:00",
+              "finishTime": "2026-11-08T05:01:19.0933333+00:00",
+              "durationMinutes": 0.173
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:19.2766667+00:00",
+              "finishTime": "2026-11-08T05:04:51.7900000+00:00",
+              "durationMinutes": 3.542
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:51.7966667+00:00",
+              "finishTime": "2026-11-08T05:05:39.9566667+00:00",
+              "durationMinutes": 0.803
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:39.9600000+00:00",
+              "finishTime": "2026-11-08T05:05:48.8633333+00:00",
+              "durationMinutes": 0.148
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:48.8666667+00:00",
+              "finishTime": "2026-11-08T05:05:49.2233333+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:49.2233333+00:00",
+              "finishTime": "2026-11-08T05:09:05.0133333+00:00",
+              "durationMinutes": 3.263
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:05.0166667+00:00",
+              "finishTime": "2026-11-08T05:09:31.5233333+00:00",
+              "durationMinutes": 0.442
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:31.5233333+00:00",
+              "finishTime": "2026-11-08T06:24:10.5866667+00:00",
+              "durationMinutes": 74.651
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:10.6166667+00:00",
+              "finishTime": "2026-11-08T06:24:28.5333333+00:00",
+              "durationMinutes": 0.299
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:28.5333333+00:00",
+              "finishTime": "2026-11-08T06:24:29.5333333+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:29.5333333+00:00",
+              "finishTime": "2026-11-08T06:24:29.8566667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:24:29.8566667+00:00",
+              "finishTime": "2026-11-08T06:24:29.8833333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:29.8833333+00:00",
+              "finishTime": "2026-11-08T06:24:39.0066667+00:00",
+              "durationMinutes": 0.152
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:39.0066667+00:00",
+              "finishTime": "2026-11-08T06:24:43.1000000+00:00",
+              "durationMinutes": 0.068
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:24:43.1033333+00:00",
+              "finishTime": "2026-11-08T06:24:43.1133333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:43.1133333+00:00",
+              "finishTime": "2026-11-08T06:24:54.4600000+00:00",
+              "durationMinutes": 0.189
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:24:54.4600000+00:00",
+              "finishTime": "2026-11-08T06:24:54.4700000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:54.4700000+00:00",
+              "finishTime": "2026-11-08T06:24:55.1733333+00:00",
+              "durationMinutes": 0.012
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:55.1733333+00:00",
+              "finishTime": "2026-11-08T06:24:56.5933333+00:00",
+              "durationMinutes": 0.024
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:56.5966667+00:00",
+              "finishTime": "2026-11-08T06:25:12.5166667+00:00",
+              "durationMinutes": 0.265
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:25:12.5166667+00:00",
+              "finishTime": "2026-11-08T06:25:12.8166667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:25:12.8200000+00:00",
+              "finishTime": "2026-11-08T06:25:13.4900000+00:00",
+              "durationMinutes": 0.011
+            }
+          ]
+        },
+        {
+          "jobName": "OSX_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:15.2466667+00:00",
+          "finishTime": "2026-11-08T06:03:56.2200000+00:00",
+          "durationMinutes": 62.683,
+          "buildMinutes": 52.148,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:15.3800000+00:00",
+              "finishTime": "2026-11-08T05:01:19.7600000+00:00",
+              "durationMinutes": 0.073
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:19.7666667+00:00",
+              "finishTime": "2026-11-08T05:03:22.0366667+00:00",
+              "durationMinutes": 2.038
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:22.0400000+00:00",
+              "finishTime": "2026-11-08T05:03:57.7800000+00:00",
+              "durationMinutes": 0.596
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:57.7800000+00:00",
+              "finishTime": "2026-11-08T05:03:58.7500000+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:58.7500000+00:00",
+              "finishTime": "2026-11-08T05:03:58.8866667+00:00",
+              "durationMinutes": 0.002
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:58.8866667+00:00",
+              "finishTime": "2026-11-08T05:04:47.5700000+00:00",
+              "durationMinutes": 0.811
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:47.5700000+00:00",
+              "finishTime": "2026-11-08T05:05:50.9733333+00:00",
+              "durationMinutes": 1.057
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:50.9766667+00:00",
+              "finishTime": "2026-11-08T05:57:59.8433333+00:00",
+              "durationMinutes": 52.148
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:57:59.8433333+00:00",
+              "finishTime": "2026-11-08T06:02:54.3066667+00:00",
+              "durationMinutes": 4.908
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:54.3066667+00:00",
+              "finishTime": "2026-11-08T06:02:55.3700000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:55.3700000+00:00",
+              "finishTime": "2026-11-08T06:02:55.5233333+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:02:55.5233333+00:00",
+              "finishTime": "2026-11-08T06:02:55.5266667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:55.5266667+00:00",
+              "finishTime": "2026-11-08T06:03:10.2633333+00:00",
+              "durationMinutes": 0.246
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:10.2633333+00:00",
+              "finishTime": "2026-11-08T06:03:15.1400000+00:00",
+              "durationMinutes": 0.081
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:15.1400000+00:00",
+              "finishTime": "2026-11-08T06:03:17.6800000+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:17.6800000+00:00",
+              "finishTime": "2026-11-08T06:03:38.3400000+00:00",
+              "durationMinutes": 0.344
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:03:38.3400000+00:00",
+              "finishTime": "2026-11-08T06:03:38.3433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:38.3433333+00:00",
+              "finishTime": "2026-11-08T06:03:38.8833333+00:00",
+              "durationMinutes": 0.009
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:38.8833333+00:00",
+              "finishTime": "2026-11-08T06:03:39.8566667+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:39.8566667+00:00",
+              "finishTime": "2026-11-08T06:03:55.5000000+00:00",
+              "durationMinutes": 0.261
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:55.5000000+00:00",
+              "finishTime": "2026-11-08T06:03:55.6766667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:55.6800000+00:00",
+              "finishTime": "2026-11-08T06:03:56.2133333+00:00",
+              "durationMinutes": 0.009
+            }
+          ]
+        },
+        {
+          "jobName": "OSX_Shortstack_Mono_LLVMAOT_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:02.8166667+00:00",
+          "finishTime": "2026-11-08T05:43:24.0300000+00:00",
+          "durationMinutes": 42.354,
+          "buildMinutes": 37.699,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:02.9733333+00:00",
+              "finishTime": "2026-11-08T05:01:09.8266667+00:00",
+              "durationMinutes": 0.114
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:09.8466667+00:00",
+              "finishTime": "2026-11-08T05:03:36.0500000+00:00",
+              "durationMinutes": 2.437
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:36.0500000+00:00",
+              "finishTime": "2026-11-08T05:04:22.7566667+00:00",
+              "durationMinutes": 0.778
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:22.7566667+00:00",
+              "finishTime": "2026-11-08T05:04:27.6333333+00:00",
+              "durationMinutes": 0.081
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:27.6733333+00:00",
+              "finishTime": "2026-11-08T05:04:27.9466667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:27.9466667+00:00",
+              "finishTime": "2026-11-08T05:04:36.0833333+00:00",
+              "durationMinutes": 0.136
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:36.0833333+00:00",
+              "finishTime": "2026-11-08T05:04:45.4866667+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:45.4866667+00:00",
+              "finishTime": "2026-11-08T05:42:27.4533333+00:00",
+              "durationMinutes": 37.699
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:42:27.4533333+00:00",
+              "finishTime": "2026-11-08T05:42:43.5633333+00:00",
+              "durationMinutes": 0.268
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:42:43.5800000+00:00",
+              "finishTime": "2026-11-08T05:42:45.1500000+00:00",
+              "durationMinutes": 0.026
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:42:45.1700000+00:00",
+              "finishTime": "2026-11-08T05:42:45.4566667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:42:45.4600000+00:00",
+              "finishTime": "2026-11-08T05:42:45.4700000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:42:45.4700000+00:00",
+              "finishTime": "2026-11-08T05:42:52.3966667+00:00",
+              "durationMinutes": 0.115
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:42:52.4000000+00:00",
+              "finishTime": "2026-11-08T05:42:57.1266667+00:00",
+              "durationMinutes": 0.079
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:42:57.1266667+00:00",
+              "finishTime": "2026-11-08T05:42:57.1366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:42:57.1400000+00:00",
+              "finishTime": "2026-11-08T05:43:04.1966667+00:00",
+              "durationMinutes": 0.118
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:43:04.1966667+00:00",
+              "finishTime": "2026-11-08T05:43:04.2100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:04.2100000+00:00",
+              "finishTime": "2026-11-08T05:43:04.9200000+00:00",
+              "durationMinutes": 0.012
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:04.9233333+00:00",
+              "finishTime": "2026-11-08T05:43:06.3300000+00:00",
+              "durationMinutes": 0.023
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:06.3333333+00:00",
+              "finishTime": "2026-11-08T05:43:22.1766667+00:00",
+              "durationMinutes": 0.264
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:22.1800000+00:00",
+              "finishTime": "2026-11-08T05:43:22.5600000+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:43:22.5633333+00:00",
+              "finishTime": "2026-11-08T05:43:24.0100000+00:00",
+              "durationMinutes": 0.024
+            }
+          ]
+        },
+        {
+          "jobName": "OSX_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:08.1000000+00:00",
+          "finishTime": "2026-11-08T06:05:47.1000000+00:00",
+          "durationMinutes": 64.65,
+          "buildMinutes": 58.854,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:08.2366667+00:00",
+              "finishTime": "2026-11-08T05:01:19.1033333+00:00",
+              "durationMinutes": 0.181
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:19.1100000+00:00",
+              "finishTime": "2026-11-08T05:03:28.1466667+00:00",
+              "durationMinutes": 2.151
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:28.1466667+00:00",
+              "finishTime": "2026-11-08T05:04:04.2233333+00:00",
+              "durationMinutes": 0.601
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:04.2233333+00:00",
+              "finishTime": "2026-11-08T05:04:05.1866667+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:05.1866667+00:00",
+              "finishTime": "2026-11-08T05:04:05.3200000+00:00",
+              "durationMinutes": 0.002
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:05.3200000+00:00",
+              "finishTime": "2026-11-08T05:04:54.0700000+00:00",
+              "durationMinutes": 0.812
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:54.0700000+00:00",
+              "finishTime": "2026-11-08T05:05:56.0400000+00:00",
+              "durationMinutes": 1.033
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:56.0400000+00:00",
+              "finishTime": "2026-11-08T06:04:47.2633333+00:00",
+              "durationMinutes": 58.854
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:04:47.2633333+00:00",
+              "finishTime": "2026-11-08T06:04:54.8833333+00:00",
+              "durationMinutes": 0.127
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:04:54.8833333+00:00",
+              "finishTime": "2026-11-08T06:04:55.7700000+00:00",
+              "durationMinutes": 0.015
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:04:55.7700000+00:00",
+              "finishTime": "2026-11-08T06:04:55.9400000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:04:55.9400000+00:00",
+              "finishTime": "2026-11-08T06:04:55.9433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:04:55.9433333+00:00",
+              "finishTime": "2026-11-08T06:05:03.8566667+00:00",
+              "durationMinutes": 0.132
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:03.8566667+00:00",
+              "finishTime": "2026-11-08T06:05:08.3866667+00:00",
+              "durationMinutes": 0.076
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:05:08.3866667+00:00",
+              "finishTime": "2026-11-08T06:05:08.3933333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:08.3933333+00:00",
+              "finishTime": "2026-11-08T06:05:29.1133333+00:00",
+              "durationMinutes": 0.345
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:05:29.1133333+00:00",
+              "finishTime": "2026-11-08T06:05:29.1166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:29.1166667+00:00",
+              "finishTime": "2026-11-08T06:05:29.7266667+00:00",
+              "durationMinutes": 0.01
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:29.7266667+00:00",
+              "finishTime": "2026-11-08T06:05:30.6466667+00:00",
+              "durationMinutes": 0.015
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:30.6466667+00:00",
+              "finishTime": "2026-11-08T06:05:46.2933333+00:00",
+              "durationMinutes": 0.261
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:46.2966667+00:00",
+              "finishTime": "2026-11-08T06:05:46.5100000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:05:46.5100000+00:00",
+              "finishTime": "2026-11-08T06:05:47.0933333+00:00",
+              "durationMinutes": 0.01
+            }
+          ]
+        },
+        {
+          "jobName": "SB_AlmaLinux8_Offline_MsftSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:45.4500000+00:00",
+          "finishTime": "2026-11-08T08:21:08.9166667+00:00",
+          "durationMinutes": 14.391,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:46.3400000+00:00",
+              "finishTime": "2026-11-08T08:06:52.1166667+00:00",
+              "durationMinutes": 0.096
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:52.1233333+00:00",
+              "finishTime": "2026-11-08T08:08:17.3766667+00:00",
+              "durationMinutes": 1.421
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:08:17.3800000+00:00",
+              "finishTime": "2026-11-08T08:09:25.0766667+00:00",
+              "durationMinutes": 1.128
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:25.0766667+00:00",
+              "finishTime": "2026-11-08T08:10:14.2200000+00:00",
+              "durationMinutes": 0.819
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:14.2200000+00:00",
+              "finishTime": "2026-11-08T08:10:16.8933333+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:16.8933333+00:00",
+              "finishTime": "2026-11-08T08:11:48.4833333+00:00",
+              "durationMinutes": 1.526
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:48.4833333+00:00",
+              "finishTime": "2026-11-08T08:11:51.2133333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:51.2133333+00:00",
+              "finishTime": "2026-11-08T08:11:54.1300000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:54.1300000+00:00",
+              "finishTime": "2026-11-08T08:12:00.2066667+00:00",
+              "durationMinutes": 0.101
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:00.2100000+00:00",
+              "finishTime": "2026-11-08T08:12:04.6266667+00:00",
+              "durationMinutes": 0.074
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:04.6266667+00:00",
+              "finishTime": "2026-11-08T08:12:07.2533333+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:07.2533333+00:00",
+              "finishTime": "2026-11-08T08:12:11.2900000+00:00",
+              "durationMinutes": 0.067
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:11.2900000+00:00",
+              "finishTime": "2026-11-08T08:12:13.8000000+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:13.8000000+00:00",
+              "finishTime": "2026-11-08T08:12:16.4166667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:16.4166667+00:00",
+              "finishTime": "2026-11-08T08:12:32.8833333+00:00",
+              "durationMinutes": 0.274
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:32.8866667+00:00",
+              "finishTime": "2026-11-08T08:12:39.3433333+00:00",
+              "durationMinutes": 0.108
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:39.3433333+00:00",
+              "finishTime": "2026-11-08T08:12:42.3766667+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:42.3766667+00:00",
+              "finishTime": "2026-11-08T08:12:55.3466667+00:00",
+              "durationMinutes": 0.216
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:55.3466667+00:00",
+              "finishTime": "2026-11-08T08:13:10.1333333+00:00",
+              "durationMinutes": 0.246
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:10.1333333+00:00",
+              "finishTime": "2026-11-08T08:13:13.2800000+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:13.2833333+00:00",
+              "finishTime": "2026-11-08T08:13:27.9100000+00:00",
+              "durationMinutes": 0.244
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:27.9100000+00:00",
+              "finishTime": "2026-11-08T08:13:30.8600000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:30.8600000+00:00",
+              "finishTime": "2026-11-08T08:13:33.5766667+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:33.5766667+00:00",
+              "finishTime": "2026-11-08T08:20:14.9733333+00:00",
+              "durationMinutes": 6.69
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:14.9733333+00:00",
+              "finishTime": "2026-11-08T08:20:18.0866667+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:18.0866667+00:00",
+              "finishTime": "2026-11-08T08:20:20.7333333+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:20.7333333+00:00",
+              "finishTime": "2026-11-08T08:20:20.7400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:20.7400000+00:00",
+              "finishTime": "2026-11-08T08:20:29.2066667+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:29.2066667+00:00",
+              "finishTime": "2026-11-08T08:20:36.3633333+00:00",
+              "durationMinutes": 0.119
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:36.3633333+00:00",
+              "finishTime": "2026-11-08T08:20:43.5466667+00:00",
+              "durationMinutes": 0.12
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:43.5466667+00:00",
+              "finishTime": "2026-11-08T08:20:47.4666667+00:00",
+              "durationMinutes": 0.065
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:47.4700000+00:00",
+              "finishTime": "2026-11-08T08:20:47.4733333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:47.4733333+00:00",
+              "finishTime": "2026-11-08T08:20:49.4933333+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:49.4933333+00:00",
+              "finishTime": "2026-11-08T08:21:06.6400000+00:00",
+              "durationMinutes": 0.286
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:06.6600000+00:00",
+              "finishTime": "2026-11-08T08:21:06.8933333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:06.9133333+00:00",
+              "finishTime": "2026-11-08T08:21:08.0500000+00:00",
+              "durationMinutes": 0.019
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:08.0533333+00:00",
+              "finishTime": "2026-11-08T08:21:08.0900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_AlmaLinux8_Offline_MsftSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:12.7966667+00:00",
+          "finishTime": "2026-11-08T05:53:14.4800000+00:00",
+          "durationMinutes": 49.028,
+          "buildMinutes": 42.942,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:13.9166667+00:00",
+              "finishTime": "2026-11-08T05:04:18.7666667+00:00",
+              "durationMinutes": 0.081
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:18.7733333+00:00",
+              "finishTime": "2026-11-08T05:05:36.0633333+00:00",
+              "durationMinutes": 1.288
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:36.0633333+00:00",
+              "finishTime": "2026-11-08T05:07:00.9900000+00:00",
+              "durationMinutes": 1.415
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:00.9900000+00:00",
+              "finishTime": "2026-11-08T05:07:48.0566667+00:00",
+              "durationMinutes": 0.784
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:48.0566667+00:00",
+              "finishTime": "2026-11-08T05:07:50.8700000+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:50.8700000+00:00",
+              "finishTime": "2026-11-08T05:09:11.4200000+00:00",
+              "durationMinutes": 1.342
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:11.4200000+00:00",
+              "finishTime": "2026-11-08T05:52:07.9233333+00:00",
+              "durationMinutes": 42.942
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:07.9233333+00:00",
+              "finishTime": "2026-11-08T05:52:10.2033333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:10.2033333+00:00",
+              "finishTime": "2026-11-08T05:52:12.7500000+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:52:12.7500000+00:00",
+              "finishTime": "2026-11-08T05:52:12.7566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:12.7566667+00:00",
+              "finishTime": "2026-11-08T05:52:22.1500000+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:22.1500000+00:00",
+              "finishTime": "2026-11-08T05:52:54.0433333+00:00",
+              "durationMinutes": 0.532
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:52:54.0433333+00:00",
+              "finishTime": "2026-11-08T05:52:54.0500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:54.0500000+00:00",
+              "finishTime": "2026-11-08T05:52:55.9966667+00:00",
+              "durationMinutes": 0.032
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:55.9966667+00:00",
+              "finishTime": "2026-11-08T05:53:13.0066667+00:00",
+              "durationMinutes": 0.284
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:53:13.0066667+00:00",
+              "finishTime": "2026-11-08T05:53:13.2433333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:53:13.2433333+00:00",
+              "finishTime": "2026-11-08T05:53:14.4366667+00:00",
+              "durationMinutes": 0.02
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:53:14.4400000+00:00",
+              "finishTime": "2026-11-08T05:53:14.4766667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Alpine323_Offline_MsftSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:20.6433333+00:00",
+          "finishTime": "2026-11-08T08:21:47.8500000+00:00",
+          "durationMinutes": 15.453,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:21.7100000+00:00",
+              "finishTime": "2026-11-08T08:06:29.7633333+00:00",
+              "durationMinutes": 0.134
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:29.7700000+00:00",
+              "finishTime": "2026-11-08T08:07:50.2333333+00:00",
+              "durationMinutes": 1.341
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:50.2366667+00:00",
+              "finishTime": "2026-11-08T08:09:14.4000000+00:00",
+              "durationMinutes": 1.403
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:14.4000000+00:00",
+              "finishTime": "2026-11-08T08:10:01.5733333+00:00",
+              "durationMinutes": 0.786
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:01.5733333+00:00",
+              "finishTime": "2026-11-08T08:10:04.7400000+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:04.7400000+00:00",
+              "finishTime": "2026-11-08T08:11:37.8500000+00:00",
+              "durationMinutes": 1.552
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:37.8500000+00:00",
+              "finishTime": "2026-11-08T08:11:40.4800000+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:40.4800000+00:00",
+              "finishTime": "2026-11-08T08:11:43.2066667+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Download Microsoft Linux (musl) Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:43.2066667+00:00",
+              "finishTime": "2026-11-08T08:12:13.3166667+00:00",
+              "durationMinutes": 0.502
+            },
+            {
+              "name": "Copy Microsoft Linux (musl) Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:13.3166667+00:00",
+              "finishTime": "2026-11-08T08:12:17.1766667+00:00",
+              "durationMinutes": 0.064
+            },
+            {
+              "name": "Clean up Microsoft Linux (musl) Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:17.1766667+00:00",
+              "finishTime": "2026-11-08T08:12:20.2766667+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:20.2766667+00:00",
+              "finishTime": "2026-11-08T08:12:25.2166667+00:00",
+              "durationMinutes": 0.082
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:25.2166667+00:00",
+              "finishTime": "2026-11-08T08:12:27.9100000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:27.9100000+00:00",
+              "finishTime": "2026-11-08T08:12:30.9600000+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:30.9633333+00:00",
+              "finishTime": "2026-11-08T08:12:44.4000000+00:00",
+              "durationMinutes": 0.224
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:44.4000000+00:00",
+              "finishTime": "2026-11-08T08:12:52.9800000+00:00",
+              "durationMinutes": 0.143
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:52.9800000+00:00",
+              "finishTime": "2026-11-08T08:12:56.3600000+00:00",
+              "durationMinutes": 0.056
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:56.3600000+00:00",
+              "finishTime": "2026-11-08T08:13:13.3800000+00:00",
+              "durationMinutes": 0.284
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:13.3800000+00:00",
+              "finishTime": "2026-11-08T08:13:31.6333333+00:00",
+              "durationMinutes": 0.304
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:31.6333333+00:00",
+              "finishTime": "2026-11-08T08:13:35.2100000+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:35.2100000+00:00",
+              "finishTime": "2026-11-08T08:13:39.5833333+00:00",
+              "durationMinutes": 0.073
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:39.5833333+00:00",
+              "finishTime": "2026-11-08T08:13:42.4466667+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:42.4466667+00:00",
+              "finishTime": "2026-11-08T08:13:45.4700000+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:45.4700000+00:00",
+              "finishTime": "2026-11-08T08:20:46.0733333+00:00",
+              "durationMinutes": 7.01
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:46.0766667+00:00",
+              "finishTime": "2026-11-08T08:20:49.4400000+00:00",
+              "durationMinutes": 0.056
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:49.4433333+00:00",
+              "finishTime": "2026-11-08T08:20:52.6833333+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:52.6833333+00:00",
+              "finishTime": "2026-11-08T08:20:52.6900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:52.6900000+00:00",
+              "finishTime": "2026-11-08T08:21:03.4333333+00:00",
+              "durationMinutes": 0.179
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:03.4333333+00:00",
+              "finishTime": "2026-11-08T08:21:12.6333333+00:00",
+              "durationMinutes": 0.153
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:12.6333333+00:00",
+              "finishTime": "2026-11-08T08:21:21.5600000+00:00",
+              "durationMinutes": 0.149
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:21.5600000+00:00",
+              "finishTime": "2026-11-08T08:21:26.3066667+00:00",
+              "durationMinutes": 0.079
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:21:26.3066667+00:00",
+              "finishTime": "2026-11-08T08:21:26.3133333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:26.3133333+00:00",
+              "finishTime": "2026-11-08T08:21:28.5266667+00:00",
+              "durationMinutes": 0.037
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:28.5266667+00:00",
+              "finishTime": "2026-11-08T08:21:45.6266667+00:00",
+              "durationMinutes": 0.285
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:45.6266667+00:00",
+              "finishTime": "2026-11-08T08:21:45.8633333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:45.8633333+00:00",
+              "finishTime": "2026-11-08T08:21:46.9466667+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:46.9500000+00:00",
+              "finishTime": "2026-11-08T08:21:46.9833333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Alpine323_Offline_MsftSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:20.9933333+00:00",
+          "finishTime": "2026-11-08T06:03:58.9900000+00:00",
+          "durationMinutes": 59.633,
+          "buildMinutes": 52.576,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:21.9400000+00:00",
+              "finishTime": "2026-11-08T05:04:25.9700000+00:00",
+              "durationMinutes": 0.067
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:25.9766667+00:00",
+              "finishTime": "2026-11-08T05:05:47.2600000+00:00",
+              "durationMinutes": 1.355
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:47.2633333+00:00",
+              "finishTime": "2026-11-08T05:07:12.7366667+00:00",
+              "durationMinutes": 1.425
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:12.7366667+00:00",
+              "finishTime": "2026-11-08T05:08:00.0100000+00:00",
+              "durationMinutes": 0.788
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:00.0100000+00:00",
+              "finishTime": "2026-11-08T05:08:02.7033333+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:02.7066667+00:00",
+              "finishTime": "2026-11-08T05:10:12.5900000+00:00",
+              "durationMinutes": 2.165
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:10:12.5900000+00:00",
+              "finishTime": "2026-11-08T06:02:47.1266667+00:00",
+              "durationMinutes": 52.576
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:47.1266667+00:00",
+              "finishTime": "2026-11-08T06:02:49.6633333+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:49.6633333+00:00",
+              "finishTime": "2026-11-08T06:02:52.5700000+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:02:52.5700000+00:00",
+              "finishTime": "2026-11-08T06:02:52.5766667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:52.5766667+00:00",
+              "finishTime": "2026-11-08T06:03:02.6566667+00:00",
+              "durationMinutes": 0.168
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:02.6600000+00:00",
+              "finishTime": "2026-11-08T06:03:38.3900000+00:00",
+              "durationMinutes": 0.596
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:03:38.3900000+00:00",
+              "finishTime": "2026-11-08T06:03:38.3966667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:38.3966667+00:00",
+              "finishTime": "2026-11-08T06:03:40.4033333+00:00",
+              "durationMinutes": 0.033
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:40.4066667+00:00",
+              "finishTime": "2026-11-08T06:03:57.5700000+00:00",
+              "durationMinutes": 0.286
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:57.5700000+00:00",
+              "finishTime": "2026-11-08T06:03:57.8000000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:57.8000000+00:00",
+              "finishTime": "2026-11-08T06:03:58.9500000+00:00",
+              "durationMinutes": 0.019
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:58.9533333+00:00",
+              "finishTime": "2026-11-08T06:03:58.9900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Offline_CurrentSourceBuiltSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:11.2533333+00:00",
+          "finishTime": "2026-11-08T08:20:46.3200000+00:00",
+          "durationMinutes": 14.584,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:12.3466667+00:00",
+              "finishTime": "2026-11-08T08:06:20.0700000+00:00",
+              "durationMinutes": 0.129
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:20.0800000+00:00",
+              "finishTime": "2026-11-08T08:07:41.0533333+00:00",
+              "durationMinutes": 1.35
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:41.0533333+00:00",
+              "finishTime": "2026-11-08T08:09:09.9600000+00:00",
+              "durationMinutes": 1.482
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:09.9633333+00:00",
+              "finishTime": "2026-11-08T08:09:56.8466667+00:00",
+              "durationMinutes": 0.781
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:56.8466667+00:00",
+              "finishTime": "2026-11-08T08:09:59.4133333+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:59.4133333+00:00",
+              "finishTime": "2026-11-08T08:11:19.1533333+00:00",
+              "durationMinutes": 1.329
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:19.1533333+00:00",
+              "finishTime": "2026-11-08T08:11:22.0566667+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:22.0566667+00:00",
+              "finishTime": "2026-11-08T08:11:25.0600000+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:25.0600000+00:00",
+              "finishTime": "2026-11-08T08:11:32.2300000+00:00",
+              "durationMinutes": 0.12
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:32.2400000+00:00",
+              "finishTime": "2026-11-08T08:11:35.8733333+00:00",
+              "durationMinutes": 0.061
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:35.8733333+00:00",
+              "finishTime": "2026-11-08T08:11:39.1366667+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:39.1366667+00:00",
+              "finishTime": "2026-11-08T08:11:44.1933333+00:00",
+              "durationMinutes": 0.084
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:44.1933333+00:00",
+              "finishTime": "2026-11-08T08:11:47.0100000+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:47.0133333+00:00",
+              "finishTime": "2026-11-08T08:11:49.6700000+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:49.6700000+00:00",
+              "finishTime": "2026-11-08T08:12:07.3666667+00:00",
+              "durationMinutes": 0.295
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:07.3666667+00:00",
+              "finishTime": "2026-11-08T08:12:16.0300000+00:00",
+              "durationMinutes": 0.144
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:16.0300000+00:00",
+              "finishTime": "2026-11-08T08:12:19.1900000+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:19.1900000+00:00",
+              "finishTime": "2026-11-08T08:12:32.2366667+00:00",
+              "durationMinutes": 0.217
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:32.2400000+00:00",
+              "finishTime": "2026-11-08T08:12:45.3833333+00:00",
+              "durationMinutes": 0.219
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:45.3833333+00:00",
+              "finishTime": "2026-11-08T08:12:48.5700000+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:48.5700000+00:00",
+              "finishTime": "2026-11-08T08:12:52.8666667+00:00",
+              "durationMinutes": 0.072
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:52.8666667+00:00",
+              "finishTime": "2026-11-08T08:12:55.8433333+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:55.8433333+00:00",
+              "finishTime": "2026-11-08T08:12:58.4466667+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:58.4466667+00:00",
+              "finishTime": "2026-11-08T08:19:46.0133333+00:00",
+              "durationMinutes": 6.793
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:46.0133333+00:00",
+              "finishTime": "2026-11-08T08:19:49.1966667+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:49.1966667+00:00",
+              "finishTime": "2026-11-08T08:19:52.3000000+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:19:52.3000000+00:00",
+              "finishTime": "2026-11-08T08:19:52.3066667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:52.3066667+00:00",
+              "finishTime": "2026-11-08T08:20:02.9666667+00:00",
+              "durationMinutes": 0.178
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:02.9666667+00:00",
+              "finishTime": "2026-11-08T08:20:12.3166667+00:00",
+              "durationMinutes": 0.156
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:12.3166667+00:00",
+              "finishTime": "2026-11-08T08:20:20.8633333+00:00",
+              "durationMinutes": 0.142
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:20.8633333+00:00",
+              "finishTime": "2026-11-08T08:20:25.2200000+00:00",
+              "durationMinutes": 0.073
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:25.2200000+00:00",
+              "finishTime": "2026-11-08T08:20:25.2233333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:25.2233333+00:00",
+              "finishTime": "2026-11-08T08:20:27.2633333+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:27.2633333+00:00",
+              "finishTime": "2026-11-08T08:20:43.9000000+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:43.9000000+00:00",
+              "finishTime": "2026-11-08T08:20:44.1633333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:44.1633333+00:00",
+              "finishTime": "2026-11-08T08:20:45.4833333+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:45.4866667+00:00",
+              "finishTime": "2026-11-08T08:20:45.5233333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Offline_CurrentSourceBuiltSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:51:07.7166667+00:00",
+          "finishTime": "2026-11-08T06:36:08.8233333+00:00",
+          "durationMinutes": 45.018,
+          "buildMinutes": 39.418,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:08.6566667+00:00",
+              "finishTime": "2026-11-08T05:51:16.4033333+00:00",
+              "durationMinutes": 0.129
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:16.4100000+00:00",
+              "finishTime": "2026-11-08T05:52:36.1033333+00:00",
+              "durationMinutes": 1.328
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:36.1033333+00:00",
+              "finishTime": "2026-11-08T05:54:01.4300000+00:00",
+              "durationMinutes": 1.422
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:01.4300000+00:00",
+              "finishTime": "2026-11-08T05:54:48.5066667+00:00",
+              "durationMinutes": 0.785
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:48.5066667+00:00",
+              "finishTime": "2026-11-08T05:54:50.9533333+00:00",
+              "durationMinutes": 0.041
+            },
+            {
+              "name": "Download Previous Build (SB_CentOSStream10_Online_MsftSdk_x64 - Source Build artifacts)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:50.9533333+00:00",
+              "finishTime": "2026-11-08T05:55:00.8066667+00:00",
+              "durationMinutes": 0.164
+            },
+            {
+              "name": "Copy Previous Build (SB_CentOSStream10_Online_MsftSdk_x64 - Source Build artifacts)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:00.8066667+00:00",
+              "finishTime": "2026-11-08T05:55:06.8966667+00:00",
+              "durationMinutes": 0.102
+            },
+            {
+              "name": "Clean up Previous Build (SB_CentOSStream10_Online_MsftSdk_x64 - Source Build artifacts) download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:06.8966667+00:00",
+              "finishTime": "2026-11-08T05:55:10.5166667+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:10.5166667+00:00",
+              "finishTime": "2026-11-08T05:55:36.0400000+00:00",
+              "durationMinutes": 0.425
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:36.0400000+00:00",
+              "finishTime": "2026-11-08T06:35:01.1300000+00:00",
+              "durationMinutes": 39.418
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:35:01.1300000+00:00",
+              "finishTime": "2026-11-08T06:35:03.9866667+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:35:03.9900000+00:00",
+              "finishTime": "2026-11-08T06:35:07.5466667+00:00",
+              "durationMinutes": 0.059
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:35:07.5500000+00:00",
+              "finishTime": "2026-11-08T06:35:07.5533333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:35:07.5533333+00:00",
+              "finishTime": "2026-11-08T06:35:18.5600000+00:00",
+              "durationMinutes": 0.183
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:35:18.5600000+00:00",
+              "finishTime": "2026-11-08T06:35:48.8533333+00:00",
+              "durationMinutes": 0.505
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:35:48.8566667+00:00",
+              "finishTime": "2026-11-08T06:35:48.8600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:35:48.8600000+00:00",
+              "finishTime": "2026-11-08T06:35:50.7200000+00:00",
+              "durationMinutes": 0.031
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:35:50.7200000+00:00",
+              "finishTime": "2026-11-08T06:36:07.4533333+00:00",
+              "durationMinutes": 0.279
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:07.4533333+00:00",
+              "finishTime": "2026-11-08T06:36:07.6900000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:07.6900000+00:00",
+              "finishTime": "2026-11-08T06:36:08.7833333+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:08.7866667+00:00",
+              "finishTime": "2026-11-08T06:36:08.8233333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Offline_MsftSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:25.3900000+00:00",
+          "finishTime": "2026-11-08T08:20:25.7000000+00:00",
+          "durationMinutes": 14.005,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:26.6266667+00:00",
+              "finishTime": "2026-11-08T08:06:35.6266667+00:00",
+              "durationMinutes": 0.15
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:35.6333333+00:00",
+              "finishTime": "2026-11-08T08:07:53.1000000+00:00",
+              "durationMinutes": 1.291
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:53.1000000+00:00",
+              "finishTime": "2026-11-08T08:09:15.6366667+00:00",
+              "durationMinutes": 1.376
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:15.6366667+00:00",
+              "finishTime": "2026-11-08T08:10:02.5500000+00:00",
+              "durationMinutes": 0.782
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:02.5500000+00:00",
+              "finishTime": "2026-11-08T08:10:05.9566667+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:05.9566667+00:00",
+              "finishTime": "2026-11-08T08:11:21.2633333+00:00",
+              "durationMinutes": 1.255
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:21.2633333+00:00",
+              "finishTime": "2026-11-08T08:11:23.6833333+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:23.6833333+00:00",
+              "finishTime": "2026-11-08T08:11:26.4200000+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:26.4200000+00:00",
+              "finishTime": "2026-11-08T08:11:33.6366667+00:00",
+              "durationMinutes": 0.12
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:33.6366667+00:00",
+              "finishTime": "2026-11-08T08:11:37.5500000+00:00",
+              "durationMinutes": 0.065
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:37.5500000+00:00",
+              "finishTime": "2026-11-08T08:11:40.5866667+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:40.5866667+00:00",
+              "finishTime": "2026-11-08T08:11:45.7200000+00:00",
+              "durationMinutes": 0.086
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:45.7200000+00:00",
+              "finishTime": "2026-11-08T08:11:48.8433333+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:48.8466667+00:00",
+              "finishTime": "2026-11-08T08:11:51.8600000+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:51.8600000+00:00",
+              "finishTime": "2026-11-08T08:12:12.0100000+00:00",
+              "durationMinutes": 0.336
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:12.0100000+00:00",
+              "finishTime": "2026-11-08T08:12:20.5333333+00:00",
+              "durationMinutes": 0.142
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:20.5333333+00:00",
+              "finishTime": "2026-11-08T08:12:24.1933333+00:00",
+              "durationMinutes": 0.061
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:24.1933333+00:00",
+              "finishTime": "2026-11-08T08:12:45.4133333+00:00",
+              "durationMinutes": 0.354
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:45.4133333+00:00",
+              "finishTime": "2026-11-08T08:13:01.8366667+00:00",
+              "durationMinutes": 0.274
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:01.8366667+00:00",
+              "finishTime": "2026-11-08T08:13:05.4366667+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:05.4366667+00:00",
+              "finishTime": "2026-11-08T08:13:09.8266667+00:00",
+              "durationMinutes": 0.073
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:09.8266667+00:00",
+              "finishTime": "2026-11-08T08:13:12.4200000+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:12.4200000+00:00",
+              "finishTime": "2026-11-08T08:13:15.3233333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:15.3233333+00:00",
+              "finishTime": "2026-11-08T08:19:25.4500000+00:00",
+              "durationMinutes": 6.169
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:25.4500000+00:00",
+              "finishTime": "2026-11-08T08:19:28.4933333+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:28.4933333+00:00",
+              "finishTime": "2026-11-08T08:19:31.4233333+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:19:31.4266667+00:00",
+              "finishTime": "2026-11-08T08:19:31.4300000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:31.4300000+00:00",
+              "finishTime": "2026-11-08T08:19:42.3100000+00:00",
+              "durationMinutes": 0.181
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:42.3100000+00:00",
+              "finishTime": "2026-11-08T08:19:51.4666667+00:00",
+              "durationMinutes": 0.153
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:51.4666667+00:00",
+              "finishTime": "2026-11-08T08:20:00.0566667+00:00",
+              "durationMinutes": 0.143
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:00.0600000+00:00",
+              "finishTime": "2026-11-08T08:20:04.4733333+00:00",
+              "durationMinutes": 0.074
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:04.4733333+00:00",
+              "finishTime": "2026-11-08T08:20:04.4800000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:04.4800000+00:00",
+              "finishTime": "2026-11-08T08:20:06.4700000+00:00",
+              "durationMinutes": 0.033
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:06.4700000+00:00",
+              "finishTime": "2026-11-08T08:20:23.2400000+00:00",
+              "durationMinutes": 0.28
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:23.2433333+00:00",
+              "finishTime": "2026-11-08T08:20:23.4933333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:23.4933333+00:00",
+              "finishTime": "2026-11-08T08:20:24.8200000+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:24.8233333+00:00",
+              "finishTime": "2026-11-08T08:20:24.8533333+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Offline_MsftSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:57.7266667+00:00",
+          "finishTime": "2026-11-08T05:51:43.3700000+00:00",
+          "durationMinutes": 47.761,
+          "buildMinutes": 40.607,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:58.8000000+00:00",
+              "finishTime": "2026-11-08T05:04:06.4333333+00:00",
+              "durationMinutes": 0.127
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:06.4400000+00:00",
+              "finishTime": "2026-11-08T05:05:23.0566667+00:00",
+              "durationMinutes": 1.277
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:23.0600000+00:00",
+              "finishTime": "2026-11-08T05:05:58.1266667+00:00",
+              "durationMinutes": 0.584
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:58.1266667+00:00",
+              "finishTime": "2026-11-08T05:06:44.8400000+00:00",
+              "durationMinutes": 0.779
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:44.8400000+00:00",
+              "finishTime": "2026-11-08T05:06:47.7733333+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:47.7733333+00:00",
+              "finishTime": "2026-11-08T05:08:04.6433333+00:00",
+              "durationMinutes": 1.281
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:04.6433333+00:00",
+              "finishTime": "2026-11-08T05:48:41.0733333+00:00",
+              "durationMinutes": 40.607
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:41.0733333+00:00",
+              "finishTime": "2026-11-08T05:48:44.2533333+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Sign Source-Built Artifacts",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:44.2566667+00:00",
+              "finishTime": "2026-11-08T05:50:24.3633333+00:00",
+              "durationMinutes": 1.668
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:50:24.3633333+00:00",
+              "finishTime": "2026-11-08T05:50:27.4966667+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:50:27.4966667+00:00",
+              "finishTime": "2026-11-08T05:50:27.5000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:50:27.5000000+00:00",
+              "finishTime": "2026-11-08T05:50:38.8400000+00:00",
+              "durationMinutes": 0.189
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:50:38.8400000+00:00",
+              "finishTime": "2026-11-08T05:51:22.7900000+00:00",
+              "durationMinutes": 0.732
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:51:22.7900000+00:00",
+              "finishTime": "2026-11-08T05:51:22.7966667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:22.7966667+00:00",
+              "finishTime": "2026-11-08T05:51:24.9933333+00:00",
+              "durationMinutes": 0.037
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:24.9933333+00:00",
+              "finishTime": "2026-11-08T05:51:41.9366667+00:00",
+              "durationMinutes": 0.282
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:41.9366667+00:00",
+              "finishTime": "2026-11-08T05:51:42.1733333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:42.1733333+00:00",
+              "finishTime": "2026-11-08T05:51:43.3266667+00:00",
+              "durationMinutes": 0.019
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:43.3266667+00:00",
+              "finishTime": "2026-11-08T05:51:43.3666667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Offline_PreviousSourceBuiltSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:37.5233333+00:00",
+          "finishTime": "2026-11-08T08:23:20.5800000+00:00",
+          "durationMinutes": 16.718,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:38.5666667+00:00",
+              "finishTime": "2026-11-08T08:06:44.0100000+00:00",
+              "durationMinutes": 0.091
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:44.0166667+00:00",
+              "finishTime": "2026-11-08T08:07:56.0133333+00:00",
+              "durationMinutes": 1.2
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:56.0133333+00:00",
+              "finishTime": "2026-11-08T08:09:20.5033333+00:00",
+              "durationMinutes": 1.408
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:20.5033333+00:00",
+              "finishTime": "2026-11-08T08:10:07.5366667+00:00",
+              "durationMinutes": 0.784
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:07.5366667+00:00",
+              "finishTime": "2026-11-08T08:10:10.2300000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:10.2300000+00:00",
+              "finishTime": "2026-11-08T08:11:29.8766667+00:00",
+              "durationMinutes": 1.327
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:29.8766667+00:00",
+              "finishTime": "2026-11-08T08:11:32.8000000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:32.8000000+00:00",
+              "finishTime": "2026-11-08T08:11:35.3933333+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:35.3933333+00:00",
+              "finishTime": "2026-11-08T08:11:50.5833333+00:00",
+              "durationMinutes": 0.253
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:50.5833333+00:00",
+              "finishTime": "2026-11-08T08:11:54.5333333+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:54.5333333+00:00",
+              "finishTime": "2026-11-08T08:11:57.3133333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:57.3166667+00:00",
+              "finishTime": "2026-11-08T08:12:01.3066667+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:01.3066667+00:00",
+              "finishTime": "2026-11-08T08:12:03.7266667+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:03.7266667+00:00",
+              "finishTime": "2026-11-08T08:12:06.0233333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:06.0233333+00:00",
+              "finishTime": "2026-11-08T08:12:14.4900000+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:14.4900000+00:00",
+              "finishTime": "2026-11-08T08:12:21.2166667+00:00",
+              "durationMinutes": 0.112
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:21.2166667+00:00",
+              "finishTime": "2026-11-08T08:12:24.4566667+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:24.4566667+00:00",
+              "finishTime": "2026-11-08T08:12:33.0833333+00:00",
+              "durationMinutes": 0.144
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:33.0833333+00:00",
+              "finishTime": "2026-11-08T08:12:43.9700000+00:00",
+              "durationMinutes": 0.181
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:43.9700000+00:00",
+              "finishTime": "2026-11-08T08:12:46.5966667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:46.5966667+00:00",
+              "finishTime": "2026-11-08T08:12:50.1933333+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:50.1933333+00:00",
+              "finishTime": "2026-11-08T08:12:52.9433333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:52.9433333+00:00",
+              "finishTime": "2026-11-08T08:12:55.1100000+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Download Source Build Poison Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:55.1100000+00:00",
+              "finishTime": "2026-11-08T08:12:58.7933333+00:00",
+              "durationMinutes": 0.061
+            },
+            {
+              "name": "Copy Source Build Poison Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:58.7933333+00:00",
+              "finishTime": "2026-11-08T08:13:01.4466667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Clean up Source Build Poison Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:01.4466667+00:00",
+              "finishTime": "2026-11-08T08:13:03.9733333+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:03.9733333+00:00",
+              "finishTime": "2026-11-08T08:22:25.8500000+00:00",
+              "durationMinutes": 9.365
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:25.8500000+00:00",
+              "finishTime": "2026-11-08T08:22:28.5700000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:28.5700000+00:00",
+              "finishTime": "2026-11-08T08:22:31.2700000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:22:31.2700000+00:00",
+              "finishTime": "2026-11-08T08:22:31.2766667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:31.2766667+00:00",
+              "finishTime": "2026-11-08T08:22:40.0500000+00:00",
+              "durationMinutes": 0.146
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:40.0500000+00:00",
+              "finishTime": "2026-11-08T08:22:48.3366667+00:00",
+              "durationMinutes": 0.138
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:48.3400000+00:00",
+              "finishTime": "2026-11-08T08:22:55.7966667+00:00",
+              "durationMinutes": 0.124
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:55.7966667+00:00",
+              "finishTime": "2026-11-08T08:22:59.7566667+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:22:59.7566667+00:00",
+              "finishTime": "2026-11-08T08:22:59.7633333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:22:59.7633333+00:00",
+              "finishTime": "2026-11-08T08:23:01.7600000+00:00",
+              "durationMinutes": 0.033
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:23:01.7600000+00:00",
+              "finishTime": "2026-11-08T08:23:18.4500000+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:23:18.4500000+00:00",
+              "finishTime": "2026-11-08T08:23:18.6833333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:23:18.6833333+00:00",
+              "finishTime": "2026-11-08T08:23:19.7533333+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:23:19.7566667+00:00",
+              "finishTime": "2026-11-08T08:23:19.7900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Offline_PreviousSourceBuiltSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:51.1133333+00:00",
+          "finishTime": "2026-11-08T05:49:44.0900000+00:00",
+          "durationMinutes": 45.883,
+          "buildMinutes": 41.217,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:51.9666667+00:00",
+              "finishTime": "2026-11-08T05:03:58.2300000+00:00",
+              "durationMinutes": 0.104
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:58.2366667+00:00",
+              "finishTime": "2026-11-08T05:05:17.2433333+00:00",
+              "durationMinutes": 1.317
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:17.2433333+00:00",
+              "finishTime": "2026-11-08T05:05:51.1266667+00:00",
+              "durationMinutes": 0.565
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:51.1266667+00:00",
+              "finishTime": "2026-11-08T05:06:37.8300000+00:00",
+              "durationMinutes": 0.778
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:37.8300000+00:00",
+              "finishTime": "2026-11-08T05:06:40.5233333+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Download Previously Source-Built SDK",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:40.5233333+00:00",
+              "finishTime": "2026-11-08T05:06:45.7800000+00:00",
+              "durationMinutes": 0.088
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:45.7800000+00:00",
+              "finishTime": "2026-11-08T05:07:25.8000000+00:00",
+              "durationMinutes": 0.667
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:25.8000000+00:00",
+              "finishTime": "2026-11-08T05:48:38.7933333+00:00",
+              "durationMinutes": 41.217
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:38.7966667+00:00",
+              "finishTime": "2026-11-08T05:48:41.3466667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:41.3466667+00:00",
+              "finishTime": "2026-11-08T05:48:44.6400000+00:00",
+              "durationMinutes": 0.055
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:48:44.6400000+00:00",
+              "finishTime": "2026-11-08T05:48:44.6433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:44.6433333+00:00",
+              "finishTime": "2026-11-08T05:48:55.4100000+00:00",
+              "durationMinutes": 0.179
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:55.4100000+00:00",
+              "finishTime": "2026-11-08T05:49:24.1300000+00:00",
+              "durationMinutes": 0.479
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:49:24.1300000+00:00",
+              "finishTime": "2026-11-08T05:49:24.1366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:49:24.1366667+00:00",
+              "finishTime": "2026-11-08T05:49:26.1833333+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:49:26.1833333+00:00",
+              "finishTime": "2026-11-08T05:49:42.8466667+00:00",
+              "durationMinutes": 0.278
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:49:42.8466667+00:00",
+              "finishTime": "2026-11-08T05:49:43.0833333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:49:43.0833333+00:00",
+              "finishTime": "2026-11-08T05:49:44.0500000+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:49:44.0500000+00:00",
+              "finishTime": "2026-11-08T05:49:44.0866667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Online_MsftSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:40.2866667+00:00",
+          "finishTime": "2026-11-08T08:19:58.5733333+00:00",
+          "durationMinutes": 13.305,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:40.8200000+00:00",
+              "finishTime": "2026-11-08T08:06:46.3400000+00:00",
+              "durationMinutes": 0.092
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:46.3466667+00:00",
+              "finishTime": "2026-11-08T08:07:58.6466667+00:00",
+              "durationMinutes": 1.205
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:58.6466667+00:00",
+              "finishTime": "2026-11-08T08:09:23.2633333+00:00",
+              "durationMinutes": 1.41
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:23.2633333+00:00",
+              "finishTime": "2026-11-08T08:10:10.3533333+00:00",
+              "durationMinutes": 0.785
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:10.3533333+00:00",
+              "finishTime": "2026-11-08T08:10:12.7466667+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:12.7466667+00:00",
+              "finishTime": "2026-11-08T08:11:33.8200000+00:00",
+              "durationMinutes": 1.351
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:33.8200000+00:00",
+              "finishTime": "2026-11-08T08:11:36.8266667+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:36.8266667+00:00",
+              "finishTime": "2026-11-08T08:11:42.0700000+00:00",
+              "durationMinutes": 0.087
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:42.0700000+00:00",
+              "finishTime": "2026-11-08T08:11:45.6533333+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:45.6533333+00:00",
+              "finishTime": "2026-11-08T08:11:48.4133333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:48.4133333+00:00",
+              "finishTime": "2026-11-08T08:11:53.0933333+00:00",
+              "durationMinutes": 0.078
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:53.0933333+00:00",
+              "finishTime": "2026-11-08T08:11:55.9833333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:55.9866667+00:00",
+              "finishTime": "2026-11-08T08:11:58.5166667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:58.5200000+00:00",
+              "finishTime": "2026-11-08T08:12:07.4266667+00:00",
+              "durationMinutes": 0.148
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:07.4266667+00:00",
+              "finishTime": "2026-11-08T08:12:17.6866667+00:00",
+              "durationMinutes": 0.171
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:17.6866667+00:00",
+              "finishTime": "2026-11-08T08:12:20.7333333+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:20.7333333+00:00",
+              "finishTime": "2026-11-08T08:12:30.4500000+00:00",
+              "durationMinutes": 0.162
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:30.4500000+00:00",
+              "finishTime": "2026-11-08T08:12:38.9366667+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:38.9366667+00:00",
+              "finishTime": "2026-11-08T08:12:42.3500000+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:42.3533333+00:00",
+              "finishTime": "2026-11-08T08:12:46.0500000+00:00",
+              "durationMinutes": 0.062
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:46.0533333+00:00",
+              "finishTime": "2026-11-08T08:12:48.5200000+00:00",
+              "durationMinutes": 0.041
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:48.5200000+00:00",
+              "finishTime": "2026-11-08T08:12:50.8533333+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:50.8533333+00:00",
+              "finishTime": "2026-11-08T08:19:04.0166667+00:00",
+              "durationMinutes": 6.219
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:04.0166667+00:00",
+              "finishTime": "2026-11-08T08:19:07.2600000+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:07.2633333+00:00",
+              "finishTime": "2026-11-08T08:19:09.9666667+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:19:09.9666667+00:00",
+              "finishTime": "2026-11-08T08:19:09.9733333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:09.9733333+00:00",
+              "finishTime": "2026-11-08T08:19:18.6900000+00:00",
+              "durationMinutes": 0.145
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:18.6900000+00:00",
+              "finishTime": "2026-11-08T08:19:26.0666667+00:00",
+              "durationMinutes": 0.123
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:26.0666667+00:00",
+              "finishTime": "2026-11-08T08:19:33.9900000+00:00",
+              "durationMinutes": 0.132
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:33.9900000+00:00",
+              "finishTime": "2026-11-08T08:19:37.9333333+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:19:37.9333333+00:00",
+              "finishTime": "2026-11-08T08:19:37.9366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:37.9366667+00:00",
+              "finishTime": "2026-11-08T08:19:39.7500000+00:00",
+              "durationMinutes": 0.03
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:39.7500000+00:00",
+              "finishTime": "2026-11-08T08:19:56.5100000+00:00",
+              "durationMinutes": 0.279
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:56.5100000+00:00",
+              "finishTime": "2026-11-08T08:19:56.7433333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:56.7433333+00:00",
+              "finishTime": "2026-11-08T08:19:57.8100000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:57.8133333+00:00",
+              "finishTime": "2026-11-08T08:19:57.8466667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Online_MsftSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:57.4400000+00:00",
+          "finishTime": "2026-11-08T05:48:06.2366667+00:00",
+          "durationMinutes": 44.147,
+          "buildMinutes": 38.939,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:58.2600000+00:00",
+              "finishTime": "2026-11-08T05:04:04.3133333+00:00",
+              "durationMinutes": 0.101
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:04.3200000+00:00",
+              "finishTime": "2026-11-08T05:05:21.4266667+00:00",
+              "durationMinutes": 1.285
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:21.4266667+00:00",
+              "finishTime": "2026-11-08T05:05:55.9100000+00:00",
+              "durationMinutes": 0.575
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:55.9100000+00:00",
+              "finishTime": "2026-11-08T05:06:42.6366667+00:00",
+              "durationMinutes": 0.779
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:42.6366667+00:00",
+              "finishTime": "2026-11-08T05:06:45.6833333+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:45.6833333+00:00",
+              "finishTime": "2026-11-08T05:08:02.4533333+00:00",
+              "durationMinutes": 1.28
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:02.4533333+00:00",
+              "finishTime": "2026-11-08T05:46:58.7700000+00:00",
+              "durationMinutes": 38.939
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:46:58.7700000+00:00",
+              "finishTime": "2026-11-08T05:47:02.3866667+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:47:02.3866667+00:00",
+              "finishTime": "2026-11-08T05:47:02.3933333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:02.3933333+00:00",
+              "finishTime": "2026-11-08T05:47:13.2066667+00:00",
+              "durationMinutes": 0.18
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:13.2066667+00:00",
+              "finishTime": "2026-11-08T05:47:46.2466667+00:00",
+              "durationMinutes": 0.551
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:47:46.2466667+00:00",
+              "finishTime": "2026-11-08T05:47:46.2533333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:46.2533333+00:00",
+              "finishTime": "2026-11-08T05:47:48.2866667+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:47:48.2866667+00:00",
+              "finishTime": "2026-11-08T05:48:04.8466667+00:00",
+              "durationMinutes": 0.276
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:04.8500000+00:00",
+              "finishTime": "2026-11-08T05:48:05.0800000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:05.0800000+00:00",
+              "finishTime": "2026-11-08T05:48:06.1966667+00:00",
+              "durationMinutes": 0.019
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:48:06.1966667+00:00",
+              "finishTime": "2026-11-08T05:48:06.2333333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Online_PreviousSourceBuiltSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:44.2766667+00:00",
+          "finishTime": "2026-11-08T08:21:08.9133333+00:00",
+          "durationMinutes": 14.411,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:45.0566667+00:00",
+              "finishTime": "2026-11-08T08:06:50.1733333+00:00",
+              "durationMinutes": 0.085
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:50.1800000+00:00",
+              "finishTime": "2026-11-08T08:08:18.1033333+00:00",
+              "durationMinutes": 1.465
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:08:18.1066667+00:00",
+              "finishTime": "2026-11-08T08:09:44.0933333+00:00",
+              "durationMinutes": 1.433
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:44.0933333+00:00",
+              "finishTime": "2026-11-08T08:10:30.9966667+00:00",
+              "durationMinutes": 0.782
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:30.9966667+00:00",
+              "finishTime": "2026-11-08T08:10:33.5800000+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:33.5800000+00:00",
+              "finishTime": "2026-11-08T08:12:01.4600000+00:00",
+              "durationMinutes": 1.465
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:01.4600000+00:00",
+              "finishTime": "2026-11-08T08:12:04.0566667+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:04.0566667+00:00",
+              "finishTime": "2026-11-08T08:12:09.7133333+00:00",
+              "durationMinutes": 0.094
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:09.7133333+00:00",
+              "finishTime": "2026-11-08T08:12:13.6500000+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:13.6533333+00:00",
+              "finishTime": "2026-11-08T08:12:16.7466667+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:16.7466667+00:00",
+              "finishTime": "2026-11-08T08:12:20.6933333+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:20.6933333+00:00",
+              "finishTime": "2026-11-08T08:12:23.5166667+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:23.5166667+00:00",
+              "finishTime": "2026-11-08T08:12:26.3666667+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:26.3666667+00:00",
+              "finishTime": "2026-11-08T08:12:44.2133333+00:00",
+              "durationMinutes": 0.297
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:44.2166667+00:00",
+              "finishTime": "2026-11-08T08:12:50.8500000+00:00",
+              "durationMinutes": 0.111
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:50.8500000+00:00",
+              "finishTime": "2026-11-08T08:12:54.0766667+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:54.0766667+00:00",
+              "finishTime": "2026-11-08T08:13:12.7933333+00:00",
+              "durationMinutes": 0.312
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:12.7933333+00:00",
+              "finishTime": "2026-11-08T08:13:21.6333333+00:00",
+              "durationMinutes": 0.147
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:21.6333333+00:00",
+              "finishTime": "2026-11-08T08:13:24.6833333+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:24.6833333+00:00",
+              "finishTime": "2026-11-08T08:13:28.2133333+00:00",
+              "durationMinutes": 0.059
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:28.2133333+00:00",
+              "finishTime": "2026-11-08T08:13:30.8266667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:30.8266667+00:00",
+              "finishTime": "2026-11-08T08:13:33.5566667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:33.5566667+00:00",
+              "finishTime": "2026-11-08T08:20:13.5033333+00:00",
+              "durationMinutes": 6.666
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:13.5033333+00:00",
+              "finishTime": "2026-11-08T08:20:16.6033333+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:16.6066667+00:00",
+              "finishTime": "2026-11-08T08:20:19.2133333+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:19.2133333+00:00",
+              "finishTime": "2026-11-08T08:20:19.2166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:19.2166667+00:00",
+              "finishTime": "2026-11-08T08:20:28.1733333+00:00",
+              "durationMinutes": 0.149
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:28.1733333+00:00",
+              "finishTime": "2026-11-08T08:20:35.3900000+00:00",
+              "durationMinutes": 0.12
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:35.3900000+00:00",
+              "finishTime": "2026-11-08T08:20:43.8766667+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:43.8766667+00:00",
+              "finishTime": "2026-11-08T08:20:47.6833333+00:00",
+              "durationMinutes": 0.063
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:47.6866667+00:00",
+              "finishTime": "2026-11-08T08:20:47.6900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:47.6900000+00:00",
+              "finishTime": "2026-11-08T08:20:49.9133333+00:00",
+              "durationMinutes": 0.037
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:49.9133333+00:00",
+              "finishTime": "2026-11-08T08:21:06.5533333+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:06.5533333+00:00",
+              "finishTime": "2026-11-08T08:21:06.7900000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:06.7900000+00:00",
+              "finishTime": "2026-11-08T08:21:08.0300000+00:00",
+              "durationMinutes": 0.021
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:08.0333333+00:00",
+              "finishTime": "2026-11-08T08:21:08.0700000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_CentOSStream10_Online_PreviousSourceBuiltSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:28.9466667+00:00",
+          "finishTime": "2026-11-08T05:52:10.7066667+00:00",
+          "durationMinutes": 47.696,
+          "buildMinutes": 42.111,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:29.8333333+00:00",
+              "finishTime": "2026-11-08T05:04:34.8500000+00:00",
+              "durationMinutes": 0.084
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:34.8566667+00:00",
+              "finishTime": "2026-11-08T05:06:13.4466667+00:00",
+              "durationMinutes": 1.643
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:13.4466667+00:00",
+              "finishTime": "2026-11-08T05:07:18.5733333+00:00",
+              "durationMinutes": 1.085
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:18.5733333+00:00",
+              "finishTime": "2026-11-08T05:08:05.7433333+00:00",
+              "durationMinutes": 0.786
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:05.7433333+00:00",
+              "finishTime": "2026-11-08T05:08:08.4833333+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Download Previously Source-Built SDK",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:08.4833333+00:00",
+              "finishTime": "2026-11-08T05:08:16.7700000+00:00",
+              "durationMinutes": 0.138
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:16.7733333+00:00",
+              "finishTime": "2026-11-08T05:09:02.3133333+00:00",
+              "durationMinutes": 0.759
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:02.3133333+00:00",
+              "finishTime": "2026-11-08T05:51:08.9866667+00:00",
+              "durationMinutes": 42.111
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:08.9900000+00:00",
+              "finishTime": "2026-11-08T05:51:12.0533333+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:51:12.0533333+00:00",
+              "finishTime": "2026-11-08T05:51:12.0566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:12.0566667+00:00",
+              "finishTime": "2026-11-08T05:51:22.0733333+00:00",
+              "durationMinutes": 0.167
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:22.0733333+00:00",
+              "finishTime": "2026-11-08T05:51:49.3733333+00:00",
+              "durationMinutes": 0.455
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:51:49.3733333+00:00",
+              "finishTime": "2026-11-08T05:51:49.3800000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:49.3800000+00:00",
+              "finishTime": "2026-11-08T05:51:51.4166667+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:51.4200000+00:00",
+              "finishTime": "2026-11-08T05:52:07.9633333+00:00",
+              "durationMinutes": 0.276
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:07.9666667+00:00",
+              "finishTime": "2026-11-08T05:52:08.1966667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:08.1966667+00:00",
+              "finishTime": "2026-11-08T05:52:10.6633333+00:00",
+              "durationMinutes": 0.041
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:10.6666667+00:00",
+              "finishTime": "2026-11-08T05:52:10.7033333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Fedora43_Offline_CurrentSourceBuiltSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:45.8566667+00:00",
+          "finishTime": "2026-11-08T08:21:14.4033333+00:00",
+          "durationMinutes": 14.476,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:46.6633333+00:00",
+              "finishTime": "2026-11-08T08:06:52.2966667+00:00",
+              "durationMinutes": 0.094
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:52.3033333+00:00",
+              "finishTime": "2026-11-08T08:08:27.5266667+00:00",
+              "durationMinutes": 1.587
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:08:27.5300000+00:00",
+              "finishTime": "2026-11-08T08:09:25.5833333+00:00",
+              "durationMinutes": 0.968
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:25.5866667+00:00",
+              "finishTime": "2026-11-08T08:10:13.0866667+00:00",
+              "durationMinutes": 0.792
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:13.0866667+00:00",
+              "finishTime": "2026-11-08T08:10:15.5700000+00:00",
+              "durationMinutes": 0.041
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:15.5700000+00:00",
+              "finishTime": "2026-11-08T08:11:48.2200000+00:00",
+              "durationMinutes": 1.544
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:48.2200000+00:00",
+              "finishTime": "2026-11-08T08:11:51.5600000+00:00",
+              "durationMinutes": 0.056
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:51.5600000+00:00",
+              "finishTime": "2026-11-08T08:11:54.0600000+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:54.0600000+00:00",
+              "finishTime": "2026-11-08T08:12:00.0066667+00:00",
+              "durationMinutes": 0.099
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:00.0066667+00:00",
+              "finishTime": "2026-11-08T08:12:04.1766667+00:00",
+              "durationMinutes": 0.07
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:04.1766667+00:00",
+              "finishTime": "2026-11-08T08:12:07.3100000+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:07.3100000+00:00",
+              "finishTime": "2026-11-08T08:12:11.1566667+00:00",
+              "durationMinutes": 0.064
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:11.1566667+00:00",
+              "finishTime": "2026-11-08T08:12:13.8900000+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:13.8900000+00:00",
+              "finishTime": "2026-11-08T08:12:16.2600000+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:16.2600000+00:00",
+              "finishTime": "2026-11-08T08:12:32.8966667+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:32.9000000+00:00",
+              "finishTime": "2026-11-08T08:12:39.5166667+00:00",
+              "durationMinutes": 0.11
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:39.5200000+00:00",
+              "finishTime": "2026-11-08T08:12:42.7066667+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:42.7066667+00:00",
+              "finishTime": "2026-11-08T08:12:53.1133333+00:00",
+              "durationMinutes": 0.173
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:53.1166667+00:00",
+              "finishTime": "2026-11-08T08:13:05.6300000+00:00",
+              "durationMinutes": 0.209
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:05.6300000+00:00",
+              "finishTime": "2026-11-08T08:13:08.4666667+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:08.4666667+00:00",
+              "finishTime": "2026-11-08T08:13:12.1566667+00:00",
+              "durationMinutes": 0.062
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:12.1566667+00:00",
+              "finishTime": "2026-11-08T08:13:14.5833333+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:14.5866667+00:00",
+              "finishTime": "2026-11-08T08:13:17.5533333+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:17.5533333+00:00",
+              "finishTime": "2026-11-08T08:20:17.0566667+00:00",
+              "durationMinutes": 6.992
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:17.0566667+00:00",
+              "finishTime": "2026-11-08T08:20:20.2900000+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:20.2900000+00:00",
+              "finishTime": "2026-11-08T08:20:22.7700000+00:00",
+              "durationMinutes": 0.041
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:22.7700000+00:00",
+              "finishTime": "2026-11-08T08:20:22.7766667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:22.7766667+00:00",
+              "finishTime": "2026-11-08T08:20:32.5166667+00:00",
+              "durationMinutes": 0.162
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:32.5166667+00:00",
+              "finishTime": "2026-11-08T08:20:40.5533333+00:00",
+              "durationMinutes": 0.134
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:40.5533333+00:00",
+              "finishTime": "2026-11-08T08:20:48.6533333+00:00",
+              "durationMinutes": 0.135
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:48.6533333+00:00",
+              "finishTime": "2026-11-08T08:20:52.8166667+00:00",
+              "durationMinutes": 0.069
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:52.8166667+00:00",
+              "finishTime": "2026-11-08T08:20:52.8200000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:52.8200000+00:00",
+              "finishTime": "2026-11-08T08:20:55.1266667+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:55.1266667+00:00",
+              "finishTime": "2026-11-08T08:21:12.0100000+00:00",
+              "durationMinutes": 0.281
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:12.0100000+00:00",
+              "finishTime": "2026-11-08T08:21:12.2533333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:12.2533333+00:00",
+              "finishTime": "2026-11-08T08:21:13.5533333+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:13.5566667+00:00",
+              "finishTime": "2026-11-08T08:21:13.5933333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Fedora43_Offline_CurrentSourceBuiltSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:58:08.3300000+00:00",
+          "finishTime": "2026-11-08T06:44:28.7600000+00:00",
+          "durationMinutes": 46.34,
+          "buildMinutes": 39.792,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:58:09.5300000+00:00",
+              "finishTime": "2026-11-08T05:58:16.6666667+00:00",
+              "durationMinutes": 0.119
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:58:16.6733333+00:00",
+              "finishTime": "2026-11-08T05:59:47.7533333+00:00",
+              "durationMinutes": 1.518
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:59:47.7533333+00:00",
+              "finishTime": "2026-11-08T06:01:15.9600000+00:00",
+              "durationMinutes": 1.47
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:01:15.9600000+00:00",
+              "finishTime": "2026-11-08T06:02:02.9333333+00:00",
+              "durationMinutes": 0.783
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:02.9333333+00:00",
+              "finishTime": "2026-11-08T06:02:05.5433333+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Download Previous Build (SB_Fedora43_Offline_MsftSdk_x64 - Source Build artifacts)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:05.5433333+00:00",
+              "finishTime": "2026-11-08T06:02:58.8100000+00:00",
+              "durationMinutes": 0.888
+            },
+            {
+              "name": "Copy Previous Build (SB_Fedora43_Offline_MsftSdk_x64 - Source Build artifacts)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:58.8100000+00:00",
+              "finishTime": "2026-11-08T06:03:04.7666667+00:00",
+              "durationMinutes": 0.099
+            },
+            {
+              "name": "Clean up Previous Build (SB_Fedora43_Offline_MsftSdk_x64 - Source Build artifacts) download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:04.7666667+00:00",
+              "finishTime": "2026-11-08T06:03:07.6600000+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:07.6600000+00:00",
+              "finishTime": "2026-11-08T06:03:32.1100000+00:00",
+              "durationMinutes": 0.408
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:32.1100000+00:00",
+              "finishTime": "2026-11-08T06:43:19.6000000+00:00",
+              "durationMinutes": 39.792
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:19.6000000+00:00",
+              "finishTime": "2026-11-08T06:43:22.5766667+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:22.5766667+00:00",
+              "finishTime": "2026-11-08T06:43:26.0133333+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:43:26.0133333+00:00",
+              "finishTime": "2026-11-08T06:43:26.0200000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:26.0200000+00:00",
+              "finishTime": "2026-11-08T06:43:36.8366667+00:00",
+              "durationMinutes": 0.18
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:36.8366667+00:00",
+              "finishTime": "2026-11-08T06:44:08.7866667+00:00",
+              "durationMinutes": 0.532
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:44:08.7866667+00:00",
+              "finishTime": "2026-11-08T06:44:08.7900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:08.7900000+00:00",
+              "finishTime": "2026-11-08T06:44:10.8266667+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:10.8266667+00:00",
+              "finishTime": "2026-11-08T06:44:27.4500000+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:27.4500000+00:00",
+              "finishTime": "2026-11-08T06:44:27.6866667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:27.6866667+00:00",
+              "finishTime": "2026-11-08T06:44:28.7200000+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:28.7200000+00:00",
+              "finishTime": "2026-11-08T06:44:28.7566667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Fedora43_Offline_MsftSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:25.1833333+00:00",
+          "finishTime": "2026-11-08T08:20:56.5566667+00:00",
+          "durationMinutes": 14.523,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:27.3366667+00:00",
+              "finishTime": "2026-11-08T08:06:35.1000000+00:00",
+              "durationMinutes": 0.129
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:35.1066667+00:00",
+              "finishTime": "2026-11-08T08:08:04.5333333+00:00",
+              "durationMinutes": 1.49
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:08:04.5333333+00:00",
+              "finishTime": "2026-11-08T08:09:14.1233333+00:00",
+              "durationMinutes": 1.16
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:14.1233333+00:00",
+              "finishTime": "2026-11-08T08:10:00.8400000+00:00",
+              "durationMinutes": 0.779
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:00.8400000+00:00",
+              "finishTime": "2026-11-08T08:10:04.2500000+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:04.2500000+00:00",
+              "finishTime": "2026-11-08T08:11:19.4066667+00:00",
+              "durationMinutes": 1.253
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:19.4066667+00:00",
+              "finishTime": "2026-11-08T08:11:22.3533333+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:22.3533333+00:00",
+              "finishTime": "2026-11-08T08:11:25.3000000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:25.3000000+00:00",
+              "finishTime": "2026-11-08T08:11:32.2800000+00:00",
+              "durationMinutes": 0.116
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:32.2800000+00:00",
+              "finishTime": "2026-11-08T08:11:36.6100000+00:00",
+              "durationMinutes": 0.072
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:36.6100000+00:00",
+              "finishTime": "2026-11-08T08:11:38.8600000+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:38.8600000+00:00",
+              "finishTime": "2026-11-08T08:11:44.1933333+00:00",
+              "durationMinutes": 0.089
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:44.1966667+00:00",
+              "finishTime": "2026-11-08T08:11:47.1033333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:47.1033333+00:00",
+              "finishTime": "2026-11-08T08:11:50.3000000+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:50.3000000+00:00",
+              "finishTime": "2026-11-08T08:12:02.7233333+00:00",
+              "durationMinutes": 0.207
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:02.7233333+00:00",
+              "finishTime": "2026-11-08T08:12:09.7933333+00:00",
+              "durationMinutes": 0.118
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:09.7933333+00:00",
+              "finishTime": "2026-11-08T08:12:13.2966667+00:00",
+              "durationMinutes": 0.058
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:13.2966667+00:00",
+              "finishTime": "2026-11-08T08:12:41.8233333+00:00",
+              "durationMinutes": 0.475
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:41.8266667+00:00",
+              "finishTime": "2026-11-08T08:12:59.1833333+00:00",
+              "durationMinutes": 0.289
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:59.1833333+00:00",
+              "finishTime": "2026-11-08T08:13:02.5900000+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:02.5900000+00:00",
+              "finishTime": "2026-11-08T08:13:06.7466667+00:00",
+              "durationMinutes": 0.069
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:06.7466667+00:00",
+              "finishTime": "2026-11-08T08:13:09.5066667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:09.5066667+00:00",
+              "finishTime": "2026-11-08T08:13:12.2366667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:12.2366667+00:00",
+              "finishTime": "2026-11-08T08:19:56.9366667+00:00",
+              "durationMinutes": 6.745
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:19:56.9366667+00:00",
+              "finishTime": "2026-11-08T08:20:00.1433333+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:00.1433333+00:00",
+              "finishTime": "2026-11-08T08:20:03.1633333+00:00",
+              "durationMinutes": 0.05
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:03.1666667+00:00",
+              "finishTime": "2026-11-08T08:20:03.1700000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:03.1700000+00:00",
+              "finishTime": "2026-11-08T08:20:14.0733333+00:00",
+              "durationMinutes": 0.182
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:14.0733333+00:00",
+              "finishTime": "2026-11-08T08:20:22.7233333+00:00",
+              "durationMinutes": 0.144
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:22.7233333+00:00",
+              "finishTime": "2026-11-08T08:20:31.0566667+00:00",
+              "durationMinutes": 0.139
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:31.0566667+00:00",
+              "finishTime": "2026-11-08T08:20:35.6166667+00:00",
+              "durationMinutes": 0.076
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:35.6166667+00:00",
+              "finishTime": "2026-11-08T08:20:35.6233333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:35.6233333+00:00",
+              "finishTime": "2026-11-08T08:20:37.7566667+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:37.7566667+00:00",
+              "finishTime": "2026-11-08T08:20:54.2666667+00:00",
+              "durationMinutes": 0.275
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:54.2700000+00:00",
+              "finishTime": "2026-11-08T08:20:54.5033333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:54.5033333+00:00",
+              "finishTime": "2026-11-08T08:20:55.5866667+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:55.5900000+00:00",
+              "finishTime": "2026-11-08T08:20:55.6233333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Fedora43_Offline_MsftSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:16.4933333+00:00",
+          "finishTime": "2026-11-08T05:55:03.0400000+00:00",
+          "durationMinutes": 50.776,
+          "buildMinutes": 43.907,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:17.5800000+00:00",
+              "finishTime": "2026-11-08T05:04:22.7300000+00:00",
+              "durationMinutes": 0.086
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:22.7366667+00:00",
+              "finishTime": "2026-11-08T05:05:52.1000000+00:00",
+              "durationMinutes": 1.489
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:52.1033333+00:00",
+              "finishTime": "2026-11-08T05:07:18.9466667+00:00",
+              "durationMinutes": 1.447
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:18.9466667+00:00",
+              "finishTime": "2026-11-08T05:08:05.9666667+00:00",
+              "durationMinutes": 0.784
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:05.9666667+00:00",
+              "finishTime": "2026-11-08T05:08:08.3933333+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Export VMR sources",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:08.3933333+00:00",
+              "finishTime": "2026-11-08T05:08:23.8833333+00:00",
+              "durationMinutes": 0.258
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:23.8833333+00:00",
+              "finishTime": "2026-11-08T05:10:00.2266667+00:00",
+              "durationMinutes": 1.606
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:10:00.2266667+00:00",
+              "finishTime": "2026-11-08T05:53:54.6500000+00:00",
+              "durationMinutes": 43.907
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:53:54.6500000+00:00",
+              "finishTime": "2026-11-08T05:53:57.2400000+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:53:57.2400000+00:00",
+              "finishTime": "2026-11-08T05:54:00.0000000+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:54:00.0033333+00:00",
+              "finishTime": "2026-11-08T05:54:00.0066667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:00.0066667+00:00",
+              "finishTime": "2026-11-08T05:54:09.4366667+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:09.4366667+00:00",
+              "finishTime": "2026-11-08T05:54:42.4900000+00:00",
+              "durationMinutes": 0.551
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:54:42.4933333+00:00",
+              "finishTime": "2026-11-08T05:54:42.4966667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:42.4966667+00:00",
+              "finishTime": "2026-11-08T05:54:44.3466667+00:00",
+              "durationMinutes": 0.031
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:54:44.3466667+00:00",
+              "finishTime": "2026-11-08T05:55:01.3900000+00:00",
+              "durationMinutes": 0.284
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:01.3900000+00:00",
+              "finishTime": "2026-11-08T05:55:01.6433333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:01.6433333+00:00",
+              "finishTime": "2026-11-08T05:55:02.9933333+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:55:02.9966667+00:00",
+              "finishTime": "2026-11-08T05:55:03.0366667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Ubuntu2404_Offline_MsftSdk_Validation_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:06:20.3833333+00:00",
+          "finishTime": "2026-11-08T08:21:01.8500000+00:00",
+          "durationMinutes": 14.691,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:21.3800000+00:00",
+              "finishTime": "2026-11-08T08:06:29.5666667+00:00",
+              "durationMinutes": 0.136
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:06:29.5733333+00:00",
+              "finishTime": "2026-11-08T08:07:52.7100000+00:00",
+              "durationMinutes": 1.386
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:52.7100000+00:00",
+              "finishTime": "2026-11-08T08:09:16.8133333+00:00",
+              "durationMinutes": 1.402
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:16.8166667+00:00",
+              "finishTime": "2026-11-08T08:10:03.6933333+00:00",
+              "durationMinutes": 0.781
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:03.6933333+00:00",
+              "finishTime": "2026-11-08T08:10:06.8200000+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:06.8200000+00:00",
+              "finishTime": "2026-11-08T08:11:22.4766667+00:00",
+              "durationMinutes": 1.261
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:22.4766667+00:00",
+              "finishTime": "2026-11-08T08:11:25.2266667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:25.2266667+00:00",
+              "finishTime": "2026-11-08T08:11:27.9700000+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:27.9700000+00:00",
+              "finishTime": "2026-11-08T08:11:35.0366667+00:00",
+              "durationMinutes": 0.118
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:35.0366667+00:00",
+              "finishTime": "2026-11-08T08:11:39.2733333+00:00",
+              "durationMinutes": 0.071
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:39.2733333+00:00",
+              "finishTime": "2026-11-08T08:11:41.9166667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:41.9200000+00:00",
+              "finishTime": "2026-11-08T08:11:46.9066667+00:00",
+              "durationMinutes": 0.083
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:46.9066667+00:00",
+              "finishTime": "2026-11-08T08:11:49.7333333+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:49.7333333+00:00",
+              "finishTime": "2026-11-08T08:11:52.8300000+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:52.8300000+00:00",
+              "finishTime": "2026-11-08T08:12:11.8133333+00:00",
+              "durationMinutes": 0.316
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:11.8133333+00:00",
+              "finishTime": "2026-11-08T08:12:20.2133333+00:00",
+              "durationMinutes": 0.14
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:20.2166667+00:00",
+              "finishTime": "2026-11-08T08:12:23.3233333+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:23.3233333+00:00",
+              "finishTime": "2026-11-08T08:12:41.7366667+00:00",
+              "durationMinutes": 0.307
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:41.7366667+00:00",
+              "finishTime": "2026-11-08T08:12:55.9566667+00:00",
+              "durationMinutes": 0.237
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:55.9566667+00:00",
+              "finishTime": "2026-11-08T08:12:59.7400000+00:00",
+              "durationMinutes": 0.063
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:12:59.7400000+00:00",
+              "finishTime": "2026-11-08T08:13:03.8033333+00:00",
+              "durationMinutes": 0.068
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:03.8033333+00:00",
+              "finishTime": "2026-11-08T08:13:06.4633333+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:06.4633333+00:00",
+              "finishTime": "2026-11-08T08:13:09.3933333+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:13:09.3966667+00:00",
+              "finishTime": "2026-11-08T08:20:01.9233333+00:00",
+              "durationMinutes": 6.875
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:01.9233333+00:00",
+              "finishTime": "2026-11-08T08:20:04.9633333+00:00",
+              "durationMinutes": 0.051
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:04.9633333+00:00",
+              "finishTime": "2026-11-08T08:20:07.8433333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:07.8466667+00:00",
+              "finishTime": "2026-11-08T08:20:07.8500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:07.8500000+00:00",
+              "finishTime": "2026-11-08T08:20:18.6766667+00:00",
+              "durationMinutes": 0.18
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:18.6766667+00:00",
+              "finishTime": "2026-11-08T08:20:28.5200000+00:00",
+              "durationMinutes": 0.164
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:28.5200000+00:00",
+              "finishTime": "2026-11-08T08:20:36.9733333+00:00",
+              "durationMinutes": 0.141
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:36.9733333+00:00",
+              "finishTime": "2026-11-08T08:20:41.1866667+00:00",
+              "durationMinutes": 0.07
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:20:41.1866667+00:00",
+              "finishTime": "2026-11-08T08:20:41.1933333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:41.1933333+00:00",
+              "finishTime": "2026-11-08T08:20:43.0033333+00:00",
+              "durationMinutes": 0.03
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:43.0033333+00:00",
+              "finishTime": "2026-11-08T08:20:59.6466667+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:59.6466667+00:00",
+              "finishTime": "2026-11-08T08:20:59.8900000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:20:59.8900000+00:00",
+              "finishTime": "2026-11-08T08:21:00.9500000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:21:00.9533333+00:00",
+              "finishTime": "2026-11-08T08:21:00.9900000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Ubuntu2404_Offline_MsftSdk_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:03:56.5500000+00:00",
+          "finishTime": "2026-11-08T05:52:31.3033333+00:00",
+          "durationMinutes": 48.579,
+          "buildMinutes": 42.995,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:57.2500000+00:00",
+              "finishTime": "2026-11-08T05:04:04.5366667+00:00",
+              "durationMinutes": 0.121
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:04.5433333+00:00",
+              "finishTime": "2026-11-08T05:05:30.6866667+00:00",
+              "durationMinutes": 1.436
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:30.6866667+00:00",
+              "finishTime": "2026-11-08T05:06:13.7833333+00:00",
+              "durationMinutes": 0.718
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:13.7866667+00:00",
+              "finishTime": "2026-11-08T05:07:00.6533333+00:00",
+              "durationMinutes": 0.781
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:00.6533333+00:00",
+              "finishTime": "2026-11-08T05:07:03.2966667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:03.2966667+00:00",
+              "finishTime": "2026-11-08T05:08:20.6066667+00:00",
+              "durationMinutes": 1.288
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:20.6066667+00:00",
+              "finishTime": "2026-11-08T05:51:20.2900000+00:00",
+              "durationMinutes": 42.995
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:20.2900000+00:00",
+              "finishTime": "2026-11-08T05:51:23.1066667+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:23.1066667+00:00",
+              "finishTime": "2026-11-08T05:51:26.0700000+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:51:26.0733333+00:00",
+              "finishTime": "2026-11-08T05:51:26.0766667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:26.0766667+00:00",
+              "finishTime": "2026-11-08T05:51:36.6100000+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:51:36.6100000+00:00",
+              "finishTime": "2026-11-08T05:52:11.4033333+00:00",
+              "durationMinutes": 0.58
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:52:11.4033333+00:00",
+              "finishTime": "2026-11-08T05:52:11.4100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:11.4100000+00:00",
+              "finishTime": "2026-11-08T05:52:13.2933333+00:00",
+              "durationMinutes": 0.031
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:13.2933333+00:00",
+              "finishTime": "2026-11-08T05:52:29.9366667+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:29.9366667+00:00",
+              "finishTime": "2026-11-08T05:52:30.1733333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:30.1733333+00:00",
+              "finishTime": "2026-11-08T05:52:31.2600000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:52:31.2600000+00:00",
+              "finishTime": "2026-11-08T05:52:31.3000000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Ubuntu2404Arm64_Offline_MsftSdk_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:52.9133333+00:00",
+          "finishTime": "2026-11-08T06:49:57.6500000+00:00",
+          "durationMinutes": 108.079,
+          "buildMinutes": 100.954,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:54.0600000+00:00",
+              "finishTime": "2026-11-08T05:01:59.3000000+00:00",
+              "durationMinutes": 0.087
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:59.3066667+00:00",
+              "finishTime": "2026-11-08T05:03:10.6433333+00:00",
+              "durationMinutes": 1.189
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:10.6433333+00:00",
+              "finishTime": "2026-11-08T05:03:44.9466667+00:00",
+              "durationMinutes": 0.572
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:44.9500000+00:00",
+              "finishTime": "2026-11-08T05:04:32.0433333+00:00",
+              "durationMinutes": 0.785
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:32.0433333+00:00",
+              "finishTime": "2026-11-08T05:04:34.6833333+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:34.6833333+00:00",
+              "finishTime": "2026-11-08T05:06:10.6300000+00:00",
+              "durationMinutes": 1.599
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:10.6300000+00:00",
+              "finishTime": "2026-11-08T06:47:07.8700000+00:00",
+              "durationMinutes": 100.954
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:47:07.8700000+00:00",
+              "finishTime": "2026-11-08T06:47:11.0733333+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:47:11.0733333+00:00",
+              "finishTime": "2026-11-08T06:47:16.7100000+00:00",
+              "durationMinutes": 0.094
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:47:16.7100000+00:00",
+              "finishTime": "2026-11-08T06:47:16.7166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:47:16.7166667+00:00",
+              "finishTime": "2026-11-08T06:47:43.3566667+00:00",
+              "durationMinutes": 0.444
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:47:43.3600000+00:00",
+              "finishTime": "2026-11-08T06:49:36.7833333+00:00",
+              "durationMinutes": 1.89
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:49:36.7833333+00:00",
+              "finishTime": "2026-11-08T06:49:36.7900000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:49:36.7900000+00:00",
+              "finishTime": "2026-11-08T06:49:39.1066667+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:49:39.1100000+00:00",
+              "finishTime": "2026-11-08T06:49:56.2600000+00:00",
+              "durationMinutes": 0.286
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:49:56.2600000+00:00",
+              "finishTime": "2026-11-08T06:49:56.5466667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:49:56.5466667+00:00",
+              "finishTime": "2026-11-08T06:49:57.6100000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:49:57.6133333+00:00",
+              "finishTime": "2026-11-08T06:49:57.6466667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "SB_Ubuntu2404Arm64_Offline_MsftSdk_Validation_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T08:04:22.1566667+00:00",
+          "finishTime": "2026-11-08T08:28:54.1933333+00:00",
+          "durationMinutes": 24.534,
+          "buildMinutes": null,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:04:23.0900000+00:00",
+              "finishTime": "2026-11-08T08:04:29.0666667+00:00",
+              "durationMinutes": 0.1
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:04:29.0766667+00:00",
+              "finishTime": "2026-11-08T08:05:37.7433333+00:00",
+              "durationMinutes": 1.144
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:05:37.7433333+00:00",
+              "finishTime": "2026-11-08T08:07:01.8433333+00:00",
+              "durationMinutes": 1.402
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:01.8433333+00:00",
+              "finishTime": "2026-11-08T08:07:49.0733333+00:00",
+              "durationMinutes": 0.787
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:49.0766667+00:00",
+              "finishTime": "2026-11-08T08:07:51.9433333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Prep the Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:07:51.9433333+00:00",
+              "finishTime": "2026-11-08T08:09:34.6433333+00:00",
+              "durationMinutes": 1.712
+            },
+            {
+              "name": "Update owner of artifacts staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:34.6433333+00:00",
+              "finishTime": "2026-11-08T08:09:37.8700000+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Create Artifacts Staging Directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:37.8700000+00:00",
+              "finishTime": "2026-11-08T08:09:40.8333333+00:00",
+              "durationMinutes": 0.049
+            },
+            {
+              "name": "Download Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:40.8333333+00:00",
+              "finishTime": "2026-11-08T08:09:52.4733333+00:00",
+              "durationMinutes": 0.194
+            },
+            {
+              "name": "Copy Microsoft Linux Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:52.4733333+00:00",
+              "finishTime": "2026-11-08T08:09:58.9900000+00:00",
+              "durationMinutes": 0.109
+            },
+            {
+              "name": "Clean up Microsoft Linux Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:09:58.9900000+00:00",
+              "finishTime": "2026-11-08T08:10:02.6733333+00:00",
+              "durationMinutes": 0.061
+            },
+            {
+              "name": "Download Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:02.6733333+00:00",
+              "finishTime": "2026-11-08T08:10:08.6933333+00:00",
+              "durationMinutes": 0.1
+            },
+            {
+              "name": "Copy Microsoft WASM Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:08.6933333+00:00",
+              "finishTime": "2026-11-08T08:10:11.3466667+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Clean up Microsoft WASM Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:11.3466667+00:00",
+              "finishTime": "2026-11-08T08:10:14.5400000+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Download Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:14.5400000+00:00",
+              "finishTime": "2026-11-08T08:10:39.2933333+00:00",
+              "durationMinutes": 0.413
+            },
+            {
+              "name": "Copy Microsoft Windows Packages",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:39.2966667+00:00",
+              "finishTime": "2026-11-08T08:10:50.7800000+00:00",
+              "durationMinutes": 0.191
+            },
+            {
+              "name": "Clean up Microsoft Windows Packages download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:50.7833333+00:00",
+              "finishTime": "2026-11-08T08:10:53.9433333+00:00",
+              "durationMinutes": 0.053
+            },
+            {
+              "name": "Download Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:10:53.9466667+00:00",
+              "finishTime": "2026-11-08T08:11:24.9933333+00:00",
+              "durationMinutes": 0.517
+            },
+            {
+              "name": "Copy Source Build Assets",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:24.9933333+00:00",
+              "finishTime": "2026-11-08T08:11:45.2200000+00:00",
+              "durationMinutes": 0.337
+            },
+            {
+              "name": "Clean up Source Build Assets download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:45.2200000+00:00",
+              "finishTime": "2026-11-08T08:11:48.3133333+00:00",
+              "durationMinutes": 0.052
+            },
+            {
+              "name": "Download Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:48.3133333+00:00",
+              "finishTime": "2026-11-08T08:11:53.3533333+00:00",
+              "durationMinutes": 0.084
+            },
+            {
+              "name": "Copy Binary Report",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:53.3533333+00:00",
+              "finishTime": "2026-11-08T08:11:56.0100000+00:00",
+              "durationMinutes": 0.044
+            },
+            {
+              "name": "Clean up Binary Report download",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:56.0100000+00:00",
+              "finishTime": "2026-11-08T08:11:59.2666667+00:00",
+              "durationMinutes": 0.054
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:11:59.2666667+00:00",
+              "finishTime": "2026-11-08T08:27:31.6733333+00:00",
+              "durationMinutes": 15.54
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:27:31.6733333+00:00",
+              "finishTime": "2026-11-08T08:27:35.0833333+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:27:35.0833333+00:00",
+              "finishTime": "2026-11-08T08:27:38.4933333+00:00",
+              "durationMinutes": 0.057
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:27:38.4933333+00:00",
+              "finishTime": "2026-11-08T08:27:38.5000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:27:38.5000000+00:00",
+              "finishTime": "2026-11-08T08:28:09.1266667+00:00",
+              "durationMinutes": 0.51
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:09.1300000+00:00",
+              "finishTime": "2026-11-08T08:28:20.0466667+00:00",
+              "durationMinutes": 0.182
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:20.0466667+00:00",
+              "finishTime": "2026-11-08T08:28:28.3366667+00:00",
+              "durationMinutes": 0.138
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:28.3366667+00:00",
+              "finishTime": "2026-11-08T08:28:32.8333333+00:00",
+              "durationMinutes": 0.075
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:28:32.8333333+00:00",
+              "finishTime": "2026-11-08T08:28:32.8400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:32.8400000+00:00",
+              "finishTime": "2026-11-08T08:28:35.0666667+00:00",
+              "durationMinutes": 0.037
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:35.0666667+00:00",
+              "finishTime": "2026-11-08T08:28:51.9500000+00:00",
+              "durationMinutes": 0.281
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:51.9500000+00:00",
+              "finishTime": "2026-11-08T08:28:52.2500000+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:52.2500000+00:00",
+              "finishTime": "2026-11-08T08:28:53.2733333+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:28:53.2733333+00:00",
+              "finishTime": "2026-11-08T08:28:53.3133333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "tvOS_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:03.1633333+00:00",
+          "finishTime": "2026-11-08T06:03:22.1266667+00:00",
+          "durationMinutes": 62.316,
+          "buildMinutes": 57.42,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:03.3333333+00:00",
+              "finishTime": "2026-11-08T05:01:12.1233333+00:00",
+              "durationMinutes": 0.146
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:12.1400000+00:00",
+              "finishTime": "2026-11-08T05:03:43.2733333+00:00",
+              "durationMinutes": 2.519
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:03:43.2766667+00:00",
+              "finishTime": "2026-11-08T05:04:29.8833333+00:00",
+              "durationMinutes": 0.777
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:29.8866667+00:00",
+              "finishTime": "2026-11-08T05:04:34.9633333+00:00",
+              "durationMinutes": 0.085
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:34.9633333+00:00",
+              "finishTime": "2026-11-08T05:04:35.2266667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:35.2266667+00:00",
+              "finishTime": "2026-11-08T05:04:44.5100000+00:00",
+              "durationMinutes": 0.155
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:44.5100000+00:00",
+              "finishTime": "2026-11-08T05:04:54.1233333+00:00",
+              "durationMinutes": 0.16
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:54.1233333+00:00",
+              "finishTime": "2026-11-08T06:02:19.3233333+00:00",
+              "durationMinutes": 57.42
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:19.3233333+00:00",
+              "finishTime": "2026-11-08T06:02:35.8333333+00:00",
+              "durationMinutes": 0.275
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:35.8366667+00:00",
+              "finishTime": "2026-11-08T06:02:36.7233333+00:00",
+              "durationMinutes": 0.015
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:36.7233333+00:00",
+              "finishTime": "2026-11-08T06:02:37.1600000+00:00",
+              "durationMinutes": 0.007
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:02:37.1600000+00:00",
+              "finishTime": "2026-11-08T06:02:37.1833333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:37.1866667+00:00",
+              "finishTime": "2026-11-08T06:02:46.4333333+00:00",
+              "durationMinutes": 0.154
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:46.4333333+00:00",
+              "finishTime": "2026-11-08T06:02:50.7600000+00:00",
+              "durationMinutes": 0.072
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:02:50.7600000+00:00",
+              "finishTime": "2026-11-08T06:02:50.7700000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:02:50.7700000+00:00",
+              "finishTime": "2026-11-08T06:03:01.1200000+00:00",
+              "durationMinutes": 0.172
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:03:01.1233333+00:00",
+              "finishTime": "2026-11-08T06:03:01.1400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:01.1400000+00:00",
+              "finishTime": "2026-11-08T06:03:02.0200000+00:00",
+              "durationMinutes": 0.015
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:02.0200000+00:00",
+              "finishTime": "2026-11-08T06:03:03.7066667+00:00",
+              "durationMinutes": 0.028
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:03.7100000+00:00",
+              "finishTime": "2026-11-08T06:03:19.6700000+00:00",
+              "durationMinutes": 0.266
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:19.6733333+00:00",
+              "finishTime": "2026-11-08T06:03:20.0966667+00:00",
+              "durationMinutes": 0.007
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:03:20.1000000+00:00",
+              "finishTime": "2026-11-08T06:03:22.1000000+00:00",
+              "durationMinutes": 0.033
+            }
+          ]
+        },
+        {
+          "jobName": "tvOSSimulator_Shortstack_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:01:05.3000000+00:00",
+          "finishTime": "2026-11-08T06:12:17.1900000+00:00",
+          "durationMinutes": 71.198,
+          "buildMinutes": 63.279,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:06.0433333+00:00",
+              "finishTime": "2026-11-08T05:01:13.3500000+00:00",
+              "durationMinutes": 0.122
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:01:13.3666667+00:00",
+              "finishTime": "2026-11-08T05:05:18.9100000+00:00",
+              "durationMinutes": 4.092
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:18.9200000+00:00",
+              "finishTime": "2026-11-08T05:06:07.8766667+00:00",
+              "durationMinutes": 0.816
+            },
+            {
+              "name": "Select Xcode 26",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:07.8800000+00:00",
+              "finishTime": "2026-11-08T05:06:14.0300000+00:00",
+              "durationMinutes": 0.102
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:14.0300000+00:00",
+              "finishTime": "2026-11-08T05:06:14.2900000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Reclaim disk space from unused simulator runtimes",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:14.2900000+00:00",
+              "finishTime": "2026-11-08T05:07:38.7366667+00:00",
+              "durationMinutes": 1.407
+            },
+            {
+              "name": "Install dependencies",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:38.7400000+00:00",
+              "finishTime": "2026-11-08T05:07:55.2500000+00:00",
+              "durationMinutes": 0.275
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:55.2500000+00:00",
+              "finishTime": "2026-11-08T06:11:11.9800000+00:00",
+              "durationMinutes": 63.279
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:11.9833333+00:00",
+              "finishTime": "2026-11-08T06:11:29.7166667+00:00",
+              "durationMinutes": 0.296
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:29.7166667+00:00",
+              "finishTime": "2026-11-08T06:11:31.7433333+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:31.7433333+00:00",
+              "finishTime": "2026-11-08T06:11:32.0966667+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:11:32.0966667+00:00",
+              "finishTime": "2026-11-08T06:11:32.1333333+00:00",
+              "durationMinutes": 0.001
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:32.1366667+00:00",
+              "finishTime": "2026-11-08T06:11:41.8400000+00:00",
+              "durationMinutes": 0.162
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:41.8400000+00:00",
+              "finishTime": "2026-11-08T06:11:46.5400000+00:00",
+              "durationMinutes": 0.078
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:11:46.5433333+00:00",
+              "finishTime": "2026-11-08T06:11:46.5533333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:46.5533333+00:00",
+              "finishTime": "2026-11-08T06:11:56.7833333+00:00",
+              "durationMinutes": 0.17
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:11:56.7833333+00:00",
+              "finishTime": "2026-11-08T06:11:56.8000000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:56.8000000+00:00",
+              "finishTime": "2026-11-08T06:11:57.4866667+00:00",
+              "durationMinutes": 0.011
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:57.4866667+00:00",
+              "finishTime": "2026-11-08T06:11:58.9400000+00:00",
+              "durationMinutes": 0.024
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:11:58.9400000+00:00",
+              "finishTime": "2026-11-08T06:12:15.0666667+00:00",
+              "durationMinutes": 0.269
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:15.0666667+00:00",
+              "finishTime": "2026-11-08T06:12:15.4333333+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:12:15.4366667+00:00",
+              "finishTime": "2026-11-08T06:12:17.1666667+00:00",
+              "durationMinutes": 0.029
+            }
+          ]
+        },
+        {
+          "jobName": "Ubuntu2404_Ubuntu_BuildTests_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:04.9133333+00:00",
+          "finishTime": "2026-11-08T06:22:47.7700000+00:00",
+          "durationMinutes": 78.714,
+          "buildMinutes": 67.055,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:05.6000000+00:00",
+              "finishTime": "2026-11-08T05:04:12.7166667+00:00",
+              "durationMinutes": 0.119
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:12.7233333+00:00",
+              "finishTime": "2026-11-08T05:05:34.8533333+00:00",
+              "durationMinutes": 1.369
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:05:34.8566667+00:00",
+              "finishTime": "2026-11-08T05:06:59.8400000+00:00",
+              "durationMinutes": 1.416
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:06:59.8400000+00:00",
+              "finishTime": "2026-11-08T05:07:46.3333333+00:00",
+              "durationMinutes": 0.775
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:46.3333333+00:00",
+              "finishTime": "2026-11-08T05:07:49.1533333+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:49.1533333+00:00",
+              "finishTime": "2026-11-08T06:14:52.4300000+00:00",
+              "durationMinutes": 67.055
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:14:52.4300000+00:00",
+              "finishTime": "2026-11-08T06:21:02.4466667+00:00",
+              "durationMinutes": 6.167
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:21:02.4466667+00:00",
+              "finishTime": "2026-11-08T06:21:06.7466667+00:00",
+              "durationMinutes": 0.072
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:21:06.7466667+00:00",
+              "finishTime": "2026-11-08T06:21:09.5533333+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:21:09.5533333+00:00",
+              "finishTime": "2026-11-08T06:21:09.5600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:21:09.5600000+00:00",
+              "finishTime": "2026-11-08T06:21:37.9700000+00:00",
+              "durationMinutes": 0.474
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:21:37.9700000+00:00",
+              "finishTime": "2026-11-08T06:21:47.3733333+00:00",
+              "durationMinutes": 0.157
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:21:47.3733333+00:00",
+              "finishTime": "2026-11-08T06:21:56.6333333+00:00",
+              "durationMinutes": 0.154
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:21:56.6333333+00:00",
+              "finishTime": "2026-11-08T06:22:20.9666667+00:00",
+              "durationMinutes": 0.406
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:22:20.9666667+00:00",
+              "finishTime": "2026-11-08T06:22:20.9733333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:20.9733333+00:00",
+              "finishTime": "2026-11-08T06:22:26.3400000+00:00",
+              "durationMinutes": 0.089
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:26.3433333+00:00",
+              "finishTime": "2026-11-08T06:22:28.1000000+00:00",
+              "durationMinutes": 0.029
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:28.1000000+00:00",
+              "finishTime": "2026-11-08T06:22:44.7466667+00:00",
+              "durationMinutes": 0.277
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:44.7466667+00:00",
+              "finishTime": "2026-11-08T06:22:44.9800000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:44.9800000+00:00",
+              "finishTime": "2026-11-08T06:22:47.0400000+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:22:47.0433333+00:00",
+              "finishTime": "2026-11-08T06:22:47.0866667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Wasi_Shortstack_wasm",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:04:10.1133333+00:00",
+          "finishTime": "2026-11-08T05:27:54.6766667+00:00",
+          "durationMinutes": 23.743,
+          "buildMinutes": 17.548,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:11.0866667+00:00",
+              "finishTime": "2026-11-08T05:04:16.9333333+00:00",
+              "durationMinutes": 0.097
+            },
+            {
+              "name": "Initialize containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:04:16.9366667+00:00",
+              "finishTime": "2026-11-08T05:07:01.8200000+00:00",
+              "durationMinutes": 2.748
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:07:01.8200000+00:00",
+              "finishTime": "2026-11-08T05:08:27.6666667+00:00",
+              "durationMinutes": 1.431
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:27.6666667+00:00",
+              "finishTime": "2026-11-08T05:09:14.8500000+00:00",
+              "durationMinutes": 0.786
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:14.8500000+00:00",
+              "finishTime": "2026-11-08T05:09:17.7366667+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:17.7366667+00:00",
+              "finishTime": "2026-11-08T05:26:50.6166667+00:00",
+              "durationMinutes": 17.548
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:50.6166667+00:00",
+              "finishTime": "2026-11-08T05:26:57.6600000+00:00",
+              "durationMinutes": 0.117
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:26:57.6600000+00:00",
+              "finishTime": "2026-11-08T05:27:01.2766667+00:00",
+              "durationMinutes": 0.06
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:01.2766667+00:00",
+              "finishTime": "2026-11-08T05:27:04.0800000+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:27:04.0800000+00:00",
+              "finishTime": "2026-11-08T05:27:04.0866667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:04.0866667+00:00",
+              "finishTime": "2026-11-08T05:27:12.4066667+00:00",
+              "durationMinutes": 0.139
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:12.4066667+00:00",
+              "finishTime": "2026-11-08T05:27:21.3100000+00:00",
+              "durationMinutes": 0.148
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:27:21.3100000+00:00",
+              "finishTime": "2026-11-08T05:27:21.3166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:21.3166667+00:00",
+              "finishTime": "2026-11-08T05:27:29.5466667+00:00",
+              "durationMinutes": 0.137
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T05:27:29.5500000+00:00",
+              "finishTime": "2026-11-08T05:27:29.5533333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:29.5533333+00:00",
+              "finishTime": "2026-11-08T05:27:33.4966667+00:00",
+              "durationMinutes": 0.066
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:33.5000000+00:00",
+              "finishTime": "2026-11-08T05:27:35.3766667+00:00",
+              "durationMinutes": 0.031
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:35.3766667+00:00",
+              "finishTime": "2026-11-08T05:27:52.4333333+00:00",
+              "durationMinutes": 0.284
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:52.4333333+00:00",
+              "finishTime": "2026-11-08T05:27:52.6700000+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Stop Containers",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:52.6700000+00:00",
+              "finishTime": "2026-11-08T05:27:53.6700000+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:27:53.6700000+00:00",
+              "finishTime": "2026-11-08T05:27:53.7066667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:09:46.6166667+00:00",
+          "finishTime": "2026-11-08T07:01:41.7166667+00:00",
+          "durationMinutes": 111.918,
+          "buildMinutes": 107.118,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:46.7566667+00:00",
+              "finishTime": "2026-11-08T05:09:51.9666667+00:00",
+              "durationMinutes": 0.087
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:51.9766667+00:00",
+              "finishTime": "2026-11-08T05:12:08.1233333+00:00",
+              "durationMinutes": 2.269
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:08.1266667+00:00",
+              "finishTime": "2026-11-08T05:12:55.8733333+00:00",
+              "durationMinutes": 0.796
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:55.8733333+00:00",
+              "finishTime": "2026-11-08T05:12:58.0233333+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:58.0233333+00:00",
+              "finishTime": "2026-11-08T05:13:09.5933333+00:00",
+              "durationMinutes": 0.193
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:13:09.5933333+00:00",
+              "finishTime": "2026-11-08T05:13:17.4866667+00:00",
+              "durationMinutes": 0.132
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:13:17.4866667+00:00",
+              "finishTime": "2026-11-08T07:00:24.5666667+00:00",
+              "durationMinutes": 107.118
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:00:24.7033333+00:00",
+              "finishTime": "2026-11-08T07:00:36.2966667+00:00",
+              "durationMinutes": 0.193
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:00:36.2966667+00:00",
+              "finishTime": "2026-11-08T07:00:37.5333333+00:00",
+              "durationMinutes": 0.021
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:00:37.5366667+00:00",
+              "finishTime": "2026-11-08T07:00:37.7300000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:00:37.7300000+00:00",
+              "finishTime": "2026-11-08T07:00:37.7433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:00:37.7433333+00:00",
+              "finishTime": "2026-11-08T07:00:47.3200000+00:00",
+              "durationMinutes": 0.16
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:00:47.3200000+00:00",
+              "finishTime": "2026-11-08T07:00:52.4566667+00:00",
+              "durationMinutes": 0.086
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:00:52.4566667+00:00",
+              "finishTime": "2026-11-08T07:00:52.4666667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:00:52.4666667+00:00",
+              "finishTime": "2026-11-08T07:01:23.0700000+00:00",
+              "durationMinutes": 0.51
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:01:23.0700000+00:00",
+              "finishTime": "2026-11-08T07:01:23.0800000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:23.0800000+00:00",
+              "finishTime": "2026-11-08T07:01:23.5700000+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:23.5733333+00:00",
+              "finishTime": "2026-11-08T07:01:24.8700000+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:24.8700000+00:00",
+              "finishTime": "2026-11-08T07:01:41.3433333+00:00",
+              "durationMinutes": 0.275
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:41.3433333+00:00",
+              "finishTime": "2026-11-08T07:01:41.6566667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:41.6600000+00:00",
+              "finishTime": "2026-11-08T07:01:41.6833333+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_arm64_BuildPass3",
+          "result": "succeeded",
+          "startTime": "2026-11-08T07:51:52.1766667+00:00",
+          "finishTime": "2026-11-08T08:00:53.7200000+00:00",
+          "durationMinutes": 9.026,
+          "buildMinutes": 2.409,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:51:52.3600000+00:00",
+              "finishTime": "2026-11-08T07:52:00.1833333+00:00",
+              "durationMinutes": 0.13
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:52:00.1900000+00:00",
+              "finishTime": "2026-11-08T07:54:17.1633333+00:00",
+              "durationMinutes": 2.283
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:54:17.1666667+00:00",
+              "finishTime": "2026-11-08T07:55:04.8666667+00:00",
+              "durationMinutes": 0.795
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:04.8666667+00:00",
+              "finishTime": "2026-11-08T07:55:07.0533333+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Download Previous Build (Windows_Workloads_x64_BuildPass2)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:07.0533333+00:00",
+              "finishTime": "2026-11-08T07:55:52.0900000+00:00",
+              "durationMinutes": 0.751
+            },
+            {
+              "name": "Download Previous Build (Windows_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:52.0900000+00:00",
+              "finishTime": "2026-11-08T07:56:30.2700000+00:00",
+              "durationMinutes": 0.636
+            },
+            {
+              "name": "Download Previous Build (Windows_x86)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:56:30.2700000+00:00",
+              "finishTime": "2026-11-08T07:56:58.0666667+00:00",
+              "durationMinutes": 0.463
+            },
+            {
+              "name": "Download Previous Build (Windows_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:56:58.0666667+00:00",
+              "finishTime": "2026-11-08T07:57:12.4566667+00:00",
+              "durationMinutes": 0.24
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:12.4566667+00:00",
+              "finishTime": "2026-11-08T07:57:28.6566667+00:00",
+              "durationMinutes": 0.27
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:28.7500000+00:00",
+              "finishTime": "2026-11-08T07:57:40.2200000+00:00",
+              "durationMinutes": 0.191
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:40.2200000+00:00",
+              "finishTime": "2026-11-08T08:00:04.7700000+00:00",
+              "durationMinutes": 2.409
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:04.7700000+00:00",
+              "finishTime": "2026-11-08T08:00:15.3566667+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:15.3566667+00:00",
+              "finishTime": "2026-11-08T08:00:15.5466667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:15.5466667+00:00",
+              "finishTime": "2026-11-08T08:00:15.7266667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:00:15.7266667+00:00",
+              "finishTime": "2026-11-08T08:00:15.7333333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:15.7333333+00:00",
+              "finishTime": "2026-11-08T08:00:18.4866667+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:18.4866667+00:00",
+              "finishTime": "2026-11-08T08:00:26.6000000+00:00",
+              "durationMinutes": 0.135
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:00:26.6000000+00:00",
+              "finishTime": "2026-11-08T08:00:26.6033333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:26.6066667+00:00",
+              "finishTime": "2026-11-08T08:00:34.6066667+00:00",
+              "durationMinutes": 0.133
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:00:34.6066667+00:00",
+              "finishTime": "2026-11-08T08:00:34.6133333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:34.6133333+00:00",
+              "finishTime": "2026-11-08T08:00:35.6666667+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:35.6666667+00:00",
+              "finishTime": "2026-11-08T08:00:37.0266667+00:00",
+              "durationMinutes": 0.023
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:37.0266667+00:00",
+              "finishTime": "2026-11-08T08:00:53.3433333+00:00",
+              "durationMinutes": 0.272
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:53.3433333+00:00",
+              "finishTime": "2026-11-08T08:00:53.6500000+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:53.6500000+00:00",
+              "finishTime": "2026-11-08T08:00:53.7033333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_BuildTests_x64",
+          "result": "failed",
+          "startTime": "2026-11-08T05:08:59.5766667+00:00",
+          "finishTime": "2026-11-08T06:46:28.9933333+00:00",
+          "durationMinutes": 97.49,
+          "buildMinutes": 93.352,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:08:59.7366667+00:00",
+              "finishTime": "2026-11-08T05:09:13.3700000+00:00",
+              "durationMinutes": 0.227
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:13.3766667+00:00",
+              "finishTime": "2026-11-08T05:10:37.4100000+00:00",
+              "durationMinutes": 1.401
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:10:37.4133333+00:00",
+              "finishTime": "2026-11-08T05:11:24.7000000+00:00",
+              "durationMinutes": 0.788
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:24.7000000+00:00",
+              "finishTime": "2026-11-08T05:11:26.7433333+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:26.7466667+00:00",
+              "finishTime": "2026-11-08T05:11:37.9066667+00:00",
+              "durationMinutes": 0.186
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:37.9066667+00:00",
+              "finishTime": "2026-11-08T05:11:48.2166667+00:00",
+              "durationMinutes": 0.172
+            },
+            {
+              "name": "Build",
+              "result": "failed",
+              "startTime": "2026-11-08T05:11:48.2166667+00:00",
+              "finishTime": "2026-11-08T06:45:09.3433333+00:00",
+              "durationMinutes": 93.352
+            },
+            {
+              "name": "Run Tests",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:45:09.3466667+00:00",
+              "finishTime": "2026-11-08T06:45:09.3566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:45:09.3566667+00:00",
+              "finishTime": "2026-11-08T06:45:10.3666667+00:00",
+              "durationMinutes": 0.017
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:45:10.3666667+00:00",
+              "finishTime": "2026-11-08T06:45:10.3800000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:45:10.3800000+00:00",
+              "finishTime": "2026-11-08T06:45:25.6033333+00:00",
+              "durationMinutes": 0.254
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:45:25.6033333+00:00",
+              "finishTime": "2026-11-08T06:45:36.9500000+00:00",
+              "durationMinutes": 0.189
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:45:36.9500000+00:00",
+              "finishTime": "2026-11-08T06:45:36.9533333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:45:36.9533333+00:00",
+              "finishTime": "2026-11-08T06:45:36.9600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:45:36.9600000+00:00",
+              "finishTime": "2026-11-08T06:45:36.9666667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:45:36.9666667+00:00",
+              "finishTime": "2026-11-08T06:46:12.4066667+00:00",
+              "durationMinutes": 0.591
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:46:12.4066667+00:00",
+              "finishTime": "2026-11-08T06:46:12.4100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:46:12.4133333+00:00",
+              "finishTime": "2026-11-08T06:46:12.4166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:46:12.4166667+00:00",
+              "finishTime": "2026-11-08T06:46:28.6500000+00:00",
+              "durationMinutes": 0.271
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:46:28.6500000+00:00",
+              "finishTime": "2026-11-08T06:46:28.9533333+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:46:28.9566667+00:00",
+              "finishTime": "2026-11-08T06:46:28.9766667+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_Pgo_arm64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:09:09.7400000+00:00",
+          "finishTime": "2026-11-08T06:38:58.3800000+00:00",
+          "durationMinutes": 89.811,
+          "buildMinutes": 86.11,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:09.9066667+00:00",
+              "finishTime": "2026-11-08T05:09:17.7633333+00:00",
+              "durationMinutes": 0.131
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:17.7733333+00:00",
+              "finishTime": "2026-11-08T05:10:43.2466667+00:00",
+              "durationMinutes": 1.425
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:10:43.2500000+00:00",
+              "finishTime": "2026-11-08T05:11:30.5366667+00:00",
+              "durationMinutes": 0.788
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:30.5366667+00:00",
+              "finishTime": "2026-11-08T05:11:32.6266667+00:00",
+              "durationMinutes": 0.035
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:32.6266667+00:00",
+              "finishTime": "2026-11-08T05:11:43.2766667+00:00",
+              "durationMinutes": 0.178
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:43.2766667+00:00",
+              "finishTime": "2026-11-08T05:11:52.0833333+00:00",
+              "durationMinutes": 0.147
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:52.0833333+00:00",
+              "finishTime": "2026-11-08T06:37:58.6600000+00:00",
+              "durationMinutes": 86.11
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:37:58.6766667+00:00",
+              "finishTime": "2026-11-08T06:38:10.3400000+00:00",
+              "durationMinutes": 0.194
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:10.3400000+00:00",
+              "finishTime": "2026-11-08T06:38:11.0866667+00:00",
+              "durationMinutes": 0.012
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:11.0900000+00:00",
+              "finishTime": "2026-11-08T06:38:11.2666667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:38:11.2666667+00:00",
+              "finishTime": "2026-11-08T06:38:11.2700000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:11.2700000+00:00",
+              "finishTime": "2026-11-08T06:38:20.0933333+00:00",
+              "durationMinutes": 0.147
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:20.0933333+00:00",
+              "finishTime": "2026-11-08T06:38:26.5100000+00:00",
+              "durationMinutes": 0.107
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:38:26.5100000+00:00",
+              "finishTime": "2026-11-08T06:38:26.5166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:26.5166667+00:00",
+              "finishTime": "2026-11-08T06:38:40.0566667+00:00",
+              "durationMinutes": 0.226
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:38:40.0566667+00:00",
+              "finishTime": "2026-11-08T06:38:40.0633333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:40.0633333+00:00",
+              "finishTime": "2026-11-08T06:38:40.5400000+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:40.5400000+00:00",
+              "finishTime": "2026-11-08T06:38:41.8700000+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:41.8700000+00:00",
+              "finishTime": "2026-11-08T06:38:58.0400000+00:00",
+              "durationMinutes": 0.27
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:58.0433333+00:00",
+              "finishTime": "2026-11-08T06:38:58.3433333+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:38:58.3466667+00:00",
+              "finishTime": "2026-11-08T06:38:58.3666667+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_Pgo_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:09:54.2433333+00:00",
+          "finishTime": "2026-11-08T06:40:23.7766667+00:00",
+          "durationMinutes": 90.492,
+          "buildMinutes": 86.039,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:54.3800000+00:00",
+              "finishTime": "2026-11-08T05:09:59.6600000+00:00",
+              "durationMinutes": 0.088
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:59.6666667+00:00",
+              "finishTime": "2026-11-08T05:12:15.2500000+00:00",
+              "durationMinutes": 2.26
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:15.2533333+00:00",
+              "finishTime": "2026-11-08T05:13:02.9833333+00:00",
+              "durationMinutes": 0.796
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:13:02.9833333+00:00",
+              "finishTime": "2026-11-08T05:13:05.2833333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:13:05.2866667+00:00",
+              "finishTime": "2026-11-08T05:13:16.7100000+00:00",
+              "durationMinutes": 0.19
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:13:16.7100000+00:00",
+              "finishTime": "2026-11-08T05:13:25.4333333+00:00",
+              "durationMinutes": 0.145
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:13:25.4333333+00:00",
+              "finishTime": "2026-11-08T06:39:27.7566667+00:00",
+              "durationMinutes": 86.039
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:27.8300000+00:00",
+              "finishTime": "2026-11-08T06:39:39.5200000+00:00",
+              "durationMinutes": 0.195
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:39.5233333+00:00",
+              "finishTime": "2026-11-08T06:39:40.3933333+00:00",
+              "durationMinutes": 0.014
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:40.3933333+00:00",
+              "finishTime": "2026-11-08T06:39:40.6233333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:39:40.6233333+00:00",
+              "finishTime": "2026-11-08T06:39:40.6266667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:40.6266667+00:00",
+              "finishTime": "2026-11-08T06:39:48.6666667+00:00",
+              "durationMinutes": 0.134
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:48.6666667+00:00",
+              "finishTime": "2026-11-08T06:39:53.7566667+00:00",
+              "durationMinutes": 0.085
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:39:53.7566667+00:00",
+              "finishTime": "2026-11-08T06:39:53.7633333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:53.7633333+00:00",
+              "finishTime": "2026-11-08T06:40:04.9566667+00:00",
+              "durationMinutes": 0.187
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:40:04.9566667+00:00",
+              "finishTime": "2026-11-08T06:40:04.9633333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:40:04.9633333+00:00",
+              "finishTime": "2026-11-08T06:40:05.4000000+00:00",
+              "durationMinutes": 0.007
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:40:05.4033333+00:00",
+              "finishTime": "2026-11-08T06:40:06.9266667+00:00",
+              "durationMinutes": 0.025
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:40:06.9266667+00:00",
+              "finishTime": "2026-11-08T06:40:23.4233333+00:00",
+              "durationMinutes": 0.275
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:40:23.4300000+00:00",
+              "finishTime": "2026-11-08T06:40:23.7366667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:40:23.7400000+00:00",
+              "finishTime": "2026-11-08T06:40:23.7633333+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_Pgo_x86",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:09:14.5633333+00:00",
+          "finishTime": "2026-11-08T06:24:33.6233333+00:00",
+          "durationMinutes": 75.318,
+          "buildMinutes": 71.53,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:14.7566667+00:00",
+              "finishTime": "2026-11-08T05:09:25.4300000+00:00",
+              "durationMinutes": 0.178
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:25.4366667+00:00",
+              "finishTime": "2026-11-08T05:10:52.8833333+00:00",
+              "durationMinutes": 1.457
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:10:52.8866667+00:00",
+              "finishTime": "2026-11-08T05:11:40.2233333+00:00",
+              "durationMinutes": 0.789
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:40.2233333+00:00",
+              "finishTime": "2026-11-08T05:11:42.4766667+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:42.4766667+00:00",
+              "finishTime": "2026-11-08T05:11:53.6066667+00:00",
+              "durationMinutes": 0.186
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:53.6066667+00:00",
+              "finishTime": "2026-11-08T05:12:01.3033333+00:00",
+              "durationMinutes": 0.128
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:01.3033333+00:00",
+              "finishTime": "2026-11-08T06:23:33.1066667+00:00",
+              "durationMinutes": 71.53
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:33.1166667+00:00",
+              "finishTime": "2026-11-08T06:23:45.2900000+00:00",
+              "durationMinutes": 0.203
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:45.2933333+00:00",
+              "finishTime": "2026-11-08T06:23:46.1300000+00:00",
+              "durationMinutes": 0.014
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:46.1300000+00:00",
+              "finishTime": "2026-11-08T06:23:46.3000000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:23:46.3033333+00:00",
+              "finishTime": "2026-11-08T06:23:46.3066667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:46.3066667+00:00",
+              "finishTime": "2026-11-08T06:23:55.3100000+00:00",
+              "durationMinutes": 0.15
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:23:55.3133333+00:00",
+              "finishTime": "2026-11-08T06:24:01.9300000+00:00",
+              "durationMinutes": 0.11
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:24:01.9300000+00:00",
+              "finishTime": "2026-11-08T06:24:01.9366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:01.9366667+00:00",
+              "finishTime": "2026-11-08T06:24:15.2500000+00:00",
+              "durationMinutes": 0.222
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:24:15.2500000+00:00",
+              "finishTime": "2026-11-08T06:24:15.2566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:15.2566667+00:00",
+              "finishTime": "2026-11-08T06:24:15.7566667+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:15.7566667+00:00",
+              "finishTime": "2026-11-08T06:24:17.0266667+00:00",
+              "durationMinutes": 0.021
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:17.0266667+00:00",
+              "finishTime": "2026-11-08T06:24:33.2400000+00:00",
+              "durationMinutes": 0.27
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:33.2400000+00:00",
+              "finishTime": "2026-11-08T06:24:33.5533333+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:24:33.5566667+00:00",
+              "finishTime": "2026-11-08T06:24:33.6100000+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_Workloads_x64_BuildPass2",
+          "result": "succeeded",
+          "startTime": "2026-11-08T07:11:10.8900000+00:00",
+          "finishTime": "2026-11-08T07:43:20.7433333+00:00",
+          "durationMinutes": 32.164,
+          "buildMinutes": 24.91,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:11:11.0333333+00:00",
+              "finishTime": "2026-11-08T07:11:16.6166667+00:00",
+              "durationMinutes": 0.093
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:11:16.6233333+00:00",
+              "finishTime": "2026-11-08T07:13:33.5400000+00:00",
+              "durationMinutes": 2.282
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:13:33.5400000+00:00",
+              "finishTime": "2026-11-08T07:14:21.0166667+00:00",
+              "durationMinutes": 0.791
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:14:21.0200000+00:00",
+              "finishTime": "2026-11-08T07:14:23.0833333+00:00",
+              "durationMinutes": 0.034
+            },
+            {
+              "name": "Download Previous Build (Windows_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:14:23.0833333+00:00",
+              "finishTime": "2026-11-08T07:14:51.7933333+00:00",
+              "durationMinutes": 0.478
+            },
+            {
+              "name": "Download Previous Build (Windows_x86)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:14:51.7933333+00:00",
+              "finishTime": "2026-11-08T07:15:19.8900000+00:00",
+              "durationMinutes": 0.468
+            },
+            {
+              "name": "Download Previous Build (Windows_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:15:19.8933333+00:00",
+              "finishTime": "2026-11-08T07:15:48.6433333+00:00",
+              "durationMinutes": 0.479
+            },
+            {
+              "name": "Download Previous Build (Browser_CoreCLR_Shortstack_wasm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:15:48.6433333+00:00",
+              "finishTime": "2026-11-08T07:15:50.7500000+00:00",
+              "durationMinutes": 0.035
+            },
+            {
+              "name": "Download Previous Build (Browser_Shortstack_wasm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:15:50.7500000+00:00",
+              "finishTime": "2026-11-08T07:16:03.3000000+00:00",
+              "durationMinutes": 0.209
+            },
+            {
+              "name": "Download Previous Build (Browser_Multithreaded_Shortstack_wasm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:03.3000000+00:00",
+              "finishTime": "2026-11-08T07:16:16.1433333+00:00",
+              "durationMinutes": 0.214
+            },
+            {
+              "name": "Download Previous Build (Wasi_Shortstack_wasm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:16.1433333+00:00",
+              "finishTime": "2026-11-08T07:16:18.0633333+00:00",
+              "durationMinutes": 0.032
+            },
+            {
+              "name": "Download Previous Build (Android_Shortstack_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:18.0633333+00:00",
+              "finishTime": "2026-11-08T07:16:30.8466667+00:00",
+              "durationMinutes": 0.213
+            },
+            {
+              "name": "Download Previous Build (Android_Shortstack_arm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:30.8466667+00:00",
+              "finishTime": "2026-11-08T07:16:33.3766667+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Download Previous Build (Android_Shortstack_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:33.3766667+00:00",
+              "finishTime": "2026-11-08T07:16:35.5533333+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Download Previous Build (Android_Shortstack_x86)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:35.5533333+00:00",
+              "finishTime": "2026-11-08T07:16:37.3600000+00:00",
+              "durationMinutes": 0.03
+            },
+            {
+              "name": "Download Previous Build (iOS_Shortstack_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:37.3600000+00:00",
+              "finishTime": "2026-11-08T07:16:39.7000000+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Download Previous Build (iOSSimulator_Shortstack_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:39.7000000+00:00",
+              "finishTime": "2026-11-08T07:16:42.0966667+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Download Previous Build (tvOS_Shortstack_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:42.0966667+00:00",
+              "finishTime": "2026-11-08T07:16:44.3733333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Download Previous Build (tvOSSimulator_Shortstack_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:44.3766667+00:00",
+              "finishTime": "2026-11-08T07:16:47.0600000+00:00",
+              "durationMinutes": 0.045
+            },
+            {
+              "name": "Download Previous Build (MacCatalyst_Shortstack_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:47.0600000+00:00",
+              "finishTime": "2026-11-08T07:16:49.3800000+00:00",
+              "durationMinutes": 0.039
+            },
+            {
+              "name": "Download Previous Build (MacCatalyst_Shortstack_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:49.3800000+00:00",
+              "finishTime": "2026-11-08T07:17:02.7900000+00:00",
+              "durationMinutes": 0.224
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:17:02.7900000+00:00",
+              "finishTime": "2026-11-08T07:17:13.5866667+00:00",
+              "durationMinutes": 0.18
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:17:13.5866667+00:00",
+              "finishTime": "2026-11-08T07:17:20.3533333+00:00",
+              "durationMinutes": 0.113
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:17:20.3533333+00:00",
+              "finishTime": "2026-11-08T07:42:14.9666667+00:00",
+              "durationMinutes": 24.91
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:42:14.9733333+00:00",
+              "finishTime": "2026-11-08T07:42:26.9666667+00:00",
+              "durationMinutes": 0.2
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:42:26.9666667+00:00",
+              "finishTime": "2026-11-08T07:42:27.2400000+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:42:27.2400000+00:00",
+              "finishTime": "2026-11-08T07:42:27.4266667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:42:27.4266667+00:00",
+              "finishTime": "2026-11-08T07:42:27.4333333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:42:27.4333333+00:00",
+              "finishTime": "2026-11-08T07:42:31.6733333+00:00",
+              "durationMinutes": 0.071
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:42:31.6733333+00:00",
+              "finishTime": "2026-11-08T07:42:36.0633333+00:00",
+              "durationMinutes": 0.073
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:42:36.0633333+00:00",
+              "finishTime": "2026-11-08T07:42:36.0733333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:42:36.0733333+00:00",
+              "finishTime": "2026-11-08T07:43:02.2366667+00:00",
+              "durationMinutes": 0.436
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:43:02.2366667+00:00",
+              "finishTime": "2026-11-08T07:43:02.2400000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:43:02.2433333+00:00",
+              "finishTime": "2026-11-08T07:43:02.7100000+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:43:02.7133333+00:00",
+              "finishTime": "2026-11-08T07:43:04.1000000+00:00",
+              "durationMinutes": 0.023
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:43:04.1000000+00:00",
+              "finishTime": "2026-11-08T07:43:20.4100000+00:00",
+              "durationMinutes": 0.272
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:43:20.4100000+00:00",
+              "finishTime": "2026-11-08T07:43:20.7100000+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:43:20.7133333+00:00",
+              "finishTime": "2026-11-08T07:43:20.7300000+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_x64",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:09:14.8833333+00:00",
+          "finishTime": "2026-11-08T07:03:10.3366667+00:00",
+          "durationMinutes": 113.924,
+          "buildMinutes": 103.075,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:15.0266667+00:00",
+              "finishTime": "2026-11-08T05:09:20.6600000+00:00",
+              "durationMinutes": 0.094
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:20.6666667+00:00",
+              "finishTime": "2026-11-08T05:10:45.5466667+00:00",
+              "durationMinutes": 1.415
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:10:45.5500000+00:00",
+              "finishTime": "2026-11-08T05:11:33.3666667+00:00",
+              "durationMinutes": 0.797
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:33.3666667+00:00",
+              "finishTime": "2026-11-08T05:11:35.3600000+00:00",
+              "durationMinutes": 0.033
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:35.3600000+00:00",
+              "finishTime": "2026-11-08T05:11:45.9166667+00:00",
+              "durationMinutes": 0.176
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:45.9166667+00:00",
+              "finishTime": "2026-11-08T05:11:54.2966667+00:00",
+              "durationMinutes": 0.14
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:54.2966667+00:00",
+              "finishTime": "2026-11-08T06:54:58.8000000+00:00",
+              "durationMinutes": 103.075
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:54:58.8533333+00:00",
+              "finishTime": "2026-11-08T07:01:46.1700000+00:00",
+              "durationMinutes": 6.789
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:46.1700000+00:00",
+              "finishTime": "2026-11-08T07:01:47.2600000+00:00",
+              "durationMinutes": 0.018
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:47.2600000+00:00",
+              "finishTime": "2026-11-08T07:01:47.4600000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:01:47.4600000+00:00",
+              "finishTime": "2026-11-08T07:01:47.4666667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:01:47.4666667+00:00",
+              "finishTime": "2026-11-08T07:02:01.8633333+00:00",
+              "durationMinutes": 0.24
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:02:01.8633333+00:00",
+              "finishTime": "2026-11-08T07:02:06.8900000+00:00",
+              "durationMinutes": 0.084
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:02:06.8900000+00:00",
+              "finishTime": "2026-11-08T07:02:09.2900000+00:00",
+              "durationMinutes": 0.04
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:02:09.2900000+00:00",
+              "finishTime": "2026-11-08T07:02:51.9033333+00:00",
+              "durationMinutes": 0.71
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:02:51.9033333+00:00",
+              "finishTime": "2026-11-08T07:02:51.9100000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:02:51.9100000+00:00",
+              "finishTime": "2026-11-08T07:02:52.3266667+00:00",
+              "durationMinutes": 0.007
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:02:52.3266667+00:00",
+              "finishTime": "2026-11-08T07:02:53.5466667+00:00",
+              "durationMinutes": 0.02
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:02:53.5466667+00:00",
+              "finishTime": "2026-11-08T07:03:09.9966667+00:00",
+              "durationMinutes": 0.274
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:03:09.9966667+00:00",
+              "finishTime": "2026-11-08T07:03:10.3000000+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:03:10.3033333+00:00",
+              "finishTime": "2026-11-08T07:03:10.3233333+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_x64_BuildPass2",
+          "result": "succeeded",
+          "startTime": "2026-11-08T07:11:18.8933333+00:00",
+          "finishTime": "2026-11-08T07:24:24.9266667+00:00",
+          "durationMinutes": 13.101,
+          "buildMinutes": 6.512,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:11:19.0566667+00:00",
+              "finishTime": "2026-11-08T07:11:28.3333333+00:00",
+              "durationMinutes": 0.155
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:11:28.3400000+00:00",
+              "finishTime": "2026-11-08T07:13:45.9433333+00:00",
+              "durationMinutes": 2.293
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:13:45.9433333+00:00",
+              "finishTime": "2026-11-08T07:14:33.4533333+00:00",
+              "durationMinutes": 0.792
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:14:33.4533333+00:00",
+              "finishTime": "2026-11-08T07:14:36.3533333+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Download Previous Build (Windows_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:14:36.3533333+00:00",
+              "finishTime": "2026-11-08T07:15:22.2466667+00:00",
+              "durationMinutes": 0.765
+            },
+            {
+              "name": "Download Previous Build (Windows_x86)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:15:22.2500000+00:00",
+              "finishTime": "2026-11-08T07:15:52.8133333+00:00",
+              "durationMinutes": 0.509
+            },
+            {
+              "name": "Download Previous Build (Windows_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:15:52.8133333+00:00",
+              "finishTime": "2026-11-08T07:16:45.3766667+00:00",
+              "durationMinutes": 0.876
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:45.3800000+00:00",
+              "finishTime": "2026-11-08T07:16:56.2733333+00:00",
+              "durationMinutes": 0.182
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:16:56.2733333+00:00",
+              "finishTime": "2026-11-08T07:17:05.7933333+00:00",
+              "durationMinutes": 0.159
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:17:05.7966667+00:00",
+              "finishTime": "2026-11-08T07:23:36.5466667+00:00",
+              "durationMinutes": 6.512
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:23:36.5466667+00:00",
+              "finishTime": "2026-11-08T07:23:46.9166667+00:00",
+              "durationMinutes": 0.173
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:23:46.9166667+00:00",
+              "finishTime": "2026-11-08T07:23:47.1000000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:23:47.1000000+00:00",
+              "finishTime": "2026-11-08T07:23:47.2733333+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:23:47.2733333+00:00",
+              "finishTime": "2026-11-08T07:23:47.2766667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:23:47.2766667+00:00",
+              "finishTime": "2026-11-08T07:23:51.7800000+00:00",
+              "durationMinutes": 0.075
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:23:51.7800000+00:00",
+              "finishTime": "2026-11-08T07:23:58.9133333+00:00",
+              "durationMinutes": 0.119
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:23:58.9133333+00:00",
+              "finishTime": "2026-11-08T07:23:58.9166667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:23:58.9166667+00:00",
+              "finishTime": "2026-11-08T07:24:06.2766667+00:00",
+              "durationMinutes": 0.123
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T07:24:06.2766667+00:00",
+              "finishTime": "2026-11-08T07:24:06.2800000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:24:06.2833333+00:00",
+              "finishTime": "2026-11-08T07:24:06.9600000+00:00",
+              "durationMinutes": 0.011
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:24:06.9600000+00:00",
+              "finishTime": "2026-11-08T07:24:08.2800000+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:24:08.2800000+00:00",
+              "finishTime": "2026-11-08T07:24:24.5200000+00:00",
+              "durationMinutes": 0.271
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:24:24.5200000+00:00",
+              "finishTime": "2026-11-08T07:24:24.8466667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:24:24.8500000+00:00",
+              "finishTime": "2026-11-08T07:24:24.9066667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_x64_BuildPass3",
+          "result": "succeeded",
+          "startTime": "2026-11-08T07:52:06.5933333+00:00",
+          "finishTime": "2026-11-08T08:01:01.7466667+00:00",
+          "durationMinutes": 8.919,
+          "buildMinutes": 2.569,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:52:06.7733333+00:00",
+              "finishTime": "2026-11-08T07:52:14.9333333+00:00",
+              "durationMinutes": 0.136
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:52:14.9433333+00:00",
+              "finishTime": "2026-11-08T07:54:43.1800000+00:00",
+              "durationMinutes": 2.471
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:54:43.1833333+00:00",
+              "finishTime": "2026-11-08T07:55:30.9166667+00:00",
+              "durationMinutes": 0.796
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:30.9166667+00:00",
+              "finishTime": "2026-11-08T07:55:33.2233333+00:00",
+              "durationMinutes": 0.038
+            },
+            {
+              "name": "Download Previous Build (Windows_Workloads_x64_BuildPass2)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:33.2266667+00:00",
+              "finishTime": "2026-11-08T07:56:11.5500000+00:00",
+              "durationMinutes": 0.639
+            },
+            {
+              "name": "Download Previous Build (Windows_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:56:11.5500000+00:00",
+              "finishTime": "2026-11-08T07:56:43.2766667+00:00",
+              "durationMinutes": 0.529
+            },
+            {
+              "name": "Download Previous Build (Windows_x86)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:56:43.2766667+00:00",
+              "finishTime": "2026-11-08T07:57:00.3433333+00:00",
+              "durationMinutes": 0.284
+            },
+            {
+              "name": "Download Previous Build (Windows_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:00.3433333+00:00",
+              "finishTime": "2026-11-08T07:57:19.6633333+00:00",
+              "durationMinutes": 0.322
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:19.6666667+00:00",
+              "finishTime": "2026-11-08T07:57:31.4566667+00:00",
+              "durationMinutes": 0.196
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:31.4566667+00:00",
+              "finishTime": "2026-11-08T07:57:39.3966667+00:00",
+              "durationMinutes": 0.132
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:57:39.3966667+00:00",
+              "finishTime": "2026-11-08T08:00:13.5600000+00:00",
+              "durationMinutes": 2.569
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:13.5600000+00:00",
+              "finishTime": "2026-11-08T08:00:24.4566667+00:00",
+              "durationMinutes": 0.182
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:24.4566667+00:00",
+              "finishTime": "2026-11-08T08:00:24.6566667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:24.6600000+00:00",
+              "finishTime": "2026-11-08T08:00:24.8500000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:00:24.8500000+00:00",
+              "finishTime": "2026-11-08T08:00:24.8566667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:24.8566667+00:00",
+              "finishTime": "2026-11-08T08:00:27.6600000+00:00",
+              "durationMinutes": 0.047
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:27.6600000+00:00",
+              "finishTime": "2026-11-08T08:00:36.3633333+00:00",
+              "durationMinutes": 0.145
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:00:36.3633333+00:00",
+              "finishTime": "2026-11-08T08:00:36.3733333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:36.3733333+00:00",
+              "finishTime": "2026-11-08T08:00:43.1966667+00:00",
+              "durationMinutes": 0.114
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:00:43.1966667+00:00",
+              "finishTime": "2026-11-08T08:00:43.2033333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:43.2033333+00:00",
+              "finishTime": "2026-11-08T08:00:43.7533333+00:00",
+              "durationMinutes": 0.009
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:43.7533333+00:00",
+              "finishTime": "2026-11-08T08:00:45.0000000+00:00",
+              "durationMinutes": 0.021
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:00:45.0000000+00:00",
+              "finishTime": "2026-11-08T08:01:01.3600000+00:00",
+              "durationMinutes": 0.273
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:01:01.3600000+00:00",
+              "finishTime": "2026-11-08T08:01:01.6933333+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:01:01.6966667+00:00",
+              "finishTime": "2026-11-08T08:01:01.7166667+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_x86",
+          "result": "succeeded",
+          "startTime": "2026-11-08T05:09:40.0000000+00:00",
+          "finishTime": "2026-11-08T06:37:28.1766667+00:00",
+          "durationMinutes": 87.803,
+          "buildMinutes": 83.878,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:40.1433333+00:00",
+              "finishTime": "2026-11-08T05:09:46.3066667+00:00",
+              "durationMinutes": 0.103
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:09:46.3166667+00:00",
+              "finishTime": "2026-11-08T05:11:15.0633333+00:00",
+              "durationMinutes": 1.479
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:11:15.0633333+00:00",
+              "finishTime": "2026-11-08T05:12:02.7800000+00:00",
+              "durationMinutes": 0.795
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:02.7833333+00:00",
+              "finishTime": "2026-11-08T05:12:05.3400000+00:00",
+              "durationMinutes": 0.043
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:05.3400000+00:00",
+              "finishTime": "2026-11-08T05:12:17.3433333+00:00",
+              "durationMinutes": 0.2
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:17.3433333+00:00",
+              "finishTime": "2026-11-08T05:12:25.1666667+00:00",
+              "durationMinutes": 0.13
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T05:12:25.1666667+00:00",
+              "finishTime": "2026-11-08T06:36:17.8533333+00:00",
+              "durationMinutes": 83.878
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:17.8833333+00:00",
+              "finishTime": "2026-11-08T06:36:30.9500000+00:00",
+              "durationMinutes": 0.218
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:30.9500000+00:00",
+              "finishTime": "2026-11-08T06:36:31.9100000+00:00",
+              "durationMinutes": 0.016
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:31.9100000+00:00",
+              "finishTime": "2026-11-08T06:36:32.1266667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:36:32.1300000+00:00",
+              "finishTime": "2026-11-08T06:36:32.1366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:32.1366667+00:00",
+              "finishTime": "2026-11-08T06:36:40.2366667+00:00",
+              "durationMinutes": 0.135
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:40.2366667+00:00",
+              "finishTime": "2026-11-08T06:36:45.4133333+00:00",
+              "durationMinutes": 0.086
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:36:45.4133333+00:00",
+              "finishTime": "2026-11-08T06:36:45.4200000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:36:45.4200000+00:00",
+              "finishTime": "2026-11-08T06:37:09.4533333+00:00",
+              "durationMinutes": 0.401
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:37:09.4533333+00:00",
+              "finishTime": "2026-11-08T06:37:09.4600000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:37:09.4600000+00:00",
+              "finishTime": "2026-11-08T06:37:09.9233333+00:00",
+              "durationMinutes": 0.008
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:37:09.9266667+00:00",
+              "finishTime": "2026-11-08T06:37:11.2233333+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:37:11.2233333+00:00",
+              "finishTime": "2026-11-08T06:37:27.7933333+00:00",
+              "durationMinutes": 0.276
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:37:27.7966667+00:00",
+              "finishTime": "2026-11-08T06:37:28.1333333+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:37:28.1366667+00:00",
+              "finishTime": "2026-11-08T06:37:28.1600000+00:00",
+              "durationMinutes": 0.0
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_x86_BuildPass2",
+          "result": "succeeded",
+          "startTime": "2026-11-08T06:39:31.4766667+00:00",
+          "finishTime": "2026-11-08T06:54:11.0700000+00:00",
+          "durationMinutes": 14.66,
+          "buildMinutes": 9.197,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:31.6533333+00:00",
+              "finishTime": "2026-11-08T06:39:42.1233333+00:00",
+              "durationMinutes": 0.174
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:39:42.1333333+00:00",
+              "finishTime": "2026-11-08T06:42:06.6200000+00:00",
+              "durationMinutes": 2.408
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:42:06.6200000+00:00",
+              "finishTime": "2026-11-08T06:42:54.0400000+00:00",
+              "durationMinutes": 0.79
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:42:54.0400000+00:00",
+              "finishTime": "2026-11-08T06:42:56.1733333+00:00",
+              "durationMinutes": 0.036
+            },
+            {
+              "name": "Download Previous Build (Linux_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:42:56.1733333+00:00",
+              "finishTime": "2026-11-08T06:43:08.7133333+00:00",
+              "durationMinutes": 0.209
+            },
+            {
+              "name": "Download Previous Build (Linux_Alpine_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:08.7166667+00:00",
+              "finishTime": "2026-11-08T06:43:17.4066667+00:00",
+              "durationMinutes": 0.145
+            },
+            {
+              "name": "Download Previous Build (Linux_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:17.4066667+00:00",
+              "finishTime": "2026-11-08T06:43:35.6066667+00:00",
+              "durationMinutes": 0.303
+            },
+            {
+              "name": "Download Previous Build (Linux_Alpine_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:35.6100000+00:00",
+              "finishTime": "2026-11-08T06:43:43.7966667+00:00",
+              "durationMinutes": 0.136
+            },
+            {
+              "name": "Download Previous Build (Linux_arm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:43.7966667+00:00",
+              "finishTime": "2026-11-08T06:43:49.4166667+00:00",
+              "durationMinutes": 0.094
+            },
+            {
+              "name": "Download Previous Build (Linux_Alpine_arm)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:49.4166667+00:00",
+              "finishTime": "2026-11-08T06:43:54.8766667+00:00",
+              "durationMinutes": 0.091
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:43:54.8766667+00:00",
+              "finishTime": "2026-11-08T06:44:06.1366667+00:00",
+              "durationMinutes": 0.188
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:06.1400000+00:00",
+              "finishTime": "2026-11-08T06:44:13.6100000+00:00",
+              "durationMinutes": 0.124
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:44:13.6100000+00:00",
+              "finishTime": "2026-11-08T06:53:25.4566667+00:00",
+              "durationMinutes": 9.197
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:25.4566667+00:00",
+              "finishTime": "2026-11-08T06:53:36.4900000+00:00",
+              "durationMinutes": 0.184
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:36.4900000+00:00",
+              "finishTime": "2026-11-08T06:53:36.6866667+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:36.6866667+00:00",
+              "finishTime": "2026-11-08T06:53:36.8900000+00:00",
+              "durationMinutes": 0.003
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:53:36.8900000+00:00",
+              "finishTime": "2026-11-08T06:53:36.8966667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:36.8966667+00:00",
+              "finishTime": "2026-11-08T06:53:39.4233333+00:00",
+              "durationMinutes": 0.042
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:39.4233333+00:00",
+              "finishTime": "2026-11-08T06:53:48.3900000+00:00",
+              "durationMinutes": 0.149
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:53:48.3933333+00:00",
+              "finishTime": "2026-11-08T06:53:48.3966667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:48.3966667+00:00",
+              "finishTime": "2026-11-08T06:53:52.6366667+00:00",
+              "durationMinutes": 0.071
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T06:53:52.6366667+00:00",
+              "finishTime": "2026-11-08T06:53:52.6433333+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:52.6433333+00:00",
+              "finishTime": "2026-11-08T06:53:53.2400000+00:00",
+              "durationMinutes": 0.01
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:53.2400000+00:00",
+              "finishTime": "2026-11-08T06:53:54.4600000+00:00",
+              "durationMinutes": 0.02
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:53:54.4600000+00:00",
+              "finishTime": "2026-11-08T06:54:10.6600000+00:00",
+              "durationMinutes": 0.27
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:54:10.6600000+00:00",
+              "finishTime": "2026-11-08T06:54:10.9866667+00:00",
+              "durationMinutes": 0.005
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T06:54:10.9866667+00:00",
+              "finishTime": "2026-11-08T06:54:11.0533333+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        },
+        {
+          "jobName": "Windows_x86_BuildPass3",
+          "result": "succeeded",
+          "startTime": "2026-11-08T07:52:31.5500000+00:00",
+          "finishTime": "2026-11-08T08:02:41.6133333+00:00",
+          "durationMinutes": 10.168,
+          "buildMinutes": 2.652,
+          "tasks": [
+            {
+              "name": "Initialize job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:52:31.7333333+00:00",
+              "finishTime": "2026-11-08T07:52:40.8300000+00:00",
+              "durationMinutes": 0.152
+            },
+            {
+              "name": "Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:52:40.8366667+00:00",
+              "finishTime": "2026-11-08T07:55:01.8033333+00:00",
+              "durationMinutes": 2.349
+            },
+            {
+              "name": "Initialize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:01.8033333+00:00",
+              "finishTime": "2026-11-08T07:55:49.6700000+00:00",
+              "durationMinutes": 0.798
+            },
+            {
+              "name": "Create artifact staging directories",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:49.6700000+00:00",
+              "finishTime": "2026-11-08T07:55:52.4600000+00:00",
+              "durationMinutes": 0.046
+            },
+            {
+              "name": "Download Previous Build (Windows_Workloads_x64_BuildPass2)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:55:52.4600000+00:00",
+              "finishTime": "2026-11-08T07:56:22.9600000+00:00",
+              "durationMinutes": 0.508
+            },
+            {
+              "name": "Download Previous Build (Windows_x64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:56:22.9600000+00:00",
+              "finishTime": "2026-11-08T07:58:13.7666667+00:00",
+              "durationMinutes": 1.847
+            },
+            {
+              "name": "Download Previous Build (Windows_x86)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:58:13.7666667+00:00",
+              "finishTime": "2026-11-08T07:58:25.5633333+00:00",
+              "durationMinutes": 0.197
+            },
+            {
+              "name": "Download Previous Build (Windows_arm64)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:58:25.5633333+00:00",
+              "finishTime": "2026-11-08T07:58:45.3500000+00:00",
+              "durationMinutes": 0.33
+            },
+            {
+              "name": "Install Node 24.14.1",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:58:45.3500000+00:00",
+              "finishTime": "2026-11-08T07:58:57.3866667+00:00",
+              "durationMinutes": 0.201
+            },
+            {
+              "name": "Enable WER LocalDumps for crossgen2",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:58:57.3900000+00:00",
+              "finishTime": "2026-11-08T07:59:12.3400000+00:00",
+              "durationMinutes": 0.249
+            },
+            {
+              "name": "Build",
+              "result": "succeeded",
+              "startTime": "2026-11-08T07:59:12.3400000+00:00",
+              "finishTime": "2026-11-08T08:01:51.4466667+00:00",
+              "durationMinutes": 2.652
+            },
+            {
+              "name": "Run Tests",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:01:51.4466667+00:00",
+              "finishTime": "2026-11-08T08:02:04.9766667+00:00",
+              "durationMinutes": 0.226
+            },
+            {
+              "name": "Copy logs to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:04.9766667+00:00",
+              "finishTime": "2026-11-08T08:02:05.2133333+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Copy TestResults to BuildLogs staging",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:05.2133333+00:00",
+              "finishTime": "2026-11-08T08:02:05.4266667+00:00",
+              "durationMinutes": 0.004
+            },
+            {
+              "name": "Copy unmerged artifacts to staging directory",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:02:05.4266667+00:00",
+              "finishTime": "2026-11-08T08:02:05.4366667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish BuildLogs",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:05.4366667+00:00",
+              "finishTime": "2026-11-08T08:02:08.2866667+00:00",
+              "durationMinutes": 0.048
+            },
+            {
+              "name": "Publish Test Results",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:08.2866667+00:00",
+              "finishTime": "2026-11-08T08:02:16.0400000+00:00",
+              "durationMinutes": 0.129
+            },
+            {
+              "name": "Publish Scenario Test Results",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:02:16.0400000+00:00",
+              "finishTime": "2026-11-08T08:02:16.0466667+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Artifacts (On Success)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:16.0466667+00:00",
+              "finishTime": "2026-11-08T08:02:22.8433333+00:00",
+              "durationMinutes": 0.113
+            },
+            {
+              "name": "Publish Artifacts (On Failure)",
+              "result": "skipped",
+              "startTime": "2026-11-08T08:02:22.8466667+00:00",
+              "finishTime": "2026-11-08T08:02:22.8500000+00:00",
+              "durationMinutes": 0.0
+            },
+            {
+              "name": "Publish Vertical Manifest",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:22.8533333+00:00",
+              "finishTime": "2026-11-08T08:02:23.4166667+00:00",
+              "durationMinutes": 0.009
+            },
+            {
+              "name": "Component Detection (auto-injected by policy)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:23.4166667+00:00",
+              "finishTime": "2026-11-08T08:02:24.7666667+00:00",
+              "durationMinutes": 0.022
+            },
+            {
+              "name": "Finalize CodeQL (auto-injected)",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:24.7666667+00:00",
+              "finishTime": "2026-11-08T08:02:41.1566667+00:00",
+              "durationMinutes": 0.273
+            },
+            {
+              "name": "Post-job: Checkout dotnet/dotnet@main to s",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:41.1566667+00:00",
+              "finishTime": "2026-11-08T08:02:41.5200000+00:00",
+              "durationMinutes": 0.006
+            },
+            {
+              "name": "Finalize Job",
+              "result": "succeeded",
+              "startTime": "2026-11-08T08:02:41.5233333+00:00",
+              "finishTime": "2026-11-08T08:02:41.5966667+00:00",
+              "durationMinutes": 0.001
+            }
+          ]
+        }
+      ]
     }
   ],
   "signals": [
@@ -470451,6 +482220,22 @@ globalThis.vmrBuildTimeData = {
       "buildSelectedMinutes": 46.467,
       "buildBaselineMinutes": 39.903,
       "buildImpactMinutes": 6.564,
+      "iosSimulatorNoiseAdjusted": false
+    },
+    {
+      "buildId": 1669823,
+      "buildNumber": "20261107.3",
+      "finishTime": "2026-11-08T08:29:15.4412424+00:00",
+      "jobName": "Linux_Pgo_arm64",
+      "selectedMinutes": 94.766,
+      "baselineMinutes": 83.152,
+      "impactMinutes": 11.614,
+      "thresholdMinutes": 8.967,
+      "robustSigmaMinutes": 2.989,
+      "baselineRunCount": 28,
+      "buildSelectedMinutes": 89.424,
+      "buildBaselineMinutes": 77.502,
+      "buildImpactMinutes": 11.922,
       "iosSimulatorNoiseAdjusted": false
     }
   ],
@@ -471328,6 +483113,57 @@ globalThis.vmrBuildTimeData = {
           "selectedMinutes": 7.489,
           "baselineMinutes": 6.311,
           "impactMinutes": 1.178
+        }
+      ]
+    },
+    {
+      "buildId": 1669823,
+      "jobName": "Linux_Pgo_arm64",
+      "baselineBuildId": 1639801,
+      "summary": "Job wall time increased 11.614 minutes and the Build task contributed 11.922 minutes; all other tasks were net 0.308 minutes faster. The dependency-constrained path from arcade through command-line-api, runtime, efcore, aspnetcore, and sdk added 11.816 minutes, led by runtime (+8.184), sdk (+1.721), and aspnetcore (+1.397).",
+      "causeSummary": "Unresolved: the root binlogs locate the completion delay on the critical path and the inner runtime binlog was 3.683 minutes longer than recent baseline build 1665288, but it executed the same 669 projects. Without a demonstrated work-count change or resource telemetry, the evidence does not distinguish repo-local work from shared-agent or cross-repository contention.",
+      "taskAttribution": {
+        "selectedBuildMinutes": 89.424,
+        "baselineBuildMinutes": 77.502,
+        "impactMinutes": 11.922,
+        "otherTaskImpactMinutes": -0.308
+      },
+      "criticalPath": [
+        {
+          "repository": "arcade",
+          "selectedMinutes": 0.759,
+          "baselineMinutes": 0.615,
+          "impactMinutes": 0.144
+        },
+        {
+          "repository": "command-line-api",
+          "selectedMinutes": 0.756,
+          "baselineMinutes": 0.627,
+          "impactMinutes": 0.129
+        },
+        {
+          "repository": "runtime",
+          "selectedMinutes": 58.818,
+          "baselineMinutes": 50.634,
+          "impactMinutes": 8.184
+        },
+        {
+          "repository": "efcore",
+          "selectedMinutes": 1.375,
+          "baselineMinutes": 1.134,
+          "impactMinutes": 0.241
+        },
+        {
+          "repository": "aspnetcore",
+          "selectedMinutes": 12.026,
+          "baselineMinutes": 10.63,
+          "impactMinutes": 1.397
+        },
+        {
+          "repository": "sdk",
+          "selectedMinutes": 15.04,
+          "baselineMinutes": 13.319,
+          "impactMinutes": 1.721
         }
       ]
     }
